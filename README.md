@@ -1,14 +1,8 @@
-# Calibrated uncertainty for adaptive MoE routing
+# Learning when MoEs need more expert compute
 
-This repository asks whether a calibrated router can identify easy routing
-decisions that need one expert and ambiguous decisions that benefit from more
-expert compute. The scientific target is the quality-versus-compute frontier,
-not large-model language quality.
+This repository explores whether a small learned gate can predict when a token actually benefits from additional expert compute in a Mixture-of-Experts model. The goal is to improve the quality-vs-compute tradeoff, not model quality itself.
 
-**This project is inspired by the idea of calibrated decision models such as
-TypeSafe Jev, but it does not reproduce Jev or RLCD. Their exact methods are
-not public.** The calibrated method in later stages will use documented,
-independently implemented calibration techniques.
+The project started from an interest in calibrated decision models such as Jev, but the experiments here are independently designed and do not reproduce Jev or RLCD.
 
 ## Current scope: Stages 1–5
 
