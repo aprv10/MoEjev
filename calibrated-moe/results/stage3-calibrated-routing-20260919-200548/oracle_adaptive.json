@@ -1,0 +1,18 @@
+{
+  "method": "isolated K1-vs-K2 target-loss comparison",
+  "layers": {
+    "1": {
+      "k2_fraction": 0.532421875,
+      "isolated_oracle_loss": 1.9752818097174167,
+      "top1_loss": 2.045147559791803,
+      "top2_loss": 2.0254150588810442
+    },
+    "3": {
+      "k2_fraction": 0.5201171875,
+      "isolated_oracle_loss": 1.9771098083257674,
+      "top1_loss": 2.044961083829403,
+      "top2_loss": 2.025404492169619
+    }
+  },
+  "average_experts_per_token_from_decisions": 1.5262695252895355
+}

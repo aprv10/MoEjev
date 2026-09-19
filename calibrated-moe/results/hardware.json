@@ -1,0 +1,13 @@
+{
+  "pytorch_version": "2.7.1+cu128",
+  "pytorch_cuda_version": "12.8",
+  "cuda_available": true,
+  "cudnn_version": 90701,
+  "gpu_model": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "total_vram_bytes": 6441926656,
+  "total_vram_mib": 6143.5,
+  "bf16_supported": true,
+  "driver_version": "581.95",
+  "nvidia_smi_total_vram_mib": 6144,
+  "available_vram_mib_at_probe": 5870
+}

@@ -1,0 +1,40 @@
+{
+  "sequence_length": 128,
+  "boundary_policy": "one unused block separates shifted train/cal targets",
+  "gate_train": {
+    "source": "training",
+    "block_start": 0,
+    "block_stop_exclusive": 800,
+    "input_byte_start": 0,
+    "input_byte_stop_exclusive": 102400,
+    "target_byte_stop_exclusive": 102401,
+    "blocks": 800,
+    "bytes": 102400
+  },
+  "unused_gap": {
+    "block_start": 800,
+    "block_stop_exclusive": 801
+  },
+  "gate_calibration": {
+    "source": "training",
+    "block_start": 801,
+    "block_stop_exclusive": 1201,
+    "input_byte_start": 102528,
+    "input_byte_stop_exclusive": 153728,
+    "target_byte_stop_exclusive": 153729,
+    "blocks": 400,
+    "bytes": 51200
+  },
+  "final_validation": {
+    "source": "validation",
+    "batch_start": 0,
+    "batches": 50,
+    "blocks": 200,
+    "bytes": 25600,
+    "same_region_as_stages_2_and_3": true
+  },
+  "overlap_checks": {
+    "gate_train_vs_gate_calibration": false,
+    "training_windows_vs_validation_split": false
+  }
+}

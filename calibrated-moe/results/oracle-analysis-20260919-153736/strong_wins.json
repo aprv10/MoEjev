@@ -1,0 +1,31 @@
+{
+  "threshold": 1.345184326171875,
+  "threshold_method": "Tukey upper fence (Q3 + 1.5 * IQR)",
+  "count": 2276,
+  "fraction": 0.044453125,
+  "router_top1_oracle_accuracy": 0.6854130052724078,
+  "router_top2_oracle_coverage": 0.7609841827768014,
+  "mean_top1_regret": 0.6749554853657218,
+  "oracle_expert_utilization": [
+    0.2570298769771529,
+    0.12126537785588752,
+    0.19024604569420034,
+    0.4314586994727592
+  ],
+  "per_layer": {
+    "1": {
+      "count": 1598,
+      "fraction": 0.062421875,
+      "router_top1_oracle_accuracy": 0.7158948685857321,
+      "router_top2_oracle_coverage": 0.7797246558197747,
+      "mean_top1_regret": 0.6155483833093369
+    },
+    "3": {
+      "count": 678,
+      "fraction": 0.026484375,
+      "router_top1_oracle_accuracy": 0.6135693215339233,
+      "router_top2_oracle_coverage": 0.7168141592920354,
+      "mean_top1_regret": 0.814973994342275
+    }
+  }
+}

@@ -1,0 +1,16 @@
+experiment:
+  name: oracle-analysis
+  seed: 1337
+  output_dir: results
+
+checkpoint: results/baseline-top2-small-20260919-151643/last.pt
+validation_batches: 50
+batch_size: 4
+num_workers: 0
+mixed_precision: fp16
+oracle_temperature: 1.0
+intervention_chunk_size: 128
+context_radius: 32
+examples_per_expert: 8
+confidence_bins: [0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 0.95, 1.000001]
+

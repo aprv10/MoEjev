@@ -1,0 +1,803 @@
+[
+  {
+    "seed": 11,
+    "calibration": [
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": -0.17645376920700073,
+        "loss": 1.9868076288700103,
+        "experts_per_token": 1.999990234375,
+        "fraction_k2": 0.999990234375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": -0.17645317316055298,
+        "loss": 1.9868076288700103,
+        "experts_per_token": 1.999990234375,
+        "fraction_k2": 0.999990234375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": -0.04120351504534482,
+        "loss": 1.9868514490127565,
+        "experts_per_token": 1.950234375,
+        "fraction_k2": 0.950234375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": -0.029265022277832026,
+        "loss": 1.9872564113140105,
+        "experts_per_token": 1.901162109375,
+        "fraction_k2": 0.901162109375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": -0.015352392755448818,
+        "loss": 1.9882748758792876,
+        "experts_per_token": 1.8055078125,
+        "fraction_k2": 0.8055078124999999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": -0.005229707434773456,
+        "loss": 1.9897180998325348,
+        "experts_per_token": 1.707841796875,
+        "fraction_k2": 0.7078417968749999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": 0.003540463186800483,
+        "loss": 1.9912876558303834,
+        "experts_per_token": 1.609248046875,
+        "fraction_k2": 0.6092480468749999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": 0.012345443479716778,
+        "loss": 1.9935009062290192,
+        "experts_per_token": 1.509052734375,
+        "fraction_k2": 0.509052734375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": 0.021609480679035165,
+        "loss": 1.9957117235660553,
+        "experts_per_token": 1.40900390625,
+        "fraction_k2": 0.40900390624999994,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": 0.03249705396592616,
+        "loss": 1.999197505712509,
+        "experts_per_token": 1.308681640625,
+        "fraction_k2": 0.3086816406249999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": 0.04658943712711336,
+        "loss": 2.0031324994564055,
+        "experts_per_token": 1.210595703125,
+        "fraction_k2": 0.2105957031250001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": 0.07018314152956011,
+        "loss": 2.009307374954224,
+        "experts_per_token": 1.109072265625,
+        "fraction_k2": 0.10907226562500005,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": 0.09486457407474516,
+        "loss": 2.0143002426624297,
+        "experts_per_token": 1.055224609375,
+        "fraction_k2": 0.055224609374999956,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": 0.42348191142082214,
+        "loss": 2.02859405875206,
+        "experts_per_token": 1.000009765625,
+        "fraction_k2": 9.765624999991118e-06,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_11",
+        "threshold": 0.4234825074672699,
+        "loss": 2.02859405875206,
+        "experts_per_token": 1.000009765625,
+        "fraction_k2": 9.765624999991118e-06,
+        "execution": "online learned gate inside frozen model"
+      }
+    ],
+    "selected_calibration_point": {
+      "split": "calibration_mlp_hidden_router_seed_11",
+      "threshold": 0.04658943712711336,
+      "loss": 2.0031324994564055,
+      "experts_per_token": 1.210595703125,
+      "fraction_k2": 0.2105957031250001,
+      "execution": "online learned gate inside frozen model",
+      "selection_constraint_met": true,
+      "calibration_top2_loss": 1.9868035852909087,
+      "calibration_loss_limit": 2.0068035852909087,
+      "selection_rule": "minimum experts/token, then minimum loss"
+    },
+    "validation_exploratory": [
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": -0.17645376920700073,
+        "loss": 2.0254147696495055,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": -0.17645317316055298,
+        "loss": 2.0254147696495055,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": -0.04120351504534482,
+        "loss": 2.026125330924988,
+        "experts_per_token": 1.95052734375,
+        "fraction_k2": 0.9505273437499999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": -0.029265022277832026,
+        "loss": 2.027137451171875,
+        "experts_per_token": 1.90640625,
+        "fraction_k2": 0.9064062500000001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": -0.015352392755448818,
+        "loss": 2.027919800281525,
+        "experts_per_token": 1.81365234375,
+        "fraction_k2": 0.8136523437500001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": -0.005229707434773456,
+        "loss": 2.028898777961731,
+        "experts_per_token": 1.718359375,
+        "fraction_k2": 0.7183593749999999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": 0.003540463186800483,
+        "loss": 2.030358591079712,
+        "experts_per_token": 1.6233203125,
+        "fraction_k2": 0.6233203125,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": 0.012345443479716778,
+        "loss": 2.0329009556770323,
+        "experts_per_token": 1.5216015625,
+        "fraction_k2": 0.5216015624999999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": 0.021609480679035165,
+        "loss": 2.0360303854942323,
+        "experts_per_token": 1.4169921875,
+        "fraction_k2": 0.4169921875,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": 0.03249705396592616,
+        "loss": 2.03951550245285,
+        "experts_per_token": 1.31734375,
+        "fraction_k2": 0.31734375000000004,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": 0.04658943712711336,
+        "loss": 2.0442589926719665,
+        "experts_per_token": 1.21568359375,
+        "fraction_k2": 0.2156835937499999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": 0.07018314152956011,
+        "loss": 2.0521408534049987,
+        "experts_per_token": 1.10984375,
+        "fraction_k2": 0.10984375000000002,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": 0.09486457407474516,
+        "loss": 2.0572940063476564,
+        "experts_per_token": 1.0548828125,
+        "fraction_k2": 0.054882812500000044,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": 0.42348191142082214,
+        "loss": 2.0681674003601076,
+        "experts_per_token": 1.0,
+        "fraction_k2": 0.0,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_11",
+        "threshold": 0.4234825074672699,
+        "loss": 2.0681674003601076,
+        "experts_per_token": 1.0,
+        "fraction_k2": 0.0,
+        "execution": "online learned gate inside frozen model"
+      }
+    ],
+    "selected_validation_point": {
+      "split": "validation_exploratory_mlp_hidden_router_seed_11",
+      "threshold": 0.04658943712711336,
+      "loss": 2.0442589926719665,
+      "experts_per_token": 1.21568359375,
+      "fraction_k2": 0.2156835937499999,
+      "execution": "online learned gate inside frozen model"
+    }
+  },
+  {
+    "seed": 22,
+    "calibration": [
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": -0.1576085090637207,
+        "loss": 1.9867970621585846,
+        "experts_per_token": 1.999990234375,
+        "fraction_k2": 0.999990234375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": -0.15760795772075653,
+        "loss": 1.9867970621585846,
+        "experts_per_token": 1.999990234375,
+        "fraction_k2": 0.999990234375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": -0.038589492440223694,
+        "loss": 1.9873376882076264,
+        "experts_per_token": 1.94998046875,
+        "fraction_k2": 0.94998046875,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": -0.02627953216433525,
+        "loss": 1.9877186012268067,
+        "experts_per_token": 1.89982421875,
+        "fraction_k2": 0.8998242187500001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": -0.012650060281157493,
+        "loss": 1.9884947192668916,
+        "experts_per_token": 1.801572265625,
+        "fraction_k2": 0.801572265625,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": -0.003271505236625673,
+        "loss": 1.990095889568329,
+        "experts_per_token": 1.705478515625,
+        "fraction_k2": 0.7054785156250001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": 0.005164219811558727,
+        "loss": 1.9917041647434235,
+        "experts_per_token": 1.60646484375,
+        "fraction_k2": 0.60646484375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": 0.013726925477385521,
+        "loss": 1.9931877076625824,
+        "experts_per_token": 1.5050390625,
+        "fraction_k2": 0.5050390625000001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": 0.022935492172837253,
+        "loss": 1.9948005020618438,
+        "experts_per_token": 1.404013671875,
+        "fraction_k2": 0.40401367187500004,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": 0.033842800557613364,
+        "loss": 1.998122878074646,
+        "experts_per_token": 1.305,
+        "fraction_k2": 0.30499999999999994,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": 0.04837117344141007,
+        "loss": 2.0023444581031797,
+        "experts_per_token": 1.2028515625,
+        "fraction_k2": 0.20285156250000003,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": 0.07172396704554562,
+        "loss": 2.0091604268550873,
+        "experts_per_token": 1.10220703125,
+        "fraction_k2": 0.10220703125000008,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": 0.09476089179515826,
+        "loss": 2.014832178354263,
+        "experts_per_token": 1.05173828125,
+        "fraction_k2": 0.05173828125000002,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": 0.3871821463108063,
+        "loss": 2.02859405875206,
+        "experts_per_token": 1.000009765625,
+        "fraction_k2": 9.765624999991118e-06,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_22",
+        "threshold": 0.38718268275260925,
+        "loss": 2.02859405875206,
+        "experts_per_token": 1.000009765625,
+        "fraction_k2": 9.765624999991118e-06,
+        "execution": "online learned gate inside frozen model"
+      }
+    ],
+    "selected_calibration_point": {
+      "split": "calibration_mlp_hidden_router_seed_22",
+      "threshold": 0.04837117344141007,
+      "loss": 2.0023444581031797,
+      "experts_per_token": 1.2028515625,
+      "fraction_k2": 0.20285156250000003,
+      "execution": "online learned gate inside frozen model",
+      "selection_constraint_met": true,
+      "calibration_top2_loss": 1.9868035852909087,
+      "calibration_loss_limit": 2.0068035852909087,
+      "selection_rule": "minimum experts/token, then minimum loss"
+    },
+    "validation_exploratory": [
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": -0.1576085090637207,
+        "loss": 2.0254147696495055,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": -0.15760795772075653,
+        "loss": 2.0254147696495055,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": -0.038589492440223694,
+        "loss": 2.02607946395874,
+        "experts_per_token": 1.9484375,
+        "fraction_k2": 0.9484375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": -0.02627953216433525,
+        "loss": 2.0260701608657836,
+        "experts_per_token": 1.89828125,
+        "fraction_k2": 0.8982812499999999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": -0.012650060281157493,
+        "loss": 2.0268817830085752,
+        "experts_per_token": 1.79845703125,
+        "fraction_k2": 0.7984570312499999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": -0.003271505236625673,
+        "loss": 2.028125104904175,
+        "experts_per_token": 1.7044140625,
+        "fraction_k2": 0.7044140624999999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": 0.005164219811558727,
+        "loss": 2.0301068520545957,
+        "experts_per_token": 1.60548828125,
+        "fraction_k2": 0.60548828125,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": 0.013726925477385521,
+        "loss": 2.032428822517395,
+        "experts_per_token": 1.5037890625,
+        "fraction_k2": 0.5037890625000001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": 0.022935492172837253,
+        "loss": 2.03536363363266,
+        "experts_per_token": 1.4015625,
+        "fraction_k2": 0.40156250000000004,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": 0.033842800557613364,
+        "loss": 2.0387888169288635,
+        "experts_per_token": 1.3016796875,
+        "fraction_k2": 0.30167968750000007,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": 0.04837117344141007,
+        "loss": 2.0439948534965513,
+        "experts_per_token": 1.20009765625,
+        "fraction_k2": 0.2000976562500001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": 0.07172396704554562,
+        "loss": 2.051920392513275,
+        "experts_per_token": 1.0997265625,
+        "fraction_k2": 0.0997265624999999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": 0.09476089179515826,
+        "loss": 2.057149224281311,
+        "experts_per_token": 1.0505078125,
+        "fraction_k2": 0.05050781250000003,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": 0.3871821463108063,
+        "loss": 2.0681674003601076,
+        "experts_per_token": 1.0,
+        "fraction_k2": 0.0,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_22",
+        "threshold": 0.38718268275260925,
+        "loss": 2.0681674003601076,
+        "experts_per_token": 1.0,
+        "fraction_k2": 0.0,
+        "execution": "online learned gate inside frozen model"
+      }
+    ],
+    "selected_validation_point": {
+      "split": "validation_exploratory_mlp_hidden_router_seed_22",
+      "threshold": 0.04837117344141007,
+      "loss": 2.0439948534965513,
+      "experts_per_token": 1.20009765625,
+      "fraction_k2": 0.2000976562500001,
+      "execution": "online learned gate inside frozen model"
+    }
+  },
+  {
+    "seed": 33,
+    "calibration": [
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": -0.16521383821964264,
+        "loss": 1.9868035852909087,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": -0.16521328687667847,
+        "loss": 1.9868035852909087,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": -0.042400528118014334,
+        "loss": 1.9873084497451783,
+        "experts_per_token": 1.950009765625,
+        "fraction_k2": 0.950009765625,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": -0.029313297569751734,
+        "loss": 1.9878721249103546,
+        "experts_per_token": 1.899716796875,
+        "fraction_k2": 0.899716796875,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": -0.014960519224405283,
+        "loss": 1.9886416590213776,
+        "experts_per_token": 1.799189453125,
+        "fraction_k2": 0.7991894531249999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": -0.0049988370388746265,
+        "loss": 1.9896722984313966,
+        "experts_per_token": 1.6987109375,
+        "fraction_k2": 0.6987109375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": 0.003554484248161318,
+        "loss": 1.991206533908844,
+        "experts_per_token": 1.598701171875,
+        "fraction_k2": 0.5987011718749999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": 0.011866096407175064,
+        "loss": 1.9930609154701233,
+        "experts_per_token": 1.4993359375,
+        "fraction_k2": 0.49933593749999994,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": 0.020957057178020478,
+        "loss": 1.9948618960380555,
+        "experts_per_token": 1.401044921875,
+        "fraction_k2": 0.40104492187500007,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": 0.03190251886844634,
+        "loss": 1.9977411317825318,
+        "experts_per_token": 1.301181640625,
+        "fraction_k2": 0.3011816406250001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": 0.04630442112684253,
+        "loss": 2.0024207723140717,
+        "experts_per_token": 1.202470703125,
+        "fraction_k2": 0.20247070312499993,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": 0.07026150077581406,
+        "loss": 2.0098200058937072,
+        "experts_per_token": 1.100166015625,
+        "fraction_k2": 0.10016601562499994,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": 0.09470300525426863,
+        "loss": 2.015210061073303,
+        "experts_per_token": 1.049736328125,
+        "fraction_k2": 0.04973632812500006,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": 0.38593918085098267,
+        "loss": 2.0286067616939545,
+        "experts_per_token": 1.0,
+        "fraction_k2": 0.0,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "calibration_mlp_hidden_router_seed_33",
+        "threshold": 0.38593971729278564,
+        "loss": 2.0286067616939545,
+        "experts_per_token": 1.0,
+        "fraction_k2": 0.0,
+        "execution": "online learned gate inside frozen model"
+      }
+    ],
+    "selected_calibration_point": {
+      "split": "calibration_mlp_hidden_router_seed_33",
+      "threshold": 0.04630442112684253,
+      "loss": 2.0024207723140717,
+      "experts_per_token": 1.202470703125,
+      "fraction_k2": 0.20247070312499993,
+      "execution": "online learned gate inside frozen model",
+      "selection_constraint_met": true,
+      "calibration_top2_loss": 1.9868035852909087,
+      "calibration_loss_limit": 2.0068035852909087,
+      "selection_rule": "minimum experts/token, then minimum loss"
+    },
+    "validation_exploratory": [
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": -0.16521383821964264,
+        "loss": 2.0254235434532166,
+        "experts_per_token": 1.999921875,
+        "fraction_k2": 0.9999218750000001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": -0.16521328687667847,
+        "loss": 2.0254235434532166,
+        "experts_per_token": 1.999921875,
+        "fraction_k2": 0.9999218750000001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": -0.042400528118014334,
+        "loss": 2.0259093976020814,
+        "experts_per_token": 1.9496484375,
+        "fraction_k2": 0.9496484375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": -0.029313297569751734,
+        "loss": 2.026115407943726,
+        "experts_per_token": 1.89798828125,
+        "fraction_k2": 0.89798828125,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": -0.014960519224405283,
+        "loss": 2.0265865755081176,
+        "experts_per_token": 1.7948046875,
+        "fraction_k2": 0.7948046875000001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": -0.0049988370388746265,
+        "loss": 2.0275089263916017,
+        "experts_per_token": 1.693984375,
+        "fraction_k2": 0.6939843750000001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": 0.003554484248161318,
+        "loss": 2.028571932315826,
+        "experts_per_token": 1.59693359375,
+        "fraction_k2": 0.59693359375,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": 0.011866096407175064,
+        "loss": 2.030703277587891,
+        "experts_per_token": 1.4991015625,
+        "fraction_k2": 0.49910156249999993,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": 0.020957057178020478,
+        "loss": 2.033629503250122,
+        "experts_per_token": 1.39908203125,
+        "fraction_k2": 0.3990820312500001,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": 0.03190251886844634,
+        "loss": 2.038264310359955,
+        "experts_per_token": 1.29927734375,
+        "fraction_k2": 0.29927734375000004,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": 0.04630442112684253,
+        "loss": 2.045158848762512,
+        "experts_per_token": 1.20078125,
+        "fraction_k2": 0.2007812499999999,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": 0.07026150077581406,
+        "loss": 2.0518701028823854,
+        "experts_per_token": 1.09822265625,
+        "fraction_k2": 0.09822265624999993,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": 0.09470300525426863,
+        "loss": 2.057446458339691,
+        "experts_per_token": 1.04841796875,
+        "fraction_k2": 0.04841796874999993,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": 0.38593918085098267,
+        "loss": 2.0681674003601076,
+        "experts_per_token": 1.0,
+        "fraction_k2": 0.0,
+        "execution": "online learned gate inside frozen model"
+      },
+      {
+        "split": "validation_exploratory_mlp_hidden_router_seed_33",
+        "threshold": 0.38593971729278564,
+        "loss": 2.0681674003601076,
+        "experts_per_token": 1.0,
+        "fraction_k2": 0.0,
+        "execution": "online learned gate inside frozen model"
+      }
+    ],
+    "selected_validation_point": {
+      "split": "validation_exploratory_mlp_hidden_router_seed_33",
+      "threshold": 0.04630442112684253,
+      "loss": 2.045158848762512,
+      "experts_per_token": 1.20078125,
+      "fraction_k2": 0.2007812499999999,
+      "execution": "online learned gate inside frozen model"
+    }
+  }
+]

@@ -1,0 +1,477 @@
+{
+  "calibration_top2_loss": 1.9850560081005098,
+  "validation_frontiers": {
+    "max_probability": [
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.2687983522170186,
+        "loss": 2.0589450788497925,
+        "experts_per_token": 1.00001953125,
+        "fraction_k2": 1.9531249999982236e-05
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.2687990665435791,
+        "loss": 2.0589450788497925,
+        "experts_per_token": 1.00001953125,
+        "fraction_k2": 1.9531249999982236e-05
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.4207817822694778,
+        "loss": 2.0533272337913515,
+        "experts_per_token": 1.05107421875,
+        "fraction_k2": 0.051074218749999956
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.46545387506484986,
+        "loss": 2.0496323037147524,
+        "experts_per_token": 1.09798828125,
+        "fraction_k2": 0.09798828124999992
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.5433221697807312,
+        "loss": 2.0404207372665404,
+        "experts_per_token": 1.2023828125,
+        "fraction_k2": 0.2023828125
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.603658252954483,
+        "loss": 2.034651343822479,
+        "experts_per_token": 1.3060546875,
+        "fraction_k2": 0.3060546875000001
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.651067864894867,
+        "loss": 2.0316590094566345,
+        "experts_per_token": 1.40958984375,
+        "fraction_k2": 0.40958984375000007
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.6905053853988647,
+        "loss": 2.02936119556427,
+        "experts_per_token": 1.5092578125,
+        "fraction_k2": 0.5092578125
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.7248443841934205,
+        "loss": 2.0280306196212767,
+        "experts_per_token": 1.6092578125,
+        "fraction_k2": 0.6092578125000001
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.7557507157325744,
+        "loss": 2.0275059127807618,
+        "experts_per_token": 1.7038671875,
+        "fraction_k2": 0.7038671875
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.7880216836929321,
+        "loss": 2.0267357993125916,
+        "experts_per_token": 1.803125,
+        "fraction_k2": 0.8031250000000001
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.8311870098114014,
+        "loss": 2.0265663146972654,
+        "experts_per_token": 1.90296875,
+        "fraction_k2": 0.9029687500000001
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.8659134656190871,
+        "loss": 2.026276330947876,
+        "experts_per_token": 1.951484375,
+        "fraction_k2": 0.9514843749999999
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.983125627040863,
+        "loss": 2.0261374640464784,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.9831263413674235,
+        "loss": 2.0261374640464784,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0
+      }
+    ],
+    "entropy": [
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 0.10411800595270097,
+        "loss": 2.0261374640464784,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 0.10411928594112396,
+        "loss": 2.0261374640464784,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 0.5324096024036408,
+        "loss": 2.0263461303710937,
+        "experts_per_token": 1.9514453125,
+        "fraction_k2": 0.9514453125
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 0.6281387984752655,
+        "loss": 2.026657745838165,
+        "experts_per_token": 1.9025390625,
+        "fraction_k2": 0.9025390625
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 0.7364343166351318,
+        "loss": 2.0269101285934448,
+        "experts_per_token": 1.80244140625,
+        "fraction_k2": 0.80244140625
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 0.8073032379150391,
+        "loss": 2.027510554790497,
+        "experts_per_token": 1.7050390625,
+        "fraction_k2": 0.7050390625
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 0.8699737429618836,
+        "loss": 2.028276653289795,
+        "experts_per_token": 1.606484375,
+        "fraction_k2": 0.606484375
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 0.9295676648616791,
+        "loss": 2.030599458217621,
+        "experts_per_token": 1.50724609375,
+        "fraction_k2": 0.5072460937500001
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 0.989617133140564,
+        "loss": 2.033801612854004,
+        "experts_per_token": 1.4058203125,
+        "fraction_k2": 0.40582031249999995
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 1.0530829191207884,
+        "loss": 2.038778233528137,
+        "experts_per_token": 1.302734375,
+        "fraction_k2": 0.302734375
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 1.1230732440948485,
+        "loss": 2.0441105008125304,
+        "experts_per_token": 1.19966796875,
+        "fraction_k2": 0.19966796875000004
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 1.206141710281372,
+        "loss": 2.0504970359802246,
+        "experts_per_token": 1.10046875,
+        "fraction_k2": 0.1004687500000001
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 1.2553087174892423,
+        "loss": 2.0550614976882935,
+        "experts_per_token": 1.0511328125,
+        "fraction_k2": 0.0511328124999999
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 1.3841077089309692,
+        "loss": 2.058942713737488,
+        "experts_per_token": 1.0000390625,
+        "fraction_k2": 3.906249999996447e-05
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 1.3841089889193923,
+        "loss": 2.058942713737488,
+        "experts_per_token": 1.0000390625,
+        "fraction_k2": 3.906249999996447e-05
+      }
+    ],
+    "margin": [
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": -9.770349860191345e-07,
+        "loss": 2.058944888114929,
+        "experts_per_token": 1.0,
+        "fraction_k2": 0.0
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.0,
+        "loss": 2.058944888114929,
+        "experts_per_token": 1.0,
+        "fraction_k2": 0.0
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.07895472794771194,
+        "loss": 2.0516581177711486,
+        "experts_per_token": 1.050546875,
+        "fraction_k2": 0.05054687499999999
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.15562864243984223,
+        "loss": 2.047196526527405,
+        "experts_per_token": 1.100078125,
+        "fraction_k2": 0.10007812500000002
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.29854961633682253,
+        "loss": 2.039600613117218,
+        "experts_per_token": 1.20388671875,
+        "fraction_k2": 0.20388671874999997
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.4042655110359192,
+        "loss": 2.0339738011360167,
+        "experts_per_token": 1.30712890625,
+        "fraction_k2": 0.30712890625
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.4834276795387268,
+        "loss": 2.03111802816391,
+        "experts_per_token": 1.4105859375,
+        "fraction_k2": 0.41058593750000005
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.5463139712810516,
+        "loss": 2.029480471611023,
+        "experts_per_token": 1.5108984375,
+        "fraction_k2": 0.5108984375000001
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.599998378753662,
+        "loss": 2.027694778442383,
+        "experts_per_token": 1.609921875,
+        "fraction_k2": 0.609921875
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.6468522369861602,
+        "loss": 2.0272111463546754,
+        "experts_per_token": 1.70515625,
+        "fraction_k2": 0.7051562499999999
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.6936277985572816,
+        "loss": 2.02654235124588,
+        "experts_per_token": 1.8032421875,
+        "fraction_k2": 0.8032421875
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.7563380300998688,
+        "loss": 2.0263666820526125,
+        "experts_per_token": 1.90439453125,
+        "fraction_k2": 0.9043945312499999
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.8057199537754058,
+        "loss": 2.026261649131775,
+        "experts_per_token": 1.9512109375,
+        "fraction_k2": 0.9512109375
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.9770349860191345,
+        "loss": 2.0261374640464784,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0
+      },
+      {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.9770359630541205,
+        "loss": 2.0261374640464784,
+        "experts_per_token": 2.0,
+        "fraction_k2": 1.0
+      }
+    ]
+  },
+  "selected_heuristics": {
+    "max_probability": {
+      "calibration": {
+        "split": "gate_calibration",
+        "method": "max_probability",
+        "threshold": 0.5433221697807312,
+        "loss": 1.9987765061855316,
+        "experts_per_token": 1.19416015625,
+        "fraction_k2": 0.19416015624999994,
+        "selection_constraint_met": true,
+        "calibration_top2_loss": 1.9850560081005098,
+        "calibration_loss_limit": 2.0050560081005098,
+        "selection_rule": "minimum experts/token, then minimum loss"
+      },
+      "validation": {
+        "split": "final_validation_exploratory_frontier",
+        "method": "max_probability",
+        "threshold": 0.5433221697807312,
+        "loss": 2.0404207372665404,
+        "experts_per_token": 1.2023828125,
+        "fraction_k2": 0.2023828125
+      }
+    },
+    "entropy": {
+      "calibration": {
+        "split": "gate_calibration",
+        "method": "entropy",
+        "threshold": 1.1230732440948485,
+        "loss": 2.00236939907074,
+        "experts_per_token": 1.194716796875,
+        "fraction_k2": 0.1947167968750001,
+        "selection_constraint_met": true,
+        "calibration_top2_loss": 1.9850560081005098,
+        "calibration_loss_limit": 2.0050560081005098,
+        "selection_rule": "minimum experts/token, then minimum loss"
+      },
+      "validation": {
+        "split": "final_validation_exploratory_frontier",
+        "method": "entropy",
+        "threshold": 1.1230732440948485,
+        "loss": 2.0441105008125304,
+        "experts_per_token": 1.19966796875,
+        "fraction_k2": 0.19966796875000004
+      }
+    },
+    "margin": {
+      "calibration": {
+        "split": "gate_calibration",
+        "method": "margin",
+        "threshold": 0.29854961633682253,
+        "loss": 1.9976265597343446,
+        "experts_per_token": 1.1951171875,
+        "fraction_k2": 0.19511718749999996,
+        "selection_constraint_met": true,
+        "calibration_top2_loss": 1.9850560081005098,
+        "calibration_loss_limit": 2.0050560081005098,
+        "selection_rule": "minimum experts/token, then minimum loss"
+      },
+      "validation": {
+        "split": "final_validation_exploratory_frontier",
+        "method": "margin",
+        "threshold": 0.29854961633682253,
+        "loss": 2.039600613117218,
+        "experts_per_token": 1.20388671875,
+        "fraction_k2": 0.20388671874999997
+      }
+    }
+  },
+  "top2": {
+    "loss": 2.0261374640464784,
+    "experts_per_token": 2.0,
+    "tokens_per_second": 50226.202334794725,
+    "peak_gpu_memory_mb": 48.078125,
+    "peak_gpu_memory_reserved_mb": 312.0
+  },
+  "top1": {
+    "loss": 2.058944888114929,
+    "experts_per_token": 1.0,
+    "tokens_per_second": 68957.19853629057
+  },
+  "oracle": {
+    "loss": 1.9504871916770936,
+    "experts_per_token": 1.50232421875,
+    "tokens_per_second": 49624.919928902025
+  },
+  "router_diagnostics": {
+    "router_entropy": 0.9243735766410828,
+    "expert_utilization": [
+      [
+        0.25289061665534973,
+        0.22617188096046448,
+        0.2305273413658142,
+        0.2904101610183716
+      ],
+      [
+        0.24640625715255737,
+        0.2516210973262787,
+        0.27531251311302185,
+        0.22666016221046448
+      ]
+    ],
+    "top1_oracle_accuracy": 0.49767578125,
+    "top2_oracle_coverage": 0.70564453125,
+    "mean_forced_top1_regret": 0.336964875459671,
+    "positive_delta_fraction": 0.50232421875
+  }
+}

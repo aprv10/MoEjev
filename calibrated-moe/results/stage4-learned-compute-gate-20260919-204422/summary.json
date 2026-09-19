@@ -1,0 +1,114 @@
+{
+  "output_directory": "C:\\Users\\APOORV\\OneDrive\\Desktop\\jev\\calibrated-moe\\results\\stage4-learned-compute-gate-20260919-204422",
+  "learned_gates": {
+    "linear_router_only": {
+      "parameters": 7,
+      "validation_pearson": {
+        "mean": 0.08278523850091847,
+        "std": 0.015284265976498223
+      },
+      "validation_spearman": {
+        "mean": 0.07841107689569944,
+        "std": 0.016403596406007043
+      },
+      "selected_experts_per_token": {
+        "mean": 1.2303841145833332,
+        "std": 0.04489008253753588
+      },
+      "selected_validation_loss": {
+        "mean": 2.046853766441345,
+        "std": 0.0009352048066031366
+      },
+      "tokens_per_second": {
+        "mean": 43747.52183391833,
+        "std": 5193.658413974714
+      },
+      "milliseconds_per_token": {
+        "mean": 0.02321432578125382,
+        "std": 0.0029985572227407835
+      },
+      "peak_gpu_memory_mb": {
+        "mean": 49.10693359375,
+        "std": 0.0
+      }
+    },
+    "linear_hidden_router": {
+      "parameters": 263,
+      "validation_pearson": {
+        "mean": 0.09275862052205382,
+        "std": 0.005870191670203553
+      },
+      "validation_spearman": {
+        "mean": 0.08800111573303819,
+        "std": 0.007430859912554063
+      },
+      "selected_experts_per_token": {
+        "mean": 1.1995703125,
+        "std": 0.004957168228505368
+      },
+      "selected_validation_loss": {
+        "mean": 2.04775190114975,
+        "std": 0.0007797954658606217
+      },
+      "tokens_per_second": {
+        "mean": 46831.706359321135,
+        "std": 1175.0916242349745
+      },
+      "milliseconds_per_token": {
+        "mean": 0.021366622526045376,
+        "std": 0.0005407826536006511
+      },
+      "peak_gpu_memory_mb": {
+        "mean": 49.61083984375,
+        "std": 0.0
+      }
+    },
+    "mlp_hidden_router": {
+      "parameters": 16897,
+      "validation_pearson": {
+        "mean": 0.1320906184469569,
+        "std": 0.004736207938632357
+      },
+      "validation_spearman": {
+        "mean": 0.11244407316867684,
+        "std": 0.002280268580194094
+      },
+      "selected_experts_per_token": {
+        "mean": 1.2055208333333334,
+        "std": 0.0071915737530661005
+      },
+      "selected_validation_loss": {
+        "mean": 2.0444708983103435,
+        "std": 0.0004982631463237594
+      },
+      "tokens_per_second": {
+        "mean": 48221.67712287483,
+        "std": 744.017305378344
+      },
+      "milliseconds_per_token": {
+        "mean": 0.02074254869791048,
+        "std": 0.0003232298954695685
+      },
+      "peak_gpu_memory_mb": {
+        "mean": 49.73779296875,
+        "std": 0.0
+      }
+    }
+  },
+  "endpoints": {
+    "top1": {
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    "top2": {
+      "loss": 2.0254147696495055,
+      "experts_per_token": 2.0,
+      "tokens_per_second": 56219.55448967568
+    },
+    "oracle": {
+      "loss": 1.9395493388175964,
+      "experts_per_token": 1.52626953125
+    }
+  },
+  "weights_unchanged": true
+}

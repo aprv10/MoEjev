@@ -1,0 +1,26 @@
+{
+  "run_directory": "C:\\Users\\APOORV\\OneDrive\\Desktop\\jev\\calibrated-moe\\results\\baseline-top2-small-20260919-151643",
+  "parameter_count": 6413312,
+  "train_loss": 2.091696470975876,
+  "validation_loss": 2.0254037022590636,
+  "validation_perplexity": 7.579170055183485,
+  "tokens_per_second": 26187.911777819903,
+  "peak_gpu_memory_mb": 155.58349609375,
+  "peak_gpu_memory_reserved_mb": 164.0,
+  "expert_utilization": [
+    [
+      0.25453126430511475,
+      0.26804688572883606,
+      0.25654298067092896,
+      0.22087889909744263
+    ],
+    [
+      0.25757813453674316,
+      0.25669920444488525,
+      0.2516406178474426,
+      0.23408202826976776
+    ]
+  ],
+  "routing_entropy": 0.9735882914066315,
+  "steps": 1000
+}

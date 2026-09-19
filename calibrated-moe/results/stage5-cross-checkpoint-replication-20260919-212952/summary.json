@@ -1,0 +1,119 @@
+{
+  "output_directory": "C:\\Users\\APOORV\\OneDrive\\Desktop\\jev\\calibrated-moe\\results\\stage5-cross-checkpoint-replication-20260919-212952",
+  "fresh_moe_checkpoints_completed": 5,
+  "matched_compute": {
+    "1.1": {
+      "checkpoint_mean_delta": -0.002704965750376361,
+      "checkpoint_median_delta": -0.003074820041656453,
+      "checkpoint_std_delta": 0.0022948144504665847,
+      "minimum": -0.005185248057047638,
+      "maximum": 0.0010780501365662924,
+      "ci95_t_interval": [
+        -0.005553897436978379,
+        0.0001439659362256567
+      ],
+      "checkpoints_won": 4,
+      "checkpoints_tied": 0,
+      "checkpoints_lost": 1,
+      "gate_seed_comparisons_won": 12,
+      "gate_seed_comparisons_tied": 0,
+      "gate_seed_comparisons_lost": 3,
+      "original_stage4_delta": -0.0054,
+      "replication_minus_original": 0.0026950342496236393,
+      "between_checkpoint_std_of_means": 0.0022948144504665847,
+      "mean_within_checkpoint_gate_seed_std": 0.0006458575337357586
+    },
+    "1.2": {
+      "checkpoint_mean_delta": -0.00167229286829634,
+      "checkpoint_median_delta": -0.002222633361816347,
+      "checkpoint_std_delta": 0.0014020025816684132,
+      "minimum": -0.0026895356178286236,
+      "maximum": 0.0007701579729719003,
+      "ci95_t_interval": [
+        -0.0034128299207804164,
+        6.824418418773675e-05
+      ],
+      "checkpoints_won": 4,
+      "checkpoints_tied": 0,
+      "checkpoints_lost": 1,
+      "gate_seed_comparisons_won": 13,
+      "gate_seed_comparisons_tied": 0,
+      "gate_seed_comparisons_lost": 2,
+      "original_stage4_delta": -0.0035,
+      "replication_minus_original": 0.0018277071317036602,
+      "between_checkpoint_std_of_means": 0.0014020025816684132,
+      "mean_within_checkpoint_gate_seed_std": 0.001011506982445749
+    },
+    "1.3": {
+      "checkpoint_mean_delta": -0.000626445293426503,
+      "checkpoint_median_delta": -0.0002542773882548606,
+      "checkpoint_std_delta": 0.001157469364596662,
+      "minimum": -0.00267384290695194,
+      "maximum": 7.062594095863517e-05,
+      "ci95_t_interval": [
+        -0.0020634029299796772,
+        0.0008105123431266711
+      ],
+      "checkpoints_won": 3,
+      "checkpoints_tied": 2,
+      "checkpoints_lost": 0,
+      "gate_seed_comparisons_won": 7,
+      "gate_seed_comparisons_tied": 1,
+      "gate_seed_comparisons_lost": 7,
+      "original_stage4_delta": -0.0019,
+      "replication_minus_original": 0.0012735547065734969,
+      "between_checkpoint_std_of_means": 0.001157469364596662,
+      "mean_within_checkpoint_gate_seed_std": 0.0010371104834880117
+    },
+    "1.4": {
+      "checkpoint_mean_delta": 0.0001323908170062301,
+      "checkpoint_median_delta": 0.0005541737874346827,
+      "checkpoint_std_delta": 0.0017666528545856636,
+      "minimum": -0.0028813759485883197,
+      "maximum": 0.0017680033047991668,
+      "ci95_t_interval": [
+        -0.0020608467650700345,
+        0.0023256283990824946
+      ],
+      "checkpoints_won": 1,
+      "checkpoints_tied": 0,
+      "checkpoints_lost": 4,
+      "gate_seed_comparisons_won": 5,
+      "gate_seed_comparisons_tied": 0,
+      "gate_seed_comparisons_lost": 10,
+      "original_stage4_delta": -0.0004,
+      "replication_minus_original": 0.0005323908170062301,
+      "between_checkpoint_std_of_means": 0.0017666528545856636,
+      "mean_within_checkpoint_gate_seed_std": 0.0008337850124131458
+    },
+    "1.5": {
+      "checkpoint_mean_delta": 0.0006410628954568528,
+      "checkpoint_median_delta": 0.0007171408335365411,
+      "checkpoint_std_delta": 0.0017613457927707563,
+      "minimum": -0.002272065480550367,
+      "maximum": 0.002111630439758224,
+      "ci95_t_interval": [
+        -0.0015455861554359118,
+        0.0028277119463496173
+      ],
+      "checkpoints_won": 1,
+      "checkpoints_tied": 0,
+      "checkpoints_lost": 4,
+      "gate_seed_comparisons_won": 5,
+      "gate_seed_comparisons_tied": 0,
+      "gate_seed_comparisons_lost": 10,
+      "original_stage4_delta": 0.0006,
+      "replication_minus_original": 4.1062895456852894e-05,
+      "between_checkpoint_std_of_means": 0.0017613457927707563,
+      "mean_within_checkpoint_gate_seed_std": 0.0007120308298872868
+    }
+  },
+  "mean_mlp_delta_prediction_pearson": 0.13068000628105902,
+  "oracle_headroom_consistency": {
+    "all_checkpoints_positive_headroom": true,
+    "mean_top2_minus_oracle_loss": 0.07670929479598994,
+    "minimum_top2_minus_oracle_loss": 0.07336215734481799,
+    "mean_oracle_experts_per_token": 1.5155546874999999
+  },
+  "replication_verdict": "strong"
+}

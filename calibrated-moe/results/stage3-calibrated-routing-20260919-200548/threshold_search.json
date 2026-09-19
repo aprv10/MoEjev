@@ -1,0 +1,2246 @@
+{
+  "selection_rule": {
+    "loss_reference": 1.9410442972183228,
+    "maximum_loss_increase": 0.02,
+    "tie_break": "minimum experts/token, then minimum loss",
+    "validation_used_for_selection": false
+  },
+  "calibration_curve": [
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.25497239078524897,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.2549730913333026,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.41114101635501676,
+      "loss": 1.9794404745101928,
+      "experts_per_token": 1.05361328125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.44174649653216463,
+      "loss": 1.9745126342773438,
+      "experts_per_token": 1.10296875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.4911232366409657,
+      "loss": 1.9642930936813354,
+      "experts_per_token": 1.20119140625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.5383674602088875,
+      "loss": 1.956822681427002,
+      "experts_per_token": 1.3004296875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.5834449178207443,
+      "loss": 1.9510900974273682,
+      "experts_per_token": 1.39974609375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.625441097183655,
+      "loss": 1.9472002816200256,
+      "experts_per_token": 1.499609375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.6695272836691221,
+      "loss": 1.9445545172691345,
+      "experts_per_token": 1.59927734375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.7158015322132638,
+      "loss": 1.9419539380073547,
+      "experts_per_token": 1.6999609375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.7658930072431869,
+      "loss": 1.9414356994628905,
+      "experts_per_token": 1.79958984375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.8198048320659902,
+      "loss": 1.940943217277527,
+      "experts_per_token": 1.89984375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.8509782341261759,
+      "loss": 1.9410096764564515,
+      "experts_per_token": 1.9498828125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.9555211449670536,
+      "loss": 1.9410442972183228,
+      "experts_per_token": 1.99998046875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.9555218455151073,
+      "loss": 1.9410442972183228,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.22809735243670168,
+      "loss": 1.9410442972183228,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.22809851031305683,
+      "loss": 1.9410442972183228,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.5752526237236247,
+      "loss": 1.941047728061676,
+      "experts_per_token": 1.94994140625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.658426091333497,
+      "loss": 1.9409958815574646,
+      "experts_per_token": 1.8998828125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.7832985034275443,
+      "loss": 1.9414498066902162,
+      "experts_per_token": 1.79970703125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.8799980247465502,
+      "loss": 1.9425851011276245,
+      "experts_per_token": 1.69984375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.9537949469939065,
+      "loss": 1.9458918404579162,
+      "experts_per_token": 1.600234375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.0155043690084198,
+      "loss": 1.9495059823989869,
+      "experts_per_token": 1.500078125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.0675874470815285,
+      "loss": 1.9545032644271851,
+      "experts_per_token": 1.4015625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.1147927895650427,
+      "loss": 1.9593316173553468,
+      "experts_per_token": 1.303125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.1622772491557969,
+      "loss": 1.967050392627716,
+      "experts_per_token": 1.2049609375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2189764046348386,
+      "loss": 1.9769750261306762,
+      "experts_per_token": 1.10443359375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2587263539389333,
+      "loss": 1.9817795085906982,
+      "experts_per_token": 1.05302734375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3859748654745967,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.385976023350952,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": -9.354953240119966e-07,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.0,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.052180567357657436,
+      "loss": 1.979046301841736,
+      "experts_per_token": 1.05154296875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.10210788252618562,
+      "loss": 1.972729685306549,
+      "experts_per_token": 1.10220703125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.19403814471023062,
+      "loss": 1.9631655669212342,
+      "experts_per_token": 1.19970703125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.28107346151297774,
+      "loss": 1.9558251261711121,
+      "experts_per_token": 1.30109375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.3591697256174281,
+      "loss": 1.9500078058242798,
+      "experts_per_token": 1.400234375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.43150080477629066,
+      "loss": 1.9461198925971985,
+      "experts_per_token": 1.49912109375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.5061364425197188,
+      "loss": 1.9442826366424562,
+      "experts_per_token": 1.5993359375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.5801139074424247,
+      "loss": 1.9418533849716186,
+      "experts_per_token": 1.6996875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.6575286501686243,
+      "loss": 1.9412696218490602,
+      "experts_per_token": 1.799609375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.7375942924183964,
+      "loss": 1.940847978591919,
+      "experts_per_token": 1.9
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.7837140326254087,
+      "loss": 1.9410360312461854,
+      "experts_per_token": 1.9498828125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.9354953240119966,
+      "loss": 1.9410442972183228,
+      "experts_per_token": 1.99998046875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.9354962595073206,
+      "loss": 1.9410442972183228,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.25307130310769577,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.25307180885063757,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.33120908913059816,
+      "loss": 1.9795989274978638,
+      "experts_per_token": 1.05513671875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.3489908705184235,
+      "loss": 1.9739016103744507,
+      "experts_per_token": 1.104296875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.37622488182433733,
+      "loss": 1.9647200036048889,
+      "experts_per_token": 1.20576171875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.39964744513787626,
+      "loss": 1.9582975578308106,
+      "experts_per_token": 1.304375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.4220994430931818,
+      "loss": 1.9542668414115907,
+      "experts_per_token": 1.40296875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.44438061511512794,
+      "loss": 1.9503911638259888,
+      "experts_per_token": 1.5028515625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.4669352292108196,
+      "loss": 1.9485241341590882,
+      "experts_per_token": 1.6025
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.490125510923787,
+      "loss": 1.9483995366096496,
+      "experts_per_token": 1.7025
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.5152986598675664,
+      "loss": 1.9486241436004639,
+      "experts_per_token": 1.8012890625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.5521756523998714,
+      "loss": 1.9487163090705872,
+      "experts_per_token": 1.90048828125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.586673974765016,
+      "loss": 1.949354043006897,
+      "experts_per_token": 1.9501171875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.7588147506662513,
+      "loss": 1.9498497533798218,
+      "experts_per_token": 1.99998046875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.7588152564091931,
+      "loss": 1.9498449635505677,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.8013343993359667,
+      "loss": 1.9498449635505677,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.8013349841731945,
+      "loss": 1.9498449635505677,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.1199064565072034,
+      "loss": 1.949386248588562,
+      "experts_per_token": 1.95037109375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.1647586822418818,
+      "loss": 1.9492373967170715,
+      "experts_per_token": 1.8998046875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2085923356945638,
+      "loss": 1.9504281735420228,
+      "experts_per_token": 1.80021484375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.234547214447184,
+      "loss": 1.9514204835891724,
+      "experts_per_token": 1.70162109375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2541032677757875,
+      "loss": 1.9538695526123047,
+      "experts_per_token": 1.60484375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.271681525379984,
+      "loss": 1.9567780947685243,
+      "experts_per_token": 1.5066796875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2883666577812538,
+      "loss": 1.9597556591033936,
+      "experts_per_token": 1.40740234375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3054336281431862,
+      "loss": 1.9633232617378236,
+      "experts_per_token": 1.309296875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.322533819061891,
+      "loss": 1.9692464566230774,
+      "experts_per_token": 1.2084765625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3414132107518597,
+      "loss": 1.9762994027137757,
+      "experts_per_token": 1.1090234375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3536072430459085,
+      "loss": 1.9817906212806702,
+      "experts_per_token": 1.05373046875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3861722119009123,
+      "loss": 1.986952884197235,
+      "experts_per_token": 1.00001953125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.38617279673814,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": -6.504082707444218e-07,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.0,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.022262985216856136,
+      "loss": 1.9793775415420531,
+      "experts_per_token": 1.0515625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.04420807636673283,
+      "loss": 1.9726209354400634,
+      "experts_per_token": 1.10361328125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.0856559383004009,
+      "loss": 1.9625077891349791,
+      "experts_per_token": 1.20232421875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.12560197894529512,
+      "loss": 1.9558820557594299,
+      "experts_per_token": 1.30060546875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.16456052449072656,
+      "loss": 1.9507235264778138,
+      "experts_per_token": 1.40041015625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.20327968494934112,
+      "loss": 1.9476137256622315,
+      "experts_per_token": 1.50033203125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.24208845650412697,
+      "loss": 1.946601800918579,
+      "experts_per_token": 1.60076171875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.2813591124534861,
+      "loss": 1.947348756790161,
+      "experts_per_token": 1.70158203125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.32103871756762725,
+      "loss": 1.9478875303268433,
+      "experts_per_token": 1.80193359375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.3733881177945555,
+      "loss": 1.9488061475753784,
+      "experts_per_token": 1.9008984375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.41996571111338704,
+      "loss": 1.9493853664398193,
+      "experts_per_token": 1.94984375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.6504082707444218,
+      "loss": 1.9498476910591125,
+      "experts_per_token": 1.99998046875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.6504089211526926,
+      "loss": 1.9498449635505677,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.251527114378989,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.25152737112862944,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.27801266351405124,
+      "loss": 1.979794638156891,
+      "experts_per_token": 1.05607421875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.28445713317457744,
+      "loss": 1.974894540309906,
+      "experts_per_token": 1.10548828125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.2955277813358408,
+      "loss": 1.9690111660957337,
+      "experts_per_token": 1.2092578125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.30526849382497556,
+      "loss": 1.9657557034492492,
+      "experts_per_token": 1.31087890625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.3143529227474486,
+      "loss": 1.9659755301475526,
+      "experts_per_token": 1.40958984375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.32257442655786817,
+      "loss": 1.9652395915985108,
+      "experts_per_token": 1.5040625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.3315792671610719,
+      "loss": 1.96635737657547,
+      "experts_per_token": 1.601796875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.34422635742835705,
+      "loss": 1.9659493064880371,
+      "experts_per_token": 1.70087890625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.3610815572049484,
+      "loss": 1.9656582593917846,
+      "experts_per_token": 1.80001953125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.38447451385722947,
+      "loss": 1.9669104957580565,
+      "experts_per_token": 1.9
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.4032588224197687,
+      "loss": 1.9698852276802064,
+      "experts_per_token": 1.95
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.508277011580567,
+      "loss": 1.973271176815033,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.5082772683302075,
+      "loss": 1.973271176815033,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.224105117523716,
+      "loss": 1.973271176815033,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2241052796825487,
+      "loss": 1.973271176815033,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3230700836480576,
+      "loss": 1.9706115221977234,
+      "experts_per_token": 1.95
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3348811398612992,
+      "loss": 1.9701325821876525,
+      "experts_per_token": 1.89998046875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3474158113960104,
+      "loss": 1.9697313594818116,
+      "experts_per_token": 1.80001953125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3558226397314284,
+      "loss": 1.9728345894813537,
+      "experts_per_token": 1.70005859375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3631252662189748,
+      "loss": 1.973884732723236,
+      "experts_per_token": 1.60109375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3691257797595922,
+      "loss": 1.9755891537666321,
+      "experts_per_token": 1.50380859375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.372752140604704,
+      "loss": 1.974072549343109,
+      "experts_per_token": 1.409921875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3756192462176615,
+      "loss": 1.9726694869995116,
+      "experts_per_token": 1.31607421875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3782534185212227,
+      "loss": 1.9740887141227723,
+      "experts_per_token": 1.21525390625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.380813957225866,
+      "loss": 1.9777876400947572,
+      "experts_per_token": 1.11033203125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3823144833686911,
+      "loss": 1.9815354824066163,
+      "experts_per_token": 1.0551171875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3862641122077892,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3862642743666218,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": -3.1859658549971287e-07,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.0,
+      "loss": 1.9869781160354614,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.0073972784357512035,
+      "loss": 1.979451665878296,
+      "experts_per_token": 1.05208984375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.014515586931895709,
+      "loss": 1.9728930521011352,
+      "experts_per_token": 1.10322265625
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.028402004935218248,
+      "loss": 1.9631493520736694,
+      "experts_per_token": 1.20396484375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.041911126055524,
+      "loss": 1.9581000471115113,
+      "experts_per_token": 1.3008203125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.05612947886326956,
+      "loss": 1.954841456413269,
+      "experts_per_token": 1.40220703125
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.07016839490106626,
+      "loss": 1.9562079858779908,
+      "experts_per_token": 1.50310546875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.08387827620700931,
+      "loss": 1.957165114879608,
+      "experts_per_token": 1.60380859375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.09726491211788083,
+      "loss": 1.9601588201522828,
+      "experts_per_token": 1.702734375
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.11798332551875086,
+      "loss": 1.9640309929847717,
+      "experts_per_token": 1.7994921875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.15483804927644565,
+      "loss": 1.9665046858787536,
+      "experts_per_token": 1.89998046875
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.18379856178424947,
+      "loss": 1.968948516845703,
+      "experts_per_token": 1.95
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.31859658549971287,
+      "loss": 1.973271176815033,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "calibration",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.3185969040962984,
+      "loss": 1.973271176815033,
+      "experts_per_token": 2.0
+    }
+  ],
+  "selected_calibrated_by_metric": {
+    "entropy": {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2883666577812538,
+      "loss": 1.9597556591033936,
+      "experts_per_token": 1.40740234375,
+      "selection_constraint_met": true,
+      "calibration_loss_limit": 1.9610442972183229
+    },
+    "margin": {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.12560197894529512,
+      "loss": 1.9558820557594299,
+      "experts_per_token": 1.30060546875,
+      "selection_constraint_met": true,
+      "calibration_loss_limit": 1.9610442972183229
+    },
+    "max_probability": {
+      "split": "calibration",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.39964744513787626,
+      "loss": 1.9582975578308106,
+      "experts_per_token": 1.304375,
+      "selection_constraint_met": true,
+      "calibration_loss_limit": 1.9610442972183229
+    }
+  },
+  "selected_uncalibrated_controls": {
+    "entropy": {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.1147927895650427,
+      "loss": 1.9593316173553468,
+      "experts_per_token": 1.303125,
+      "selection_constraint_met": true,
+      "calibration_loss_limit": 1.9610442972183229
+    },
+    "margin": {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.28107346151297774,
+      "loss": 1.9558251261711121,
+      "experts_per_token": 1.30109375,
+      "selection_constraint_met": true,
+      "calibration_loss_limit": 1.9610442972183229
+    },
+    "max_probability": {
+      "split": "calibration",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.5383674602088875,
+      "loss": 1.956822681427002,
+      "experts_per_token": 1.3004296875,
+      "selection_constraint_met": true,
+      "calibration_loss_limit": 1.9610442972183229
+    }
+  },
+  "selected_final": {
+    "split": "calibration",
+    "calibration_method": "hard_oracle",
+    "uncertainty_metric": "margin",
+    "threshold": 0.12560197894529512,
+    "loss": 1.9558820557594299,
+    "experts_per_token": 1.30060546875,
+    "selection_constraint_met": true,
+    "calibration_loss_limit": 1.9610442972183229
+  },
+  "validation_predeclared_curve": [
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.25497239078524897,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.2549730913333026,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.41114101635501676,
+      "loss": 2.0616117787361143,
+      "experts_per_token": 1.05228515625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.44174649653216463,
+      "loss": 2.0576464128494263,
+      "experts_per_token": 1.09951171875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.4911232366409657,
+      "loss": 2.049811985492706,
+      "experts_per_token": 1.19740234375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.5383674602088875,
+      "loss": 2.0420267820358275,
+      "experts_per_token": 1.295703125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.5834449178207443,
+      "loss": 2.0359784603118896,
+      "experts_per_token": 1.3965234375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.625441097183655,
+      "loss": 2.0316827297210693,
+      "experts_per_token": 1.4950390625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.6695272836691221,
+      "loss": 2.0289006662368774,
+      "experts_per_token": 1.5953515625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.7158015322132638,
+      "loss": 2.0265812993049623,
+      "experts_per_token": 1.69796875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.7658930072431869,
+      "loss": 2.025751914978027,
+      "experts_per_token": 1.804296875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.8198048320659902,
+      "loss": 2.0254781293869017,
+      "experts_per_token": 1.9071484375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.8509782341261759,
+      "loss": 2.025475480556488,
+      "experts_per_token": 1.95330078125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.9555211449670536,
+      "loss": 2.0254147696495055,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.9555218455151073,
+      "loss": 2.0254147696495055,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.22809735243670168,
+      "loss": 2.0254147696495055,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.22809851031305683,
+      "loss": 2.0254147696495055,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.5752526237236247,
+      "loss": 2.0254589414596555,
+      "experts_per_token": 1.953515625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.658426091333497,
+      "loss": 2.0255235910415648,
+      "experts_per_token": 1.906796875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.7832985034275443,
+      "loss": 2.0260049414634707,
+      "experts_per_token": 1.803359375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.8799980247465502,
+      "loss": 2.027080411911011,
+      "experts_per_token": 1.69876953125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.9537949469939065,
+      "loss": 2.0300827407836914,
+      "experts_per_token": 1.5948828125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.0155043690084198,
+      "loss": 2.0337620973587036,
+      "experts_per_token": 1.49380859375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.0675874470815285,
+      "loss": 2.0386030578613283,
+      "experts_per_token": 1.397421875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.1147927895650427,
+      "loss": 2.0440046691894533,
+      "experts_per_token": 1.29888671875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.1622772491557969,
+      "loss": 2.0527161622047423,
+      "experts_per_token": 1.19890625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2189764046348386,
+      "loss": 2.0590873432159422,
+      "experts_per_token": 1.100234375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2587263539389333,
+      "loss": 2.063070819377899,
+      "experts_per_token": 1.05162109375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3859748654745967,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.385976023350952,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": -9.354953240119966e-07,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.0,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.052180567357657436,
+      "loss": 2.061730341911316,
+      "experts_per_token": 1.05142578125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.10210788252618562,
+      "loss": 2.0574145841598512,
+      "experts_per_token": 1.10072265625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.19403814471023062,
+      "loss": 2.0479345989227293,
+      "experts_per_token": 1.1965234375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.28107346151297774,
+      "loss": 2.0407135343551634,
+      "experts_per_token": 1.29859375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.3591697256174281,
+      "loss": 2.035374743938446,
+      "experts_per_token": 1.3961328125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.43150080477629066,
+      "loss": 2.031418116092682,
+      "experts_per_token": 1.494453125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.5061364425197188,
+      "loss": 2.028456473350525,
+      "experts_per_token": 1.59533203125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.5801139074424247,
+      "loss": 2.026489584445953,
+      "experts_per_token": 1.69708984375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.6575286501686243,
+      "loss": 2.025466814041138,
+      "experts_per_token": 1.80568359375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.7375942924183964,
+      "loss": 2.0253384351730346,
+      "experts_per_token": 1.9060546875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.7837140326254087,
+      "loss": 2.0254042506217957,
+      "experts_per_token": 1.95341796875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.9354953240119966,
+      "loss": 2.0254147696495055,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "uncalibrated",
+      "uncertainty_metric": "margin",
+      "threshold": 0.9354962595073206,
+      "loss": 2.0254147696495055,
+      "experts_per_token": 2.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.25307130310769577,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.25307180885063757,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.33120908913059816,
+      "loss": 2.0629418969154356,
+      "experts_per_token": 1.05416015625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.3489908705184235,
+      "loss": 2.0573219799995424,
+      "experts_per_token": 1.1021484375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.37622488182433733,
+      "loss": 2.0489478969573973,
+      "experts_per_token": 1.20421875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.39964744513787626,
+      "loss": 2.043074893951416,
+      "experts_per_token": 1.302421875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.4220994430931818,
+      "loss": 2.0408489751815795,
+      "experts_per_token": 1.3979296875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.44438061511512794,
+      "loss": 2.0386752104759216,
+      "experts_per_token": 1.501640625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.4669352292108196,
+      "loss": 2.0364843940734865,
+      "experts_per_token": 1.60396484375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.490125510923787,
+      "loss": 2.0350152897834777,
+      "experts_per_token": 1.703359375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.5152986598675664,
+      "loss": 2.0344607830047607,
+      "experts_per_token": 1.79953125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.5521756523998714,
+      "loss": 2.034077372550964,
+      "experts_per_token": 1.89794921875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.586673974765016,
+      "loss": 2.0343952870368955,
+      "experts_per_token": 1.947265625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.7588147506662513,
+      "loss": 2.0347869181632996,
+      "experts_per_token": 1.99986328125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.7588152564091931,
+      "loss": 2.0347869181632996,
+      "experts_per_token": 1.99986328125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.8013343993359667,
+      "loss": 2.034793953895569,
+      "experts_per_token": 1.99990234375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 0.8013349841731945,
+      "loss": 2.034793953895569,
+      "experts_per_token": 1.99990234375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.1199064565072034,
+      "loss": 2.0352688527107237,
+      "experts_per_token": 1.945546875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.1647586822418818,
+      "loss": 2.035880401134491,
+      "experts_per_token": 1.89396484375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2085923356945638,
+      "loss": 2.038070616722107,
+      "experts_per_token": 1.7941015625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.234547214447184,
+      "loss": 2.0400430560112,
+      "experts_per_token": 1.6986328125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2541032677757875,
+      "loss": 2.0405541706085204,
+      "experts_per_token": 1.60505859375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.271681525379984,
+      "loss": 2.04290278673172,
+      "experts_per_token": 1.50880859375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2883666577812538,
+      "loss": 2.045724868774414,
+      "experts_per_token": 1.41142578125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3054336281431862,
+      "loss": 2.0475678610801697,
+      "experts_per_token": 1.3116796875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.322533819061891,
+      "loss": 2.0512244129180908,
+      "experts_per_token": 1.209140625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3414132107518597,
+      "loss": 2.059907121658325,
+      "experts_per_token": 1.10763671875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3536072430459085,
+      "loss": 2.0649869585037233,
+      "experts_per_token": 1.0541015625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3861722119009123,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.38617279673814,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": -6.504082707444218e-07,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.0,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.022262985216856136,
+      "loss": 2.0616030049324037,
+      "experts_per_token": 1.0525390625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.04420807636673283,
+      "loss": 2.0569229555130004,
+      "experts_per_token": 1.10255859375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.0856559383004009,
+      "loss": 2.0477557730674745,
+      "experts_per_token": 1.20146484375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.12560197894529512,
+      "loss": 2.04110072851181,
+      "experts_per_token": 1.29740234375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.16456052449072656,
+      "loss": 2.0378622961044313,
+      "experts_per_token": 1.3982421875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.20327968494934112,
+      "loss": 2.0352519249916075,
+      "experts_per_token": 1.49626953125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.24208845650412697,
+      "loss": 2.034187636375427,
+      "experts_per_token": 1.60044921875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.2813591124534861,
+      "loss": 2.032861099243164,
+      "experts_per_token": 1.704296875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.32103871756762725,
+      "loss": 2.0333051657676697,
+      "experts_per_token": 1.80255859375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.3733881177945555,
+      "loss": 2.0336059498786927,
+      "experts_per_token": 1.89978515625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.41996571111338704,
+      "loss": 2.033918328285217,
+      "experts_per_token": 1.94798828125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.6504082707444218,
+      "loss": 2.0347823524475097,
+      "experts_per_token": 1.99978515625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "hard_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.6504089211526926,
+      "loss": 2.0347823524475097,
+      "experts_per_token": 1.99978515625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.251527114378989,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.25152737112862944,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.27801266351405124,
+      "loss": 2.0633945798873903,
+      "experts_per_token": 1.0553515625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.28445713317457744,
+      "loss": 2.0593464827537535,
+      "experts_per_token": 1.106484375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.2955277813358408,
+      "loss": 2.05190425157547,
+      "experts_per_token": 1.21283203125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.30526849382497556,
+      "loss": 2.0522396063804624,
+      "experts_per_token": 1.3122265625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.3143529227474486,
+      "loss": 2.0542609786987303,
+      "experts_per_token": 1.41419921875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.32257442655786817,
+      "loss": 2.0545297980308534,
+      "experts_per_token": 1.50619140625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.3315792671610719,
+      "loss": 2.0568649625778197,
+      "experts_per_token": 1.59900390625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.34422635742835705,
+      "loss": 2.054928412437439,
+      "experts_per_token": 1.69380859375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.3610815572049484,
+      "loss": 2.0533057165145876,
+      "experts_per_token": 1.79154296875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.38447451385722947,
+      "loss": 2.052356150150299,
+      "experts_per_token": 1.89216796875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.4032588224197687,
+      "loss": 2.0549057817459104,
+      "experts_per_token": 1.945078125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.508277011580567,
+      "loss": 2.0578285694122314,
+      "experts_per_token": 1.99990234375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "max_probability",
+      "threshold": 0.5082772683302075,
+      "loss": 2.0578285694122314,
+      "experts_per_token": 1.99990234375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.224105117523716,
+      "loss": 2.057824788093567,
+      "experts_per_token": 1.99994140625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.2241052796825487,
+      "loss": 2.057824788093567,
+      "experts_per_token": 1.99994140625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3230700836480576,
+      "loss": 2.057737650871277,
+      "experts_per_token": 1.94171875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3348811398612992,
+      "loss": 2.0569608926773073,
+      "experts_per_token": 1.88939453125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3474158113960104,
+      "loss": 2.0578472638130187,
+      "experts_per_token": 1.78755859375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3558226397314284,
+      "loss": 2.058965003490448,
+      "experts_per_token": 1.6919140625
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3631252662189748,
+      "loss": 2.0620403575897215,
+      "experts_per_token": 1.59783203125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3691257797595922,
+      "loss": 2.0614258742332456,
+      "experts_per_token": 1.5055078125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.372752140604704,
+      "loss": 2.0593903064727783,
+      "experts_per_token": 1.4179296875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3756192462176615,
+      "loss": 2.058582892417908,
+      "experts_per_token": 1.32529296875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3782534185212227,
+      "loss": 2.05735369682312,
+      "experts_per_token": 1.220234375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.380813957225866,
+      "loss": 2.060995035171509,
+      "experts_per_token": 1.111328125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3823144833686911,
+      "loss": 2.065158519744873,
+      "experts_per_token": 1.05595703125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3862641122077892,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "entropy",
+      "threshold": 1.3862642743666218,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": -3.1859658549971287e-07,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.0,
+      "loss": 2.0681674003601076,
+      "experts_per_token": 1.0
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.0073972784357512035,
+      "loss": 2.0622428035736085,
+      "experts_per_token": 1.05326171875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.014515586931895709,
+      "loss": 2.0572057294845583,
+      "experts_per_token": 1.10373046875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.028402004935218248,
+      "loss": 2.049053604602814,
+      "experts_per_token": 1.20298828125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.041911126055524,
+      "loss": 2.0439433526992796,
+      "experts_per_token": 1.29912109375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.05612947886326956,
+      "loss": 2.042230339050293,
+      "experts_per_token": 1.39923828125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.07016839490106626,
+      "loss": 2.0449671602249144,
+      "experts_per_token": 1.50552734375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.08387827620700931,
+      "loss": 2.0463746547698975,
+      "experts_per_token": 1.60671875
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.09726491211788083,
+      "loss": 2.0498011660575868,
+      "experts_per_token": 1.70115234375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.11798332551875086,
+      "loss": 2.05053373336792,
+      "experts_per_token": 1.794609375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.15483804927644565,
+      "loss": 2.0516117334365847,
+      "experts_per_token": 1.89392578125
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.18379856178424947,
+      "loss": 2.0540330743789674,
+      "experts_per_token": 1.94787109375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.31859658549971287,
+      "loss": 2.0578451585769653,
+      "experts_per_token": 1.99984375
+    },
+    {
+      "split": "validation_predeclared_comparison",
+      "calibration_method": "soft_oracle",
+      "uncertainty_metric": "margin",
+      "threshold": 0.3185969040962984,
+      "loss": 2.0578451585769653,
+      "experts_per_token": 1.99984375
+    }
+  ]
+}

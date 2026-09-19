@@ -1,0 +1,110 @@
+{
+  "checkpoint": "C:\\Users\\APOORV\\OneDrive\\Desktop\\jev\\calibrated-moe\\results\\baseline-top2-small-20260919-151643\\last.pt",
+  "weights_unchanged": true,
+  "hardware": {
+    "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "total_vram_mib": 6143.5,
+    "pytorch": "2.7.1+cu128",
+    "pytorch_cuda": "12.8"
+  },
+  "calibration_temperatures": {
+    "hard_oracle": {
+      "1": 1.6229593954259964,
+      "3": 2.3799813494007864
+    },
+    "soft_oracle": {
+      "1": 3.2705053269442215,
+      "3": 7.226421636409204
+    }
+  },
+  "selected_final_policy": {
+    "split": "calibration",
+    "calibration_method": "hard_oracle",
+    "uncertainty_metric": "margin",
+    "threshold": 0.12560197894529512,
+    "loss": 1.9558820557594299,
+    "experts_per_token": 1.30060546875,
+    "selection_constraint_met": true,
+    "calibration_loss_limit": 1.9610442972183229
+  },
+  "standard_top2": {
+    "name": "Standard Top-2",
+    "validation_loss": 2.0254147696495055,
+    "perplexity": 7.579253937281888,
+    "experts_per_token": 2.0,
+    "compute_reduction_vs_top2": 0.0,
+    "quality_change_vs_top2": 0.0,
+    "tokens_per_second": 56219.55448967568,
+    "milliseconds_per_token": 0.01778740527343814,
+    "peak_gpu_memory_mb": 49.2880859375,
+    "peak_gpu_memory_reserved_mb": 276.0,
+    "ece": 0.1751390559458146,
+    "brier": 0.7373300634675083,
+    "nll": 1.3817632218617772,
+    "calibration_method": "uncalibrated",
+    "uncertainty_metric": null,
+    "threshold": null,
+    "selection_status": "control"
+  },
+  "standard_top1": {
+    "name": "Standard Top-1",
+    "validation_loss": 2.0681674003601076,
+    "perplexity": 7.910313389180088,
+    "experts_per_token": 1.0,
+    "compute_reduction_vs_top2": 0.5,
+    "quality_change_vs_top2": 0.04275263071060209,
+    "tokens_per_second": 70957.07906075203,
+    "milliseconds_per_token": 0.014093026562491673,
+    "peak_gpu_memory_mb": 49.14794921875,
+    "peak_gpu_memory_reserved_mb": 276.0,
+    "ece": 0.1751390559458146,
+    "brier": 0.7373300634675083,
+    "nll": 1.3817632218617772,
+    "calibration_method": "uncalibrated",
+    "uncertainty_metric": null,
+    "threshold": null,
+    "selection_status": "control"
+  },
+  "best_calibrated_adaptive_policy": {
+    "name": "Adaptive K - margin",
+    "validation_loss": 2.04110072851181,
+    "perplexity": 7.699079132390865,
+    "experts_per_token": 1.29740234375,
+    "compute_reduction_vs_top2": 0.351298828125,
+    "quality_change_vs_top2": 0.015685958862304616,
+    "tokens_per_second": 46545.02083051022,
+    "milliseconds_per_token": 0.021484575195302114,
+    "peak_gpu_memory_mb": 49.12646484375,
+    "peak_gpu_memory_reserved_mb": 276.0,
+    "ece": 0.030304713355161137,
+    "brier": 0.6840785457859727,
+    "nll": 1.2667245055492762,
+    "calibration_method": "hard_oracle",
+    "uncertainty_metric": "margin",
+    "threshold": 0.12560197894529512,
+    "selection_status": "calibration_selected_final"
+  },
+  "oracle_adaptive": {
+    "name": "Oracle Adaptive-K",
+    "validation_loss": 1.9395493388175964,
+    "perplexity": 6.955615638236161,
+    "experts_per_token": 1.52626953125,
+    "compute_reduction_vs_top2": 0.23686523437499996,
+    "quality_change_vs_top2": -0.08586543083190912,
+    "tokens_per_second": 52827.234668140074,
+    "milliseconds_per_token": 0.018929629882805443,
+    "peak_gpu_memory_mb": 49.13818359375,
+    "peak_gpu_memory_reserved_mb": 276.0,
+    "ece": null,
+    "brier": null,
+    "nll": null,
+    "calibration_method": null,
+    "uncertainty_metric": null,
+    "threshold": null,
+    "selection_status": "oracle"
+  },
+  "ece_before": 0.1751390559458146,
+  "ece_after_selected_calibration": 0.030304713355161137,
+  "brier_before": 0.7373300634675083,
+  "brier_after_selected_calibration": 0.6840785457859727
+}

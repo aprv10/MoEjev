@@ -1,0 +1,16 @@
+data/cache/
+results/*
+!results/.gitkeep
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.parquet
+feature_cache/

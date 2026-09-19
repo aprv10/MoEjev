@@ -1,0 +1,26 @@
+{
+  "standard_top2": {
+    "loss": 2.0254147696495055,
+    "experts_per_token": 2.0,
+    "tokens_per_second": 56219.55448967568
+  },
+  "oracle": {
+    "loss": 1.9395493388175964,
+    "experts_per_token": 1.52626953125
+  },
+  "oracle_loss_change_vs_top2": -0.08586543083190912,
+  "learned": {
+    "linear_router_only": {
+      "mean_loss_change_vs_top2": 0.021438996791839582,
+      "remaining_loss_gap_to_oracle": 0.1073044276237487
+    },
+    "linear_hidden_router": {
+      "mean_loss_change_vs_top2": 0.0223371315002443,
+      "remaining_loss_gap_to_oracle": 0.10820256233215342
+    },
+    "mlp_hidden_router": {
+      "mean_loss_change_vs_top2": 0.019056128660837945,
+      "remaining_loss_gap_to_oracle": 0.10492155949274706
+    }
+  }
+}

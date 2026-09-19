@@ -1,0 +1,200 @@
+{
+  "1": [
+    {
+      "lower": 0.25,
+      "upper": 0.35,
+      "count": 232,
+      "mean_router_confidence": 0.3266189472171767,
+      "oracle_top1_accuracy": 0.34913793103448276,
+      "mean_top1_regret": 0.4036896804283405
+    },
+    {
+      "lower": 0.35,
+      "upper": 0.45,
+      "count": 2833,
+      "mean_router_confidence": 0.41497833551848856,
+      "oracle_top1_accuracy": 0.3561595481821391,
+      "mean_top1_regret": 0.3396805838313239
+    },
+    {
+      "lower": 0.45,
+      "upper": 0.55,
+      "count": 6080,
+      "mean_router_confidence": 0.5016799252431251,
+      "oracle_top1_accuracy": 0.4143092105263158,
+      "mean_top1_regret": 0.36987983929483514
+    },
+    {
+      "lower": 0.55,
+      "upper": 0.65,
+      "count": 7054,
+      "mean_router_confidence": 0.5994702586378698,
+      "oracle_top1_accuracy": 0.4438616387865041,
+      "mean_top1_regret": 0.35946139905349306
+    },
+    {
+      "lower": 0.65,
+      "upper": 0.75,
+      "count": 6059,
+      "mean_router_confidence": 0.6976113022111552,
+      "oracle_top1_accuracy": 0.5281399570886285,
+      "mean_top1_regret": 0.3243091946526474
+    },
+    {
+      "lower": 0.75,
+      "upper": 0.85,
+      "count": 2908,
+      "mean_router_confidence": 0.7906817071949436,
+      "oracle_top1_accuracy": 0.5753094910591472,
+      "mean_top1_regret": 0.3040725519109461
+    },
+    {
+      "lower": 0.85,
+      "upper": 0.95,
+      "count": 434,
+      "mean_router_confidence": 0.8735865173251948,
+      "oracle_top1_accuracy": 0.684331797235023,
+      "mean_top1_regret": 0.27074576522897464
+    },
+    {
+      "lower": 0.95,
+      "upper": 1.0,
+      "count": 0,
+      "mean_router_confidence": null,
+      "oracle_top1_accuracy": null,
+      "mean_top1_regret": null
+    }
+  ],
+  "3": [
+    {
+      "lower": 0.25,
+      "upper": 0.35,
+      "count": 146,
+      "mean_router_confidence": 0.3321604277581385,
+      "oracle_top1_accuracy": 0.3493150684931507,
+      "mean_top1_regret": 0.45184963696623504
+    },
+    {
+      "lower": 0.35,
+      "upper": 0.45,
+      "count": 2461,
+      "mean_router_confidence": 0.4139554892696534,
+      "oracle_top1_accuracy": 0.36529865908167414,
+      "mean_top1_regret": 0.4137789537537539
+    },
+    {
+      "lower": 0.45,
+      "upper": 0.55,
+      "count": 4599,
+      "mean_router_confidence": 0.49961844573308134,
+      "oracle_top1_accuracy": 0.4055229397695151,
+      "mean_top1_regret": 0.3825055292622632
+    },
+    {
+      "lower": 0.55,
+      "upper": 0.65,
+      "count": 4805,
+      "mean_router_confidence": 0.6003884583060377,
+      "oracle_top1_accuracy": 0.47221644120707595,
+      "mean_top1_regret": 0.33222283671971536
+    },
+    {
+      "lower": 0.65,
+      "upper": 0.75,
+      "count": 5306,
+      "mean_router_confidence": 0.7017945810124598,
+      "oracle_top1_accuracy": 0.4811534112325669,
+      "mean_top1_regret": 0.3018891068166308
+    },
+    {
+      "lower": 0.75,
+      "upper": 0.85,
+      "count": 6274,
+      "mean_router_confidence": 0.7997839083081033,
+      "oracle_top1_accuracy": 0.4255658272234619,
+      "mean_top1_regret": 0.32223661043935037
+    },
+    {
+      "lower": 0.85,
+      "upper": 0.95,
+      "count": 2007,
+      "mean_router_confidence": 0.88071484727888,
+      "oracle_top1_accuracy": 0.5112107623318386,
+      "mean_top1_regret": 0.2915813938325237
+    },
+    {
+      "lower": 0.95,
+      "upper": 1.0,
+      "count": 2,
+      "mean_router_confidence": 0.9515697658061981,
+      "oracle_top1_accuracy": 1.0,
+      "mean_top1_regret": 0.0
+    }
+  ],
+  "aggregate": [
+    {
+      "lower": 0.25,
+      "upper": 0.35,
+      "count": 378,
+      "mean_router_confidence": 0.3287593074261196,
+      "oracle_top1_accuracy": 0.3492063492063492,
+      "mean_top1_regret": 0.4222911451228712
+    },
+    {
+      "lower": 0.35,
+      "upper": 0.45,
+      "count": 5294,
+      "mean_router_confidence": 0.41450284919087554,
+      "oracle_top1_accuracy": 0.36040800906686815,
+      "mean_top1_regret": 0.3741263882096957
+    },
+    {
+      "lower": 0.45,
+      "upper": 0.55,
+      "count": 10679,
+      "mean_router_confidence": 0.5007921319790843,
+      "oracle_top1_accuracy": 0.4105253300870868,
+      "mean_top1_regret": 0.37531719748944153
+    },
+    {
+      "lower": 0.55,
+      "upper": 0.65,
+      "count": 11859,
+      "mean_router_confidence": 0.5998422924860481,
+      "oracle_top1_accuracy": 0.4553503668100177,
+      "mean_top1_regret": 0.34842494640033495
+    },
+    {
+      "lower": 0.65,
+      "upper": 0.75,
+      "count": 11365,
+      "mean_router_confidence": 0.6995643578486143,
+      "oracle_top1_accuracy": 0.5062032556093269,
+      "mean_top1_regret": 0.3138418839568353
+    },
+    {
+      "lower": 0.75,
+      "upper": 0.85,
+      "count": 9182,
+      "mean_router_confidence": 0.7969011811422279,
+      "oracle_top1_accuracy": 0.47299063384883466,
+      "mean_top1_regret": 0.31648393322299234
+    },
+    {
+      "lower": 0.85,
+      "upper": 0.95,
+      "count": 2441,
+      "mean_router_confidence": 0.8794474588315636,
+      "oracle_top1_accuracy": 0.5419909873002867,
+      "mean_top1_regret": 0.28787690271661204
+    },
+    {
+      "lower": 0.95,
+      "upper": 1.0,
+      "count": 2,
+      "mean_router_confidence": 0.9515697658061981,
+      "oracle_top1_accuracy": 1.0,
+      "mean_top1_regret": 0.0
+    }
+  ]
+}

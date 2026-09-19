@@ -1,0 +1,317 @@
+[
+  {
+    "seed": 11,
+    "metrics": [
+      {
+        "epoch": 1,
+        "train_huber": 0.04744320880621672,
+        "calibration_huber_monitor_only": 0.030436843633651733
+      },
+      {
+        "epoch": 2,
+        "train_huber": 0.021129238680005075,
+        "calibration_huber_monitor_only": 0.016129275783896446
+      },
+      {
+        "epoch": 3,
+        "train_huber": 0.014666233975440264,
+        "calibration_huber_monitor_only": 0.014565576799213886
+      },
+      {
+        "epoch": 4,
+        "train_huber": 0.01413799712434411,
+        "calibration_huber_monitor_only": 0.014477173797786236
+      },
+      {
+        "epoch": 5,
+        "train_huber": 0.014090434815734625,
+        "calibration_huber_monitor_only": 0.014439382590353489
+      },
+      {
+        "epoch": 6,
+        "train_huber": 0.014055898580700159,
+        "calibration_huber_monitor_only": 0.01440437976270914
+      },
+      {
+        "epoch": 7,
+        "train_huber": 0.01402505675330758,
+        "calibration_huber_monitor_only": 0.014374718070030212
+      },
+      {
+        "epoch": 8,
+        "train_huber": 0.013998282495886088,
+        "calibration_huber_monitor_only": 0.01434806827455759
+      },
+      {
+        "epoch": 9,
+        "train_huber": 0.013975290879607201,
+        "calibration_huber_monitor_only": 0.014326751232147217
+      },
+      {
+        "epoch": 10,
+        "train_huber": 0.01395570371299982,
+        "calibration_huber_monitor_only": 0.014307437464594841
+      },
+      {
+        "epoch": 11,
+        "train_huber": 0.01393857778981328,
+        "calibration_huber_monitor_only": 0.01429056841880083
+      },
+      {
+        "epoch": 12,
+        "train_huber": 0.013923922292888165,
+        "calibration_huber_monitor_only": 0.014275615103542805
+      },
+      {
+        "epoch": 13,
+        "train_huber": 0.013911461867392063,
+        "calibration_huber_monitor_only": 0.014263859950006008
+      },
+      {
+        "epoch": 14,
+        "train_huber": 0.013899318370968104,
+        "calibration_huber_monitor_only": 0.014251109212636948
+      },
+      {
+        "epoch": 15,
+        "train_huber": 0.013887962736189365,
+        "calibration_huber_monitor_only": 0.014240657910704613
+      },
+      {
+        "epoch": 16,
+        "train_huber": 0.01387763610109687,
+        "calibration_huber_monitor_only": 0.014229289256036282
+      },
+      {
+        "epoch": 17,
+        "train_huber": 0.01386667527258396,
+        "calibration_huber_monitor_only": 0.01422254741191864
+      },
+      {
+        "epoch": 18,
+        "train_huber": 0.013857350833714008,
+        "calibration_huber_monitor_only": 0.014211071655154228
+      },
+      {
+        "epoch": 19,
+        "train_huber": 0.013846672475337982,
+        "calibration_huber_monitor_only": 0.014199601486325264
+      },
+      {
+        "epoch": 20,
+        "train_huber": 0.013836987596005202,
+        "calibration_huber_monitor_only": 0.014191176742315292
+      }
+    ]
+  },
+  {
+    "seed": 22,
+    "metrics": [
+      {
+        "epoch": 1,
+        "train_huber": 0.07518091306090355,
+        "calibration_huber_monitor_only": 0.06573734432458878
+      },
+      {
+        "epoch": 2,
+        "train_huber": 0.05739700026810169,
+        "calibration_huber_monitor_only": 0.049046840518713
+      },
+      {
+        "epoch": 3,
+        "train_huber": 0.041894115805625916,
+        "calibration_huber_monitor_only": 0.03516919165849686
+      },
+      {
+        "epoch": 4,
+        "train_huber": 0.029784994646906853,
+        "calibration_huber_monitor_only": 0.025296339765191078
+      },
+      {
+        "epoch": 5,
+        "train_huber": 0.021964798383414745,
+        "calibration_huber_monitor_only": 0.019599109888076782
+      },
+      {
+        "epoch": 6,
+        "train_huber": 0.017736485973000527,
+        "calibration_huber_monitor_only": 0.016726603731513023
+      },
+      {
+        "epoch": 7,
+        "train_huber": 0.015642329659312962,
+        "calibration_huber_monitor_only": 0.015320941805839539
+      },
+      {
+        "epoch": 8,
+        "train_huber": 0.014615324512124061,
+        "calibration_huber_monitor_only": 0.014636318199336529
+      },
+      {
+        "epoch": 9,
+        "train_huber": 0.014115401841700077,
+        "calibration_huber_monitor_only": 0.014313161373138428
+      },
+      {
+        "epoch": 10,
+        "train_huber": 0.013878057114779949,
+        "calibration_huber_monitor_only": 0.014159937389194965
+      },
+      {
+        "epoch": 11,
+        "train_huber": 0.01376317312940955,
+        "calibration_huber_monitor_only": 0.014088078401982784
+      },
+      {
+        "epoch": 12,
+        "train_huber": 0.013705707993358374,
+        "calibration_huber_monitor_only": 0.014051140286028385
+      },
+      {
+        "epoch": 13,
+        "train_huber": 0.013673269618302585,
+        "calibration_huber_monitor_only": 0.014028464443981647
+      },
+      {
+        "epoch": 14,
+        "train_huber": 0.013652426805347204,
+        "calibration_huber_monitor_only": 0.014013431966304779
+      },
+      {
+        "epoch": 15,
+        "train_huber": 0.013638977203518152,
+        "calibration_huber_monitor_only": 0.014003781601786613
+      },
+      {
+        "epoch": 16,
+        "train_huber": 0.013628258034586907,
+        "calibration_huber_monitor_only": 0.013996844179928303
+      },
+      {
+        "epoch": 17,
+        "train_huber": 0.013620926700532436,
+        "calibration_huber_monitor_only": 0.013991985470056534
+      },
+      {
+        "epoch": 18,
+        "train_huber": 0.013615675792098046,
+        "calibration_huber_monitor_only": 0.013988714665174484
+      },
+      {
+        "epoch": 19,
+        "train_huber": 0.013611849620938301,
+        "calibration_huber_monitor_only": 0.013984805904328823
+      },
+      {
+        "epoch": 20,
+        "train_huber": 0.013610835801810026,
+        "calibration_huber_monitor_only": 0.013983306474983692
+      }
+    ]
+  },
+  {
+    "seed": 33,
+    "metrics": [
+      {
+        "epoch": 1,
+        "train_huber": 0.06411552377045154,
+        "calibration_huber_monitor_only": 0.05136113986372948
+      },
+      {
+        "epoch": 2,
+        "train_huber": 0.04207300998270511,
+        "calibration_huber_monitor_only": 0.032875534147024155
+      },
+      {
+        "epoch": 3,
+        "train_huber": 0.026485421247780323,
+        "calibration_huber_monitor_only": 0.021337170153856277
+      },
+      {
+        "epoch": 4,
+        "train_huber": 0.018295123018324377,
+        "calibration_huber_monitor_only": 0.016420967876911163
+      },
+      {
+        "epoch": 5,
+        "train_huber": 0.01512476908043027,
+        "calibration_huber_monitor_only": 0.01471357699483633
+      },
+      {
+        "epoch": 6,
+        "train_huber": 0.014058871064335107,
+        "calibration_huber_monitor_only": 0.014178452081978321
+      },
+      {
+        "epoch": 7,
+        "train_huber": 0.01373105563223362,
+        "calibration_huber_monitor_only": 0.01402759738266468
+      },
+      {
+        "epoch": 8,
+        "train_huber": 0.01363792061805725,
+        "calibration_huber_monitor_only": 0.01398951280862093
+      },
+      {
+        "epoch": 9,
+        "train_huber": 0.013613366521894932,
+        "calibration_huber_monitor_only": 0.013983900658786297
+      },
+      {
+        "epoch": 10,
+        "train_huber": 0.013608087711036205,
+        "calibration_huber_monitor_only": 0.013981618918478489
+      },
+      {
+        "epoch": 11,
+        "train_huber": 0.01360621340572834,
+        "calibration_huber_monitor_only": 0.013982079923152924
+      },
+      {
+        "epoch": 12,
+        "train_huber": 0.01360547484830022,
+        "calibration_huber_monitor_only": 0.013981189578771591
+      },
+      {
+        "epoch": 13,
+        "train_huber": 0.013605607002973556,
+        "calibration_huber_monitor_only": 0.013981649652123451
+      },
+      {
+        "epoch": 14,
+        "train_huber": 0.013604983557015657,
+        "calibration_huber_monitor_only": 0.013981077820062637
+      },
+      {
+        "epoch": 15,
+        "train_huber": 0.013604182302951812,
+        "calibration_huber_monitor_only": 0.013980910181999207
+      },
+      {
+        "epoch": 16,
+        "train_huber": 0.013603298235684633,
+        "calibration_huber_monitor_only": 0.013982991687953472
+      },
+      {
+        "epoch": 17,
+        "train_huber": 0.01360433792695403,
+        "calibration_huber_monitor_only": 0.013983269222080708
+      },
+      {
+        "epoch": 18,
+        "train_huber": 0.013603759836405516,
+        "calibration_huber_monitor_only": 0.013983006589114666
+      },
+      {
+        "epoch": 19,
+        "train_huber": 0.013602984100580216,
+        "calibration_huber_monitor_only": 0.013980467803776264
+      },
+      {
+        "epoch": 20,
+        "train_huber": 0.013603366743773222,
+        "calibration_huber_monitor_only": 0.013980789110064507
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "Standard Top-1": {
+    "k1_decision_fraction": 1.0,
+    "mean_forced_top1_regret_on_k1_decisions": 0.34093185447156427,
+    "median": 0.050811767578125,
+    "p90": 1.0419921875,
+    "p95": 1.404296875,
+    "p99": 2.291015625
+  },
+  "Selected adaptive": {
+    "k1_decision_fraction": 0.70234375,
+    "mean_forced_top1_regret_on_k1_decisions": 0.32632602812583505,
+    "median": 0.0303497314453125,
+    "p90": 1.0069091796875016,
+    "p95": 1.3564453125,
+    "p99": 2.179912109374989
+  }
+}

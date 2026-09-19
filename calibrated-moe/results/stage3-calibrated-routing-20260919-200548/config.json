@@ -1,0 +1,48 @@
+{
+  "experiment": {
+    "name": "stage3-calibrated-routing",
+    "seed": 1337,
+    "output_dir": "results"
+  },
+  "checkpoint": "results/baseline-top2-small-20260919-151643/last.pt",
+  "stage2_validation_results": "results/oracle-analysis-20260919-153736/token_results.parquet",
+  "calibration": {
+    "source": "training_tail",
+    "batches": 50,
+    "batch_size": 4,
+    "oracle_temperature": 1.0,
+    "intervention_chunk_size": 128,
+    "temperature_min": 0.05,
+    "temperature_max": 20.0
+  },
+  "adaptive": {
+    "metrics": [
+      "max_probability",
+      "entropy",
+      "margin"
+    ],
+    "threshold_quantiles": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "max_calibration_loss_increase": 0.02
+  },
+  "evaluation": {
+    "validation_batches": 50,
+    "batch_size": 4,
+    "warmup_batches": 50,
+    "timing_repeats": 20,
+    "mixed_precision": "fp16"
+  }
+}

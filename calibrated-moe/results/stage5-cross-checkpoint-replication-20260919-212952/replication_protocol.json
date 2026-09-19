@@ -1,0 +1,24 @@
+{
+  "status": "predeclared before fresh checkpoint evaluation",
+  "fresh_base_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "original_exploratory_checkpoint_excluded_from_replication_average": true,
+  "gate_seeds": [
+    11,
+    22,
+    33
+  ],
+  "budgets": [
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5
+  ],
+  "method_frozen_from_stage4": true
+}

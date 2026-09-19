@@ -1,0 +1,695 @@
+[
+  {
+    "seed": 11,
+    "conditional": {
+      "expensive_mistake_definition": "K=1 with actual delta above the gate-train positive-delta P90; the cutoff is training-derived and is not used for model selection",
+      "large_delta_threshold": 0.322265625,
+      "expensive_false_k1_fraction_all": 0.0271484375,
+      "expensive_false_k1_fraction_among_k1": 0.034211174009352696,
+      "k1": {
+        "fraction": 0.7935546875,
+        "count": 40630,
+        "mean_true_delta": 0.009607776068150997,
+        "median_true_delta": 0.000518798828125,
+        "p90_true_delta": 0.1630859375,
+        "fraction_where_k2_helped": 0.5070883583558946
+      },
+      "k2": {
+        "fraction": 0.2064453125,
+        "count": 10570,
+        "mean_true_delta": 0.058224860578775406,
+        "median_true_delta": 0.037109375,
+        "p90_true_delta": 0.390625,
+        "fraction_where_k2_helped": 0.6
+      }
+    },
+    "worst_false_k1": [
+      {
+        "layer": 3,
+        "sequence_id": 110,
+        "position": 6,
+        "token_or_byte": 100,
+        "token_text": null,
+        "context": "g a ra⟦d⟧io ship , and forced it aground ",
+        "router_probabilities": [
+          0.2590295076370239,
+          0.3264860510826111,
+          0.3451749086380005,
+          0.0693095400929451
+        ],
+        "predicted_delta": 0.0013083340600132942,
+        "actual_delta": 2.083984375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 42,
+        "position": 127,
+        "token_or_byte": 116,
+        "token_text": null,
+        "context": "n holes or crevices , emerging a⟦t⟧",
+        "router_probabilities": [
+          0.19806677103042603,
+          0.3700374364852905,
+          0.31374016404151917,
+          0.11815562844276428
+        ],
+        "predicted_delta": -0.06296695023775101,
+        "actual_delta": 1.70654296875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 190,
+        "position": 101,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "n . The highway rounds a curve a⟦n⟧d transitions to 72nd Stre",
+        "router_probabilities": [
+          0.17602740228176117,
+          0.3661567270755768,
+          0.3360042870044708,
+          0.12181158363819122
+        ],
+        "predicted_delta": -0.004100545309484005,
+        "actual_delta": 1.503662109375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 140,
+        "position": 98,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": " Electric Canberra jet bombers a⟦n⟧d CAC Sabre jet fighters . Th",
+        "router_probabilities": [
+          0.14249639213085175,
+          0.36996862292289734,
+          0.3575368821620941,
+          0.1299981027841568
+        ],
+        "predicted_delta": 0.0160832442343235,
+        "actual_delta": 1.36041259765625,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 38,
+        "position": 109,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": " \n\n Attempts have been made to i⟦n⟧troduce H. gammaru",
+        "router_probabilities": [
+          0.050772521644830704,
+          0.3797686994075775,
+          0.47101709246635437,
+          0.0984417125582695
+        ],
+        "predicted_delta": 0.021643422544002533,
+        "actual_delta": 1.34375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 86,
+        "position": 4,
+        "token_or_byte": 111,
+        "token_text": null,
+        "context": " . N⟦o⟧ larger than a flight according ",
+        "router_probabilities": [
+          0.20777052640914917,
+          0.11418288201093674,
+          0.09959208220243454,
+          0.5784545540809631
+        ],
+        "predicted_delta": 0.019960008561611176,
+        "actual_delta": 1.326171875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 117,
+        "position": 53,
+        "token_or_byte": 97,
+        "token_text": null,
+        "context": "acuate all his personnel except ⟦a⟧ small party to demolish the air",
+        "router_probabilities": [
+          0.1015230193734169,
+          0.3216956555843353,
+          0.07413089275360107,
+          0.5026503801345825
+        ],
+        "predicted_delta": -0.013956435956060886,
+        "actual_delta": 1.3037109375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 50,
+        "position": 108,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "he abdomen of H. gammarus contai⟦n⟧ \" excellent \" whit",
+        "router_probabilities": [
+          0.07141295075416565,
+          0.10130022466182709,
+          0.6625389456748962,
+          0.1647479385137558
+        ],
+        "predicted_delta": 0.025915294885635376,
+        "actual_delta": 1.2880859375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 189,
+        "position": 41,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "8th Street through rural farms i⟦n⟧to the community of Fremont . Th",
+        "router_probabilities": [
+          0.0861019492149353,
+          0.30675211548805237,
+          0.4318511188030243,
+          0.175294890999794
+        ],
+        "predicted_delta": 0.028613507747650146,
+        "actual_delta": 1.27734375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 199,
+        "position": 38,
+        "token_or_byte": 100,
+        "token_text": null,
+        "context": " vehicles daily . The traffic na⟦d⟧ir was 4 @,@ 018 vehicles east o",
+        "router_probabilities": [
+          0.17219063639640808,
+          0.35573574900627136,
+          0.4096493124961853,
+          0.062424253672361374
+        ],
+        "predicted_delta": 0.01315013412386179,
+        "actual_delta": 1.26953125,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 182,
+        "position": 67,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "d City travels through Fremont a⟦n⟧d along the southern edge of Man",
+        "router_probabilities": [
+          0.22729094326496124,
+          0.3073504865169525,
+          0.3005240857601166,
+          0.16483448445796967
+        ],
+        "predicted_delta": 0.004330762661993504,
+        "actual_delta": 1.2392578125,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 59,
+        "position": 78,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": " the genus Cancer at that time i⟦n⟧cluded all large crustaceans . \n",
+        "router_probabilities": [
+          0.08764079958200455,
+          0.34679535031318665,
+          0.4426925778388977,
+          0.1228712648153305
+        ],
+        "predicted_delta": 0.035432443022727966,
+        "actual_delta": 1.224609375,
+        "decision": "K=1"
+      }
+    ]
+  },
+  {
+    "seed": 22,
+    "conditional": {
+      "expensive_mistake_definition": "K=1 with actual delta above the gate-train positive-delta P90; the cutoff is training-derived and is not used for model selection",
+      "large_delta_threshold": 0.322265625,
+      "expensive_false_k1_fraction_all": 0.027109375,
+      "expensive_false_k1_fraction_among_k1": 0.03375486381322957,
+      "k1": {
+        "fraction": 0.803125,
+        "count": 41120,
+        "mean_true_delta": 0.009189676493406296,
+        "median_true_delta": 0.00064849853515625,
+        "p90_true_delta": 0.1640625,
+        "fraction_where_k2_helped": 0.5092655642023346
+      },
+      "k2": {
+        "fraction": 0.196875,
+        "count": 10080,
+        "mean_true_delta": 0.062293775379657745,
+        "median_true_delta": 0.037109375,
+        "p90_true_delta": 0.41015625,
+        "fraction_where_k2_helped": 0.5956349206349206
+      }
+    },
+    "worst_false_k1": [
+      {
+        "layer": 3,
+        "sequence_id": 110,
+        "position": 6,
+        "token_or_byte": 100,
+        "token_text": null,
+        "context": "g a ra⟦d⟧io ship , and forced it aground ",
+        "router_probabilities": [
+          0.2590295076370239,
+          0.3264860510826111,
+          0.3451749086380005,
+          0.0693095400929451
+        ],
+        "predicted_delta": 0.026120154187083244,
+        "actual_delta": 2.083984375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 42,
+        "position": 127,
+        "token_or_byte": 116,
+        "token_text": null,
+        "context": "n holes or crevices , emerging a⟦t⟧",
+        "router_probabilities": [
+          0.19806677103042603,
+          0.3700374364852905,
+          0.31374016404151917,
+          0.11815562844276428
+        ],
+        "predicted_delta": -0.059978827834129333,
+        "actual_delta": 1.70654296875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 190,
+        "position": 101,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "n . The highway rounds a curve a⟦n⟧d transitions to 72nd Stre",
+        "router_probabilities": [
+          0.17602740228176117,
+          0.3661567270755768,
+          0.3360042870044708,
+          0.12181158363819122
+        ],
+        "predicted_delta": 0.047496676445007324,
+        "actual_delta": 1.503662109375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 140,
+        "position": 98,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": " Electric Canberra jet bombers a⟦n⟧d CAC Sabre jet fighters . Th",
+        "router_probabilities": [
+          0.14249639213085175,
+          0.36996862292289734,
+          0.3575368821620941,
+          0.1299981027841568
+        ],
+        "predicted_delta": 0.030034275725483894,
+        "actual_delta": 1.36041259765625,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 86,
+        "position": 4,
+        "token_or_byte": 111,
+        "token_text": null,
+        "context": " . N⟦o⟧ larger than a flight according ",
+        "router_probabilities": [
+          0.20777052640914917,
+          0.11418288201093674,
+          0.09959208220243454,
+          0.5784545540809631
+        ],
+        "predicted_delta": 0.004954474046826363,
+        "actual_delta": 1.326171875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 117,
+        "position": 53,
+        "token_or_byte": 97,
+        "token_text": null,
+        "context": "acuate all his personnel except ⟦a⟧ small party to demolish the air",
+        "router_probabilities": [
+          0.1015230193734169,
+          0.3216956555843353,
+          0.07413089275360107,
+          0.5026503801345825
+        ],
+        "predicted_delta": 0.001818319782614708,
+        "actual_delta": 1.3037109375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 199,
+        "position": 38,
+        "token_or_byte": 100,
+        "token_text": null,
+        "context": " vehicles daily . The traffic na⟦d⟧ir was 4 @,@ 018 vehicles east o",
+        "router_probabilities": [
+          0.17219063639640808,
+          0.35573574900627136,
+          0.4096493124961853,
+          0.062424253672361374
+        ],
+        "predicted_delta": 0.01262744702398777,
+        "actual_delta": 1.26953125,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 193,
+        "position": 84,
+        "token_or_byte": 115,
+        "token_text": null,
+        "context": " of downtown , M @-@ 82 turns ea⟦s⟧t again , independent of M @-@ 3",
+        "router_probabilities": [
+          0.07249750196933746,
+          0.38471293449401855,
+          0.4887031316757202,
+          0.05408642813563347
+        ],
+        "predicted_delta": 0.02523697353899479,
+        "actual_delta": 1.25390625,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 196,
+        "position": 95,
+        "token_or_byte": 97,
+        "token_text": null,
+        "context": "evels are expressed in terms of ⟦a⟧ metric called average annual da",
+        "router_probabilities": [
+          0.13379712402820587,
+          0.3996395170688629,
+          0.04733557626605034,
+          0.41922783851623535
+        ],
+        "predicted_delta": 0.03603266924619675,
+        "actual_delta": 1.20849609375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 102,
+        "position": 78,
+        "token_or_byte": 82,
+        "token_text": null,
+        "context": "h he was posted to the staff of ⟦R⟧AAF Headquarters , Melbourne . H",
+        "router_probabilities": [
+          0.4392741322517395,
+          0.4846913814544678,
+          0.04372826963663101,
+          0.0323062427341938
+        ],
+        "predicted_delta": 0.016494018957018852,
+        "actual_delta": 1.20703125,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 36,
+        "position": 25,
+        "token_or_byte": 101,
+        "token_text": null,
+        "context": "rthern Norway , which hav⟦e⟧ been referred to as the \" midni",
+        "router_probabilities": [
+          0.3371587097644806,
+          0.15145079791545868,
+          0.15580126643180847,
+          0.3555893301963806
+        ],
+        "predicted_delta": 0.04044509679079056,
+        "actual_delta": 1.1962890625,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 158,
+        "position": 84,
+        "token_or_byte": 80,
+        "token_text": null,
+        "context": "staff of Operational Command ( O⟦P⟧COM ) , the successor organisati",
+        "router_probabilities": [
+          0.42061847448349,
+          0.47575125098228455,
+          0.06638922542333603,
+          0.03724098205566406
+        ],
+        "predicted_delta": 0.016123974695801735,
+        "actual_delta": 1.19140625,
+        "decision": "K=1"
+      }
+    ]
+  },
+  {
+    "seed": 33,
+    "conditional": {
+      "expensive_mistake_definition": "K=1 with actual delta above the gate-train positive-delta P90; the cutoff is training-derived and is not used for model selection",
+      "large_delta_threshold": 0.322265625,
+      "expensive_false_k1_fraction_all": 0.02755859375,
+      "expensive_false_k1_fraction_among_k1": 0.03437690339870873,
+      "k1": {
+        "fraction": 0.80166015625,
+        "count": 41045,
+        "mean_true_delta": 0.009270147420465946,
+        "median_true_delta": 0.00048828125,
+        "p90_true_delta": 0.1640625,
+        "fraction_where_k2_helped": 0.5067121452064807
+      },
+      "k2": {
+        "fraction": 0.19833984375,
+        "count": 10155,
+        "mean_true_delta": 0.06157632917165756,
+        "median_true_delta": 0.037841796875,
+        "p90_true_delta": 0.3984375,
+        "fraction_where_k2_helped": 0.6053175775480059
+      }
+    },
+    "worst_false_k1": [
+      {
+        "layer": 3,
+        "sequence_id": 110,
+        "position": 6,
+        "token_or_byte": 100,
+        "token_text": null,
+        "context": "g a ra⟦d⟧io ship , and forced it aground ",
+        "router_probabilities": [
+          0.2590295076370239,
+          0.3264860510826111,
+          0.3451749086380005,
+          0.0693095400929451
+        ],
+        "predicted_delta": 0.004511050879955292,
+        "actual_delta": 2.083984375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 42,
+        "position": 127,
+        "token_or_byte": 116,
+        "token_text": null,
+        "context": "n holes or crevices , emerging a⟦t⟧",
+        "router_probabilities": [
+          0.19806677103042603,
+          0.3700374364852905,
+          0.31374016404151917,
+          0.11815562844276428
+        ],
+        "predicted_delta": -0.06160193681716919,
+        "actual_delta": 1.70654296875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 190,
+        "position": 101,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "n . The highway rounds a curve a⟦n⟧d transitions to 72nd Stre",
+        "router_probabilities": [
+          0.17602740228176117,
+          0.3661567270755768,
+          0.3360042870044708,
+          0.12181158363819122
+        ],
+        "predicted_delta": 0.04093092679977417,
+        "actual_delta": 1.503662109375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 156,
+        "position": 58,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": "e RAAF 's Directorate of Intelli⟦g⟧ence . Headlam was appointed a C",
+        "router_probabilities": [
+          0.1852944791316986,
+          0.0602739192545414,
+          0.6388164758682251,
+          0.11561509966850281
+        ],
+        "predicted_delta": 0.04018819332122803,
+        "actual_delta": 1.46484375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 161,
+        "position": 90,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": " of AOC No. 224 Group RAF in Sin⟦g⟧apore one week later . He was su",
+        "router_probabilities": [
+          0.2880004048347473,
+          0.08974266052246094,
+          0.41093316674232483,
+          0.2113237977027893
+        ],
+        "predicted_delta": 0.04331491142511368,
+        "actual_delta": 1.46484375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 140,
+        "position": 98,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": " Electric Canberra jet bombers a⟦n⟧d CAC Sabre jet fighters . Th",
+        "router_probabilities": [
+          0.14249639213085175,
+          0.36996862292289734,
+          0.3575368821620941,
+          0.1299981027841568
+        ],
+        "predicted_delta": 0.0374089851975441,
+        "actual_delta": 1.36041259765625,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 86,
+        "position": 4,
+        "token_or_byte": 111,
+        "token_text": null,
+        "context": " . N⟦o⟧ larger than a flight according ",
+        "router_probabilities": [
+          0.20777052640914917,
+          0.11418288201093674,
+          0.09959208220243454,
+          0.5784545540809631
+        ],
+        "predicted_delta": -0.0005860179662704468,
+        "actual_delta": 1.326171875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 117,
+        "position": 53,
+        "token_or_byte": 97,
+        "token_text": null,
+        "context": "acuate all his personnel except ⟦a⟧ small party to demolish the air",
+        "router_probabilities": [
+          0.1015230193734169,
+          0.3216956555843353,
+          0.07413089275360107,
+          0.5026503801345825
+        ],
+        "predicted_delta": -0.014778569340705872,
+        "actual_delta": 1.3037109375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 50,
+        "position": 108,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "he abdomen of H. gammarus contai⟦n⟧ \" excellent \" whit",
+        "router_probabilities": [
+          0.07141295075416565,
+          0.10130022466182709,
+          0.6625389456748962,
+          0.1647479385137558
+        ],
+        "predicted_delta": 0.039468638598918915,
+        "actual_delta": 1.2880859375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 199,
+        "position": 38,
+        "token_or_byte": 100,
+        "token_text": null,
+        "context": " vehicles daily . The traffic na⟦d⟧ir was 4 @,@ 018 vehicles east o",
+        "router_probabilities": [
+          0.17219063639640808,
+          0.35573574900627136,
+          0.4096493124961853,
+          0.062424253672361374
+        ],
+        "predicted_delta": 0.0015225186944007874,
+        "actual_delta": 1.26953125,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 185,
+        "position": 82,
+        "token_or_byte": 101,
+        "token_text": null,
+        "context": "t route was finalized in the lat⟦e⟧ 1970s \n\n = = Route description ",
+        "router_probabilities": [
+          0.340909481048584,
+          0.17428964376449585,
+          0.05647315829992294,
+          0.42832767963409424
+        ],
+        "predicted_delta": 0.03694167733192444,
+        "actual_delta": 1.208984375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 102,
+        "position": 78,
+        "token_or_byte": 82,
+        "token_text": null,
+        "context": "h he was posted to the staff of ⟦R⟧AAF Headquarters , Melbourne . H",
+        "router_probabilities": [
+          0.4392741322517395,
+          0.4846913814544678,
+          0.04372826963663101,
+          0.0323062427341938
+        ],
+        "predicted_delta": -0.005487129092216492,
+        "actual_delta": 1.20703125,
+        "decision": "K=1"
+      }
+    ]
+  }
+]

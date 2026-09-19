@@ -1,0 +1,239 @@
+{
+  "1": {
+    "evaluated_token_layer_decisions": 25600,
+    "router_top1_oracle_accuracy": 0.465234375,
+    "router_top2_oracle_coverage": 0.7040234375,
+    "top1_regret": {
+      "mean": 0.344031925201416,
+      "median": 0.03253173828125,
+      "p90": 1.0801757812500021,
+      "p95": 1.4727539062499986,
+      "p99": 2.451240234374989,
+      "maximum": 5.711181640625
+    },
+    "top2_mixture_minus_best_single": {
+      "mean": 0.32429942429065706,
+      "median": 0.1240234375,
+      "p90": 0.9571289062500021,
+      "p95": 1.337890625,
+      "p99": 2.2353613281249984,
+      "maximum": 5.26904296875
+    },
+    "best_vs_second_gap": {
+      "mean": 0.49035933837294576,
+      "median": 0.328125,
+      "p25": 0.1249237060546875,
+      "p50": 0.328125,
+      "p75": 0.669921875,
+      "p90": 1.095751953125001,
+      "p95": 1.48046875,
+      "p99": 2.6965502929687473,
+      "threshold_fractions": {
+        "less_than_0.001": 0.006171875,
+        "less_than_0.01": 0.036640625,
+        "less_than_0.05": 0.12328125,
+        "less_than_0.1": 0.2110546875,
+        "greater_than_0.1": 0.7889453125,
+        "greater_than_0.25": 0.5826171875,
+        "greater_than_0.5": 0.3555859375
+      }
+    },
+    "mean_router_entropy": 1.023985702644568,
+    "mean_oracle_entropy": 1.1835122651311394,
+    "mean_baseline_top2_loss": 2.0254150588810442,
+    "fraction_top2_mixture_beats_best_single": 0.1816015625,
+    "confidence_correctness_correlation": 0.14731893899330764,
+    "confidence_regret_correlation": -0.03624613116000925,
+    "router_top1_vs_oracle_confusion": [
+      [
+        3794,
+        2171,
+        1435,
+        1448
+      ],
+      [
+        657,
+        1081,
+        439,
+        398
+      ],
+      [
+        1443,
+        1560,
+        3580,
+        1213
+      ],
+      [
+        847,
+        1227,
+        852,
+        3455
+      ]
+    ],
+    "distribution_alignment": {
+      "mean_kl_q_to_p": 0.3606153602314026,
+      "mean_cross_entropy": 1.544127623763103,
+      "mean_brier_squared_distance": 0.17985993080773632,
+      "mean_cosine_similarity": 0.7945112268593064
+    },
+    "exploratory_confidence_ece": 0.1381250395241659
+  },
+  "3": {
+    "evaluated_token_layer_decisions": 25600,
+    "router_top1_oracle_accuracy": 0.4427734375,
+    "router_top2_oracle_coverage": 0.6821875,
+    "top1_regret": {
+      "mean": 0.3378317837417126,
+      "median": 0.0703125,
+      "p90": 1.0098632812500021,
+      "p95": 1.347729492187499,
+      "p99": 2.1025683593749953,
+      "maximum": 5.0234375
+    },
+    "top2_mixture_minus_best_single": {
+      "mean": 0.3182751920819282,
+      "median": 0.15185546875,
+      "p90": 0.865234375,
+      "p95": 1.171875,
+      "p99": 1.9336132812499969,
+      "maximum": 4.86962890625
+    },
+    "best_vs_second_gap": {
+      "mean": 0.3836922742426395,
+      "median": 0.275390625,
+      "p25": 0.10546875,
+      "p50": 0.275390625,
+      "p75": 0.54693603515625,
+      "p90": 0.8828125,
+      "p95": 1.1406494140624996,
+      "p99": 1.6704248046874977,
+      "threshold_fractions": {
+        "less_than_0.001": 0.002734375,
+        "less_than_0.01": 0.0334765625,
+        "less_than_0.05": 0.13921875,
+        "less_than_0.1": 0.2408203125,
+        "greater_than_0.1": 0.7591796875,
+        "greater_than_0.25": 0.53046875,
+        "greater_than_0.5": 0.2822265625
+      }
+    },
+    "mean_router_entropy": 0.9231908797711367,
+    "mean_oracle_entropy": 1.2701990077830851,
+    "mean_baseline_top2_loss": 2.025404492169619,
+    "fraction_top2_mixture_beats_best_single": 0.13796875,
+    "confidence_correctness_correlation": 0.055860489270863636,
+    "confidence_regret_correlation": -0.06962264867179549,
+    "router_top1_vs_oracle_confusion": [
+      [
+        2843,
+        1586,
+        1539,
+        2033
+      ],
+      [
+        1190,
+        2774,
+        2323,
+        1281
+      ],
+      [
+        547,
+        821,
+        2977,
+        672
+      ],
+      [
+        624,
+        786,
+        863,
+        2741
+      ]
+    ],
+    "distribution_alignment": {
+      "mean_kl_q_to_p": 0.5015080749423548,
+      "mean_cross_entropy": 1.7717070811874363,
+      "mean_brier_squared_distance": 0.24631308483538647,
+      "mean_cosine_similarity": 0.7425360252245035
+    },
+    "exploratory_confidence_ece": 0.21215307254926302
+  },
+  "aggregate": {
+    "evaluated_token_layer_decisions": 51200,
+    "router_top1_oracle_accuracy": 0.45400390625,
+    "router_top2_oracle_coverage": 0.69310546875,
+    "top1_regret": {
+      "mean": 0.34093185447156427,
+      "median": 0.050811767578125,
+      "p90": 1.0419921875,
+      "p95": 1.404296875,
+      "p99": 2.291015625,
+      "maximum": 5.711181640625
+    },
+    "top2_mixture_minus_best_single": {
+      "mean": 0.32128730818629264,
+      "median": 0.13671875,
+      "p90": 0.91015625,
+      "p95": 1.25390625,
+      "p99": 2.1015625,
+      "maximum": 5.26904296875
+    },
+    "best_vs_second_gap": {
+      "mean": 0.43702580630779264,
+      "median": 0.29931640625,
+      "p25": 0.1136474609375,
+      "p50": 0.29931640625,
+      "p75": 0.60626220703125,
+      "p90": 0.98828125,
+      "p95": 1.296875,
+      "p99": 2.201171875,
+      "threshold_fractions": {
+        "less_than_0.001": 0.004453125,
+        "less_than_0.01": 0.03505859375,
+        "less_than_0.05": 0.13125,
+        "less_than_0.1": 0.2259375,
+        "greater_than_0.1": 0.7740625,
+        "greater_than_0.25": 0.55654296875,
+        "greater_than_0.5": 0.31890625
+      }
+    },
+    "mean_router_entropy": 0.9735882912078523,
+    "mean_oracle_entropy": 1.2268556364571124,
+    "mean_baseline_top2_loss": 2.0254097755253313,
+    "fraction_top2_mixture_beats_best_single": 0.15978515625,
+    "confidence_correctness_correlation": 0.09137439689503458,
+    "confidence_regret_correlation": -0.05320968336429496,
+    "router_top1_vs_oracle_confusion": [
+      [
+        6637,
+        3757,
+        2974,
+        3481
+      ],
+      [
+        1847,
+        3855,
+        2762,
+        1679
+      ],
+      [
+        1990,
+        2381,
+        6557,
+        1885
+      ],
+      [
+        1471,
+        2013,
+        1715,
+        6196
+      ]
+    ],
+    "distribution_alignment": {
+      "mean_kl_q_to_p": 0.4310617175868788,
+      "mean_cross_entropy": 1.6579173524752693,
+      "mean_brier_squared_distance": 0.21308650782156138,
+      "mean_cosine_similarity": 0.7685236260419049
+    },
+    "exploratory_confidence_ece": 0.17513905603671445
+  }
+}

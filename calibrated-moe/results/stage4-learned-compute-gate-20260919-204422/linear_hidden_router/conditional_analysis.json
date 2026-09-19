@@ -1,0 +1,695 @@
+[
+  {
+    "seed": 11,
+    "conditional": {
+      "expensive_mistake_definition": "K=1 with actual delta above the gate-train positive-delta P90; the cutoff is training-derived and is not used for model selection",
+      "large_delta_threshold": 0.322265625,
+      "expensive_false_k1_fraction_all": 0.02783203125,
+      "expensive_false_k1_fraction_among_k1": 0.034927326650162994,
+      "k1": {
+        "fraction": 0.79685546875,
+        "count": 40799,
+        "mean_true_delta": 0.012580054812133312,
+        "median_true_delta": 0.000812530517578125,
+        "p90_true_delta": 0.169921875,
+        "fraction_where_k2_helped": 0.5121694159170568
+      },
+      "k2": {
+        "fraction": 0.20314453125,
+        "count": 10401,
+        "mean_true_delta": 0.04735574498772621,
+        "median_true_delta": 0.0263671875,
+        "p90_true_delta": 0.388671875,
+        "fraction_where_k2_helped": 0.5815786943563119
+      }
+    },
+    "worst_false_k1": [
+      {
+        "layer": 3,
+        "sequence_id": 110,
+        "position": 6,
+        "token_or_byte": 100,
+        "token_text": null,
+        "context": "g a ra⟦d⟧io ship , and forced it aground ",
+        "router_probabilities": [
+          0.2590295076370239,
+          0.3264860510826111,
+          0.3451749086380005,
+          0.0693095400929451
+        ],
+        "predicted_delta": 0.030367285013198853,
+        "actual_delta": 2.083984375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 94,
+        "position": 75,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": "volved several epic training fli⟦g⟧hts that attracted considerable ",
+        "router_probabilities": [
+          0.23058463633060455,
+          0.09716010838747025,
+          0.5499122142791748,
+          0.12234305590391159
+        ],
+        "predicted_delta": 0.03391720727086067,
+        "actual_delta": 1.8876953125,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 4,
+        "position": 68,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "r up to a year before hatching i⟦n⟧to planktonic larvae . Homarus g",
+        "router_probabilities": [
+          0.10346174985170364,
+          0.34023335576057434,
+          0.3842194080352783,
+          0.1720854490995407
+        ],
+        "predicted_delta": 0.02739987149834633,
+        "actual_delta": 1.7265625,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 42,
+        "position": 127,
+        "token_or_byte": 116,
+        "token_text": null,
+        "context": "n holes or crevices , emerging a⟦t⟧",
+        "router_probabilities": [
+          0.19806677103042603,
+          0.3700374364852905,
+          0.31374016404151917,
+          0.11815562844276428
+        ],
+        "predicted_delta": 0.018839353695511818,
+        "actual_delta": 1.70654296875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 25,
+        "position": 36,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": "e year . \n\n The eggs hatch at ni⟦g⟧ht , and the larvae swim to the ",
+        "router_probabilities": [
+          0.24640075862407684,
+          0.14121994376182556,
+          0.4786749482154846,
+          0.13370434939861298
+        ],
+        "predicted_delta": 0.023320693522691727,
+        "actual_delta": 1.4921875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 115,
+        "position": 126,
+        "token_or_byte": 114,
+        "token_text": null,
+        "context": "arwin but Headlam and his staff ⟦r⟧e",
+        "router_probabilities": [
+          0.5449074506759644,
+          0.24709007143974304,
+          0.12479189783334732,
+          0.0832105502486229
+        ],
+        "predicted_delta": 0.013796932995319366,
+        "actual_delta": 1.3857421875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 98,
+        "position": 81,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "a flight commander . He served i⟦n⟧itially with No. 2 Squadron , be",
+        "router_probabilities": [
+          0.05942559614777565,
+          0.38807159662246704,
+          0.4731592535972595,
+          0.07934357970952988
+        ],
+        "predicted_delta": 0.03251352161169052,
+        "actual_delta": 1.3828125,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 38,
+        "position": 109,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": " \n\n Attempts have been made to i⟦n⟧troduce H. gammaru",
+        "router_probabilities": [
+          0.050772521644830704,
+          0.3797686994075775,
+          0.47101709246635437,
+          0.0984417125582695
+        ],
+        "predicted_delta": 0.015736950561404228,
+        "actual_delta": 1.34375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 117,
+        "position": 53,
+        "token_or_byte": 97,
+        "token_text": null,
+        "context": "acuate all his personnel except ⟦a⟧ small party to demolish the air",
+        "router_probabilities": [
+          0.1015230193734169,
+          0.3216956555843353,
+          0.07413089275360107,
+          0.5026503801345825
+        ],
+        "predicted_delta": 0.01848474331200123,
+        "actual_delta": 1.3037109375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 50,
+        "position": 108,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "he abdomen of H. gammarus contai⟦n⟧ \" excellent \" whit",
+        "router_probabilities": [
+          0.07141295075416565,
+          0.10130022466182709,
+          0.6625389456748962,
+          0.1647479385137558
+        ],
+        "predicted_delta": 0.026340726763010025,
+        "actual_delta": 1.2880859375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 189,
+        "position": 41,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "8th Street through rural farms i⟦n⟧to the community of Fremont . Th",
+        "router_probabilities": [
+          0.0861019492149353,
+          0.30675211548805237,
+          0.4318511188030243,
+          0.175294890999794
+        ],
+        "predicted_delta": 0.035367827862501144,
+        "actual_delta": 1.27734375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 199,
+        "position": 38,
+        "token_or_byte": 100,
+        "token_text": null,
+        "context": " vehicles daily . The traffic na⟦d⟧ir was 4 @,@ 018 vehicles east o",
+        "router_probabilities": [
+          0.17219063639640808,
+          0.35573574900627136,
+          0.4096493124961853,
+          0.062424253672361374
+        ],
+        "predicted_delta": 0.0181413646787405,
+        "actual_delta": 1.26953125,
+        "decision": "K=1"
+      }
+    ]
+  },
+  {
+    "seed": 22,
+    "conditional": {
+      "expensive_mistake_definition": "K=1 with actual delta above the gate-train positive-delta P90; the cutoff is training-derived and is not used for model selection",
+      "large_delta_threshold": 0.322265625,
+      "expensive_false_k1_fraction_all": 0.02673828125,
+      "expensive_false_k1_fraction_among_k1": 0.033283088592823105,
+      "k1": {
+        "fraction": 0.803359375,
+        "count": 41132,
+        "mean_true_delta": 0.010766202583909035,
+        "median_true_delta": 0.0007381439208984375,
+        "p90_true_delta": 0.1640625,
+        "fraction_where_k2_helped": 0.5112078187299426
+      },
+      "k2": {
+        "fraction": 0.196640625,
+        "count": 10068,
+        "mean_true_delta": 0.05591629445552826,
+        "median_true_delta": 0.03515625,
+        "p90_true_delta": 0.40297842025756836,
+        "fraction_where_k2_helped": 0.587802940007946
+      }
+    },
+    "worst_false_k1": [
+      {
+        "layer": 3,
+        "sequence_id": 110,
+        "position": 6,
+        "token_or_byte": 100,
+        "token_text": null,
+        "context": "g a ra⟦d⟧io ship , and forced it aground ",
+        "router_probabilities": [
+          0.2590295076370239,
+          0.3264860510826111,
+          0.3451749086380005,
+          0.0693095400929451
+        ],
+        "predicted_delta": 0.029137523844838142,
+        "actual_delta": 2.083984375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 42,
+        "position": 127,
+        "token_or_byte": 116,
+        "token_text": null,
+        "context": "n holes or crevices , emerging a⟦t⟧",
+        "router_probabilities": [
+          0.19806677103042603,
+          0.3700374364852905,
+          0.31374016404151917,
+          0.11815562844276428
+        ],
+        "predicted_delta": 0.014620654284954071,
+        "actual_delta": 1.70654296875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 25,
+        "position": 36,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": "e year . \n\n The eggs hatch at ni⟦g⟧ht , and the larvae swim to the ",
+        "router_probabilities": [
+          0.24640075862407684,
+          0.14121994376182556,
+          0.4786749482154846,
+          0.13370434939861298
+        ],
+        "predicted_delta": 0.037910766899585724,
+        "actual_delta": 1.4921875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 156,
+        "position": 58,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": "e RAAF 's Directorate of Intelli⟦g⟧ence . Headlam was appointed a C",
+        "router_probabilities": [
+          0.1852944791316986,
+          0.0602739192545414,
+          0.6388164758682251,
+          0.11561509966850281
+        ],
+        "predicted_delta": 0.024927524849772453,
+        "actual_delta": 1.46484375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 115,
+        "position": 126,
+        "token_or_byte": 114,
+        "token_text": null,
+        "context": "arwin but Headlam and his staff ⟦r⟧e",
+        "router_probabilities": [
+          0.5449074506759644,
+          0.24709007143974304,
+          0.12479189783334732,
+          0.0832105502486229
+        ],
+        "predicted_delta": 0.026487961411476135,
+        "actual_delta": 1.3857421875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 50,
+        "position": 108,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "he abdomen of H. gammarus contai⟦n⟧ \" excellent \" whit",
+        "router_probabilities": [
+          0.07141295075416565,
+          0.10130022466182709,
+          0.6625389456748962,
+          0.1647479385137558
+        ],
+        "predicted_delta": 0.03690849989652634,
+        "actual_delta": 1.2880859375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 199,
+        "position": 38,
+        "token_or_byte": 100,
+        "token_text": null,
+        "context": " vehicles daily . The traffic na⟦d⟧ir was 4 @,@ 018 vehicles east o",
+        "router_probabilities": [
+          0.17219063639640808,
+          0.35573574900627136,
+          0.4096493124961853,
+          0.062424253672361374
+        ],
+        "predicted_delta": 0.01829739287495613,
+        "actual_delta": 1.26953125,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 193,
+        "position": 84,
+        "token_or_byte": 115,
+        "token_text": null,
+        "context": " of downtown , M @-@ 82 turns ea⟦s⟧t again , independent of M @-@ 3",
+        "router_probabilities": [
+          0.07249750196933746,
+          0.38471293449401855,
+          0.4887031316757202,
+          0.05408642813563347
+        ],
+        "predicted_delta": 0.025150226429104805,
+        "actual_delta": 1.25390625,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 7,
+        "position": 100,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": " cm ( 9 – 15 in ) long and wei⟦g⟧h 0 @.@ 7 – 2 @.@ 2 kg ( ",
+        "router_probabilities": [
+          0.22056134045124054,
+          0.1191001683473587,
+          0.4492599070072174,
+          0.21107858419418335
+        ],
+        "predicted_delta": 0.03860773891210556,
+        "actual_delta": 1.21142578125,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 6,
+        "position": 119,
+        "token_or_byte": 32,
+        "token_text": null,
+        "context": "up to 5 – 6 kilograms ( 11 –⟦ ⟧13 lb ) ",
+        "router_probabilities": [
+          0.3843744397163391,
+          0.16439169645309448,
+          0.3115800619125366,
+          0.139653742313385
+        ],
+        "predicted_delta": 0.01177874393761158,
+        "actual_delta": 1.18359375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 143,
+        "position": 127,
+        "token_or_byte": 116,
+        "token_text": null,
+        "context": "nderance of combat units under i⟦t⟧",
+        "router_probabilities": [
+          0.17533402144908905,
+          0.3402833640575409,
+          0.3195106089115143,
+          0.16487199068069458
+        ],
+        "predicted_delta": 0.029412850737571716,
+        "actual_delta": 1.1396484375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 199,
+        "position": 79,
+        "token_or_byte": 111,
+        "token_text": null,
+        "context": " @,@ 018 vehicles east of Newayg⟦o⟧ . In addition , MDOT has not ha",
+        "router_probabilities": [
+          0.32581591606140137,
+          0.10588029026985168,
+          0.1454295814037323,
+          0.42287421226501465
+        ],
+        "predicted_delta": 0.03055630438029766,
+        "actual_delta": 1.138671875,
+        "decision": "K=1"
+      }
+    ]
+  },
+  {
+    "seed": 33,
+    "conditional": {
+      "expensive_mistake_definition": "K=1 with actual delta above the gate-train positive-delta P90; the cutoff is training-derived and is not used for model selection",
+      "large_delta_threshold": 0.322265625,
+      "expensive_false_k1_fraction_all": 0.0284375,
+      "expensive_false_k1_fraction_among_k1": 0.03527388133827555,
+      "k1": {
+        "fraction": 0.80619140625,
+        "count": 41277,
+        "mean_true_delta": 0.01199335791170597,
+        "median_true_delta": 0.0008087158203125,
+        "p90_true_delta": 0.169921875,
+        "fraction_where_k2_helped": 0.5120527170094726
+      },
+      "k2": {
+        "fraction": 0.19380859375,
+        "count": 9923,
+        "mean_true_delta": 0.05147142335772514,
+        "median_true_delta": 0.0296630859375,
+        "p90_true_delta": 0.3953123092651367,
+        "fraction_where_k2_helped": 0.5854076388189056
+      }
+    },
+    "worst_false_k1": [
+      {
+        "layer": 1,
+        "sequence_id": 63,
+        "position": 108,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": "thbun , rendering any prior assi⟦g⟧nments of type spec",
+        "router_probabilities": [
+          0.22734713554382324,
+          0.09883683174848557,
+          0.4399382472038269,
+          0.2338777631521225
+        ],
+        "predicted_delta": 0.022247925400733948,
+        "actual_delta": 2.37890625,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 110,
+        "position": 6,
+        "token_or_byte": 100,
+        "token_text": null,
+        "context": "g a ra⟦d⟧io ship , and forced it aground ",
+        "router_probabilities": [
+          0.2590295076370239,
+          0.3264860510826111,
+          0.3451749086380005,
+          0.0693095400929451
+        ],
+        "predicted_delta": 0.03042476251721382,
+        "actual_delta": 2.083984375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 34,
+        "position": 100,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": "ion , and three which have diver⟦g⟧ed due to small effective p",
+        "router_probabilities": [
+          0.322571337223053,
+          0.0682448297739029,
+          0.4913824498653412,
+          0.11780139058828354
+        ],
+        "predicted_delta": 0.028577590361237526,
+        "actual_delta": 1.9013671875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 3,
+        "sequence_id": 42,
+        "position": 127,
+        "token_or_byte": 116,
+        "token_text": null,
+        "context": "n holes or crevices , emerging a⟦t⟧",
+        "router_probabilities": [
+          0.19806677103042603,
+          0.3700374364852905,
+          0.31374016404151917,
+          0.11815562844276428
+        ],
+        "predicted_delta": 0.018966801464557648,
+        "actual_delta": 1.70654296875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 103,
+        "position": 75,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": " later he married Katherine Brid⟦g⟧e at St Paul 's Anglican Church ",
+        "router_probabilities": [
+          0.30418509244918823,
+          0.055640194565057755,
+          0.4954316020011902,
+          0.14474311470985413
+        ],
+        "predicted_delta": 0.03613010793924332,
+        "actual_delta": 1.66015625,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 74,
+        "position": 126,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": "– 51 , during the Malayan Emer⟦g⟧e",
+        "router_probabilities": [
+          0.32583436369895935,
+          0.08033798635005951,
+          0.4115414023399353,
+          0.1822863072156906
+        ],
+        "predicted_delta": 0.025647345930337906,
+        "actual_delta": 1.6513671875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 25,
+        "position": 36,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": "e year . \n\n The eggs hatch at ni⟦g⟧ht , and the larvae swim to the ",
+        "router_probabilities": [
+          0.24640075862407684,
+          0.14121994376182556,
+          0.4786749482154846,
+          0.13370434939861298
+        ],
+        "predicted_delta": 0.0251565333455801,
+        "actual_delta": 1.4921875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 161,
+        "position": 90,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": " of AOC No. 224 Group RAF in Sin⟦g⟧apore one week later . He was su",
+        "router_probabilities": [
+          0.2880004048347473,
+          0.08974266052246094,
+          0.41093316674232483,
+          0.2113237977027893
+        ],
+        "predicted_delta": 0.03196439892053604,
+        "actual_delta": 1.46484375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 156,
+        "position": 58,
+        "token_or_byte": 103,
+        "token_text": null,
+        "context": "e RAAF 's Directorate of Intelli⟦g⟧ence . Headlam was appointed a C",
+        "router_probabilities": [
+          0.1852944791316986,
+          0.0602739192545414,
+          0.6388164758682251,
+          0.11561509966850281
+        ],
+        "predicted_delta": 0.018903400748968124,
+        "actual_delta": 1.46484375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 115,
+        "position": 126,
+        "token_or_byte": 114,
+        "token_text": null,
+        "context": "arwin but Headlam and his staff ⟦r⟧e",
+        "router_probabilities": [
+          0.5449074506759644,
+          0.24709007143974304,
+          0.12479189783334732,
+          0.0832105502486229
+        ],
+        "predicted_delta": 0.019267864525318146,
+        "actual_delta": 1.3857421875,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 117,
+        "position": 53,
+        "token_or_byte": 97,
+        "token_text": null,
+        "context": "acuate all his personnel except ⟦a⟧ small party to demolish the air",
+        "router_probabilities": [
+          0.1015230193734169,
+          0.3216956555843353,
+          0.07413089275360107,
+          0.5026503801345825
+        ],
+        "predicted_delta": 0.03267408907413483,
+        "actual_delta": 1.3037109375,
+        "decision": "K=1"
+      },
+      {
+        "layer": 1,
+        "sequence_id": 50,
+        "position": 108,
+        "token_or_byte": 110,
+        "token_text": null,
+        "context": "he abdomen of H. gammarus contai⟦n⟧ \" excellent \" whit",
+        "router_probabilities": [
+          0.07141295075416565,
+          0.10130022466182709,
+          0.6625389456748962,
+          0.1647479385137558
+        ],
+        "predicted_delta": 0.032794270664453506,
+        "actual_delta": 1.2880859375,
+        "decision": "K=1"
+      }
+    ]
+  }
+]

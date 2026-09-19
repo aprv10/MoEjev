@@ -1,0 +1,181 @@
+split,calibration_method,uncertainty_metric,threshold,loss,experts_per_token,method,fraction_k2,execution,seed
+validation_predeclared_comparison,uncalibrated,max_probability,0.25497239078524897,2.0681674003601076,1.0,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.2549730913333026,2.0681674003601076,1.0,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.41114101635501676,2.0616117787361143,1.05228515625,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.44174649653216463,2.0576464128494263,1.09951171875,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.4911232366409657,2.049811985492706,1.19740234375,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.5383674602088875,2.0420267820358275,1.295703125,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.5834449178207443,2.0359784603118896,1.3965234375,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.625441097183655,2.0316827297210693,1.4950390625,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.6695272836691221,2.0289006662368774,1.5953515625,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.7158015322132638,2.0265812993049623,1.69796875,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.7658930072431869,2.025751914978027,1.804296875,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.8198048320659902,2.0254781293869017,1.9071484375,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.8509782341261759,2.025475480556488,1.95330078125,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.9555211449670536,2.0254147696495055,2.0,max_probability,,,
+validation_predeclared_comparison,uncalibrated,max_probability,0.9555218455151073,2.0254147696495055,2.0,max_probability,,,
+validation_predeclared_comparison,uncalibrated,entropy,0.22809735243670168,2.0254147696495055,2.0,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,0.22809851031305683,2.0254147696495055,2.0,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,0.5752526237236247,2.0254589414596555,1.953515625,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,0.658426091333497,2.0255235910415648,1.906796875,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,0.7832985034275443,2.0260049414634707,1.803359375,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,0.8799980247465502,2.027080411911011,1.69876953125,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,0.9537949469939065,2.0300827407836914,1.5948828125,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,1.0155043690084198,2.0337620973587036,1.49380859375,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,1.0675874470815285,2.0386030578613283,1.397421875,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,1.1147927895650427,2.0440046691894533,1.29888671875,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,1.1622772491557969,2.0527161622047423,1.19890625,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,1.2189764046348386,2.0590873432159422,1.100234375,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,1.2587263539389333,2.063070819377899,1.05162109375,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,1.3859748654745967,2.0681674003601076,1.0,entropy,,,
+validation_predeclared_comparison,uncalibrated,entropy,1.385976023350952,2.0681674003601076,1.0,entropy,,,
+validation_predeclared_comparison,uncalibrated,margin,-9.354953240119966e-07,2.0681674003601076,1.0,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.0,2.0681674003601076,1.0,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.052180567357657436,2.061730341911316,1.05142578125,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.10210788252618562,2.0574145841598512,1.10072265625,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.19403814471023062,2.0479345989227293,1.1965234375,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.28107346151297774,2.0407135343551634,1.29859375,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.3591697256174281,2.035374743938446,1.3961328125,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.43150080477629066,2.031418116092682,1.494453125,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.5061364425197188,2.028456473350525,1.59533203125,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.5801139074424247,2.026489584445953,1.69708984375,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.6575286501686243,2.025466814041138,1.80568359375,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.7375942924183964,2.0253384351730346,1.9060546875,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.7837140326254087,2.0254042506217957,1.95341796875,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.9354953240119966,2.0254147696495055,2.0,margin,,,
+validation_predeclared_comparison,uncalibrated,margin,0.9354962595073206,2.0254147696495055,2.0,margin,,,
+validation_exploratory_linear_router_only_seed_11,,,-0.023182814940810204,2.0254147696495055,2.0,linear_router_only,1.0,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,-0.023182569071650505,2.0254147696495055,2.0,linear_router_only,1.0,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,-0.01670205406844616,2.0268011546134947,1.94818359375,linear_router_only,0.94818359375,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,-0.013863482698798179,2.0278755593299866,1.89798828125,linear_router_only,0.89798828125,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,-0.009347135946154595,2.0305979824066163,1.7948828125,linear_router_only,0.7948828125,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,-0.005308393761515618,2.0327887773513793,1.69181640625,linear_router_only,0.6918164062500001,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,-0.001018641516566276,2.0353171491622923,1.58916015625,linear_router_only,0.58916015625,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,0.004689430817961693,2.0381243681907653,1.48873046875,linear_router_only,0.48873046875000004,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,0.012442897632718084,2.041164638996124,1.39375,linear_router_only,0.39375000000000004,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,0.023202008381485898,2.045599980354309,1.2938671875,linear_router_only,0.29386718750000007,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,0.03875984400510794,2.052040994167328,1.19513671875,linear_router_only,0.19513671874999994,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,0.06186369657516481,2.0586110401153563,1.09701171875,linear_router_only,0.09701171874999992,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,0.07738237977027888,2.0629091167449953,1.04921875,linear_router_only,0.04921875000000009,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,0.22282421588897705,2.0681674003601076,1.0,linear_router_only,0.0,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_11,,,0.22282446920871735,2.0681674003601076,1.0,linear_router_only,0.0,online learned gate inside frozen model,11.0
+validation_exploratory_linear_router_only_seed_22,,,-0.00359927024692297,2.0254147696495055,2.0,linear_router_only,1.0,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,-0.0035991910845041275,2.0254147696495055,2.0,linear_router_only,1.0,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,-0.0022885079495608804,2.025389587879181,1.94810546875,linear_router_only,0.9481054687499999,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,-0.0015963457524776456,2.025506556034088,1.89568359375,linear_router_only,0.8956835937500001,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,-0.00020263753831386533,2.025717353820801,1.7955859375,linear_router_only,0.7955859375000001,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,0.0016624276526272296,2.026653318405151,1.69431640625,linear_router_only,0.69431640625,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,0.004625677689909936,2.0288901352882385,1.593671875,linear_router_only,0.5936718750000001,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,0.008953253272920847,2.032235331535339,1.496328125,linear_router_only,0.496328125,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,0.015025487542152393,2.0360412859916686,1.39455078125,linear_router_only,0.39455078125,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,0.022697420977056022,2.0412292003631594,1.296953125,linear_router_only,0.29695312499999993,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,0.03231110423803331,2.047845251560211,1.19896484375,linear_router_only,0.19896484375,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,0.044598887860775004,2.0572633934020996,1.098828125,linear_router_only,0.09882812500000004,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,0.0516816899180412,2.0621454524993896,1.0510546875,linear_router_only,0.05105468749999997,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,0.07555242627859116,2.0681674003601076,1.0,linear_router_only,0.0,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_22,,,0.07555250823497772,2.0681674003601076,1.0,linear_router_only,0.0,online learned gate inside frozen model,22.0
+validation_exploratory_linear_router_only_seed_33,,,-0.003672943217679858,2.0254147696495055,2.0,linear_router_only,1.0,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,-0.003672868013381958,2.0254147696495055,2.0,linear_router_only,1.0,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,-0.0011800919659435748,2.0253473472595216,1.9479296875,linear_router_only,0.9479296875000001,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,-0.0003195453435182567,2.0253858542442322,1.89583984375,linear_router_only,0.8958398437499999,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,0.0012191142886877064,2.0257581067085266,1.79421875,linear_router_only,0.79421875,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,0.0032539801672101,2.0264565420150755,1.6943359375,linear_router_only,0.6943359375,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,0.006245231069624425,2.0285819292068483,1.5960546875,linear_router_only,0.5960546874999999,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,0.010629843454807997,2.031931176185608,1.4971875,linear_router_only,0.4971874999999999,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,0.01627351492643356,2.0358324003219606,1.395859375,linear_router_only,0.3958593749999999,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,0.02305193655192852,2.041229076385498,1.2975390625,linear_router_only,0.29753906250000006,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,0.031383652985095975,2.0471160674095152,1.1983203125,linear_router_only,0.19832031249999993,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,0.04173977784812451,2.0570793175697326,1.10037109375,linear_router_only,0.10037109374999997,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,0.047713733091950414,2.0626286339759825,1.05068359375,linear_router_only,0.05068359375000009,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,0.07147372514009476,2.0681674003601076,1.0,linear_router_only,0.0,online learned gate inside frozen model,33.0
+validation_exploratory_linear_router_only_seed_33,,,0.07147379964590073,2.0681674003601076,1.0,linear_router_only,0.0,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_11,,,-0.07826083153486252,2.0254147696495055,2.0,linear_hidden_router,1.0,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,-0.07826060056686401,2.0254147696495055,2.0,linear_hidden_router,1.0,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,-0.02552922163158655,2.0255196475982666,1.94984375,linear_hidden_router,0.9498437500000001,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,-0.017514121904969215,2.0260382080078125,1.903203125,linear_hidden_router,0.9032031250000001,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,-0.007251879945397376,2.02694091796875,1.80740234375,linear_hidden_router,0.80740234375,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,0.00022460799664258895,2.028897066116333,1.71072265625,linear_hidden_router,0.71072265625,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,0.006739042326807981,2.0312992548942566,1.6153515625,linear_hidden_router,0.6153515624999999,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,0.013157039880752563,2.034075844287872,1.51595703125,linear_hidden_router,0.5159570312499999,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,0.020084641501307485,2.0388349676132203,1.4135546875,linear_hidden_router,0.4135546875,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,0.027943120710551717,2.042583327293396,1.311484375,linear_hidden_router,0.31148437500000004,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,0.03767696768045426,2.0486040019989016,1.20634765625,linear_hidden_router,0.20634765624999996,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,0.051631648093462004,2.0567234539985657,1.10384765625,linear_hidden_router,0.10384765624999992,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,0.06336771100759506,2.061371269226074,1.0534375,linear_hidden_router,0.05343750000000003,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,0.15114016830921173,2.0681674003601076,1.0,linear_hidden_router,0.0,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_11,,,0.15114039182662964,2.0681674003601076,1.0,linear_hidden_router,0.0,online learned gate inside frozen model,11.0
+validation_exploratory_linear_hidden_router_seed_22,,,-0.07826271653175354,2.0254147696495055,2.0,linear_hidden_router,1.0,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,-0.07826249301433563,2.0254147696495055,2.0,linear_hidden_router,1.0,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,-0.01857932340353727,2.0254575037956237,1.94982421875,linear_hidden_router,0.9498242187499999,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,-0.011350621469318865,2.0259065318107603,1.896015625,linear_hidden_router,0.896015625,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,-0.0024574499577283836,2.0269221329689024,1.79236328125,linear_hidden_router,0.7923632812500001,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,0.004106391593813895,2.0288560652732848,1.6966015625,linear_hidden_router,0.6966015624999999,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,0.009995007142424584,2.0307084560394286,1.59814453125,linear_hidden_router,0.59814453125,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,0.01579402294009924,2.032775936126709,1.49869140625,linear_hidden_router,0.4986914062500001,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,0.02198249548673629,2.035701322555542,1.40173828125,linear_hidden_router,0.4017382812500001,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,0.02930608112365006,2.0402398777008055,1.29931640625,linear_hidden_router,0.29931640625,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,0.03872155249118806,2.046719579696655,1.197734375,linear_hidden_router,0.19773437500000002,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,0.05240298211574555,2.0564597916603087,1.09939453125,linear_hidden_router,0.09939453124999997,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,0.06317582726478575,2.0615363097190857,1.0522265625,linear_hidden_router,0.05222656250000002,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,0.14419503509998322,2.0681674003601076,1.0,linear_hidden_router,0.0,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_22,,,0.14419525861740112,2.0681674003601076,1.0,linear_hidden_router,0.0,online learned gate inside frozen model,22.0
+validation_exploratory_linear_hidden_router_seed_33,,,-0.07227179408073425,2.0254147696495055,2.0,linear_hidden_router,1.0,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,-0.07227157056331635,2.0254147696495055,2.0,linear_hidden_router,1.0,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,-0.023013697564601896,2.0255178689956663,1.94935546875,linear_hidden_router,0.9493554687500001,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,-0.015499982610344881,2.0257921051979064,1.898125,linear_hidden_router,0.8981250000000001,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,-0.006493007391691203,2.0269974279403686,1.7987890625,linear_hidden_router,0.7987890625,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,0.0003584232181310642,2.028565068244934,1.69677734375,linear_hidden_router,0.69677734375,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,0.006990594416856778,2.030192110538483,1.59599609375,linear_hidden_router,0.59599609375,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,0.013729162514209747,2.033398404121399,1.493359375,linear_hidden_router,0.49335937500000004,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,0.021077554300427435,2.037325372695923,1.3923046875,linear_hidden_router,0.3923046875,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,0.029231134429574007,2.041831488609314,1.2943359375,linear_hidden_router,0.2943359375000001,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,0.039176735281944305,2.0479321217536928,1.19462890625,linear_hidden_router,0.19462890624999996,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,0.05347489342093468,2.0570240688323973,1.0975390625,linear_hidden_router,0.0975390625000001,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,0.0654943499714136,2.0614099168777464,1.050625,linear_hidden_router,0.05062499999999992,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,0.15257132053375244,2.0681674003601076,1.0,linear_hidden_router,0.0,online learned gate inside frozen model,33.0
+validation_exploratory_linear_hidden_router_seed_33,,,0.15257154405117035,2.0681674003601076,1.0,linear_hidden_router,0.0,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_11,,,-0.17645376920700073,2.0254147696495055,2.0,mlp_hidden_router,1.0,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,-0.17645317316055298,2.0254147696495055,2.0,mlp_hidden_router,1.0,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,-0.04120351504534482,2.026125330924988,1.95052734375,mlp_hidden_router,0.9505273437499999,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,-0.029265022277832026,2.027137451171875,1.90640625,mlp_hidden_router,0.9064062500000001,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,-0.015352392755448818,2.027919800281525,1.81365234375,mlp_hidden_router,0.8136523437500001,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,-0.005229707434773456,2.028898777961731,1.718359375,mlp_hidden_router,0.7183593749999999,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,0.003540463186800483,2.030358591079712,1.6233203125,mlp_hidden_router,0.6233203125,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,0.012345443479716778,2.0329009556770323,1.5216015625,mlp_hidden_router,0.5216015624999999,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,0.021609480679035165,2.0360303854942323,1.4169921875,mlp_hidden_router,0.4169921875,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,0.03249705396592616,2.03951550245285,1.31734375,mlp_hidden_router,0.31734375000000004,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,0.04658943712711336,2.0442589926719665,1.21568359375,mlp_hidden_router,0.2156835937499999,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,0.07018314152956011,2.0521408534049987,1.10984375,mlp_hidden_router,0.10984375000000002,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,0.09486457407474516,2.0572940063476564,1.0548828125,mlp_hidden_router,0.054882812500000044,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,0.42348191142082214,2.0681674003601076,1.0,mlp_hidden_router,0.0,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_11,,,0.4234825074672699,2.0681674003601076,1.0,mlp_hidden_router,0.0,online learned gate inside frozen model,11.0
+validation_exploratory_mlp_hidden_router_seed_22,,,-0.1576085090637207,2.0254147696495055,2.0,mlp_hidden_router,1.0,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,-0.15760795772075653,2.0254147696495055,2.0,mlp_hidden_router,1.0,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,-0.038589492440223694,2.02607946395874,1.9484375,mlp_hidden_router,0.9484375,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,-0.02627953216433525,2.0260701608657836,1.89828125,mlp_hidden_router,0.8982812499999999,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,-0.012650060281157493,2.0268817830085752,1.79845703125,mlp_hidden_router,0.7984570312499999,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,-0.003271505236625673,2.028125104904175,1.7044140625,mlp_hidden_router,0.7044140624999999,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,0.005164219811558727,2.0301068520545957,1.60548828125,mlp_hidden_router,0.60548828125,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,0.013726925477385521,2.032428822517395,1.5037890625,mlp_hidden_router,0.5037890625000001,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,0.022935492172837253,2.03536363363266,1.4015625,mlp_hidden_router,0.40156250000000004,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,0.033842800557613364,2.0387888169288635,1.3016796875,mlp_hidden_router,0.30167968750000007,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,0.04837117344141007,2.0439948534965513,1.20009765625,mlp_hidden_router,0.2000976562500001,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,0.07172396704554562,2.051920392513275,1.0997265625,mlp_hidden_router,0.0997265624999999,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,0.09476089179515826,2.057149224281311,1.0505078125,mlp_hidden_router,0.05050781250000003,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,0.3871821463108063,2.0681674003601076,1.0,mlp_hidden_router,0.0,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_22,,,0.38718268275260925,2.0681674003601076,1.0,mlp_hidden_router,0.0,online learned gate inside frozen model,22.0
+validation_exploratory_mlp_hidden_router_seed_33,,,-0.16521383821964264,2.0254235434532166,1.999921875,mlp_hidden_router,0.9999218750000001,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,-0.16521328687667847,2.0254235434532166,1.999921875,mlp_hidden_router,0.9999218750000001,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,-0.042400528118014334,2.0259093976020814,1.9496484375,mlp_hidden_router,0.9496484375,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,-0.029313297569751734,2.026115407943726,1.89798828125,mlp_hidden_router,0.89798828125,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,-0.014960519224405283,2.0265865755081176,1.7948046875,mlp_hidden_router,0.7948046875000001,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,-0.0049988370388746265,2.0275089263916017,1.693984375,mlp_hidden_router,0.6939843750000001,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,0.003554484248161318,2.028571932315826,1.59693359375,mlp_hidden_router,0.59693359375,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,0.011866096407175064,2.030703277587891,1.4991015625,mlp_hidden_router,0.49910156249999993,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,0.020957057178020478,2.033629503250122,1.39908203125,mlp_hidden_router,0.3990820312500001,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,0.03190251886844634,2.038264310359955,1.29927734375,mlp_hidden_router,0.29927734375000004,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,0.04630442112684253,2.045158848762512,1.20078125,mlp_hidden_router,0.2007812499999999,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,0.07026150077581406,2.0518701028823854,1.09822265625,mlp_hidden_router,0.09822265624999993,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,0.09470300525426863,2.057446458339691,1.04841796875,mlp_hidden_router,0.04841796874999993,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,0.38593918085098267,2.0681674003601076,1.0,mlp_hidden_router,0.0,online learned gate inside frozen model,33.0
+validation_exploratory_mlp_hidden_router_seed_33,,,0.38593971729278564,2.0681674003601076,1.0,mlp_hidden_router,0.0,online learned gate inside frozen model,33.0

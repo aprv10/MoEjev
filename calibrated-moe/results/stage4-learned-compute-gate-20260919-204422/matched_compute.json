@@ -1,0 +1,542 @@
+[
+  {
+    "target_experts_per_token": 1.1,
+    "method": "entropy",
+    "seed": null,
+    "actual_experts_per_token": 1.100234375,
+    "validation_loss": 2.0590873432159422,
+    "delta_loss_vs_top2": 0.033672573566436714,
+    "threshold": 1.2189764046348386
+  },
+  {
+    "target_experts_per_token": 1.1,
+    "method": "margin",
+    "seed": null,
+    "actual_experts_per_token": 1.10072265625,
+    "validation_loss": 2.0574145841598512,
+    "delta_loss_vs_top2": 0.031999814510345725,
+    "threshold": 0.10210788252618562
+  },
+  {
+    "target_experts_per_token": 1.1,
+    "method": "max_probability",
+    "seed": null,
+    "actual_experts_per_token": 1.09951171875,
+    "validation_loss": 2.0576464128494263,
+    "delta_loss_vs_top2": 0.03223164319992078,
+    "threshold": 0.44174649653216463
+  },
+  {
+    "target_experts_per_token": 1.1,
+    "method": "linear_hidden_router",
+    "seed": 11,
+    "actual_experts_per_token": 1.10384765625,
+    "validation_loss": 2.0567234539985657,
+    "delta_loss_vs_top2": 0.0313086843490602,
+    "threshold": 0.051631648093462004
+  },
+  {
+    "target_experts_per_token": 1.1,
+    "method": "linear_hidden_router",
+    "seed": 22,
+    "actual_experts_per_token": 1.09939453125,
+    "validation_loss": 2.0564597916603087,
+    "delta_loss_vs_top2": 0.03104502201080317,
+    "threshold": 0.05240298211574555
+  },
+  {
+    "target_experts_per_token": 1.1,
+    "method": "linear_hidden_router",
+    "seed": 33,
+    "actual_experts_per_token": 1.0975390625,
+    "validation_loss": 2.0570240688323973,
+    "delta_loss_vs_top2": 0.03160929918289179,
+    "threshold": 0.05347489342093468
+  },
+  {
+    "target_experts_per_token": 1.1,
+    "method": "linear_router_only",
+    "seed": 11,
+    "actual_experts_per_token": 1.09701171875,
+    "validation_loss": 2.0586110401153563,
+    "delta_loss_vs_top2": 0.03319627046585083,
+    "threshold": 0.06186369657516481
+  },
+  {
+    "target_experts_per_token": 1.1,
+    "method": "linear_router_only",
+    "seed": 22,
+    "actual_experts_per_token": 1.098828125,
+    "validation_loss": 2.0572633934020996,
+    "delta_loss_vs_top2": 0.03184862375259412,
+    "threshold": 0.044598887860775004
+  },
+  {
+    "target_experts_per_token": 1.1,
+    "method": "linear_router_only",
+    "seed": 33,
+    "actual_experts_per_token": 1.10037109375,
+    "validation_loss": 2.0570793175697326,
+    "delta_loss_vs_top2": 0.031664547920227104,
+    "threshold": 0.04173977784812451
+  },
+  {
+    "target_experts_per_token": 1.1,
+    "method": "mlp_hidden_router",
+    "seed": 11,
+    "actual_experts_per_token": 1.10984375,
+    "validation_loss": 2.0521408534049987,
+    "delta_loss_vs_top2": 0.026726083755493235,
+    "threshold": 0.07018314152956011
+  },
+  {
+    "target_experts_per_token": 1.1,
+    "method": "mlp_hidden_router",
+    "seed": 22,
+    "actual_experts_per_token": 1.0997265625,
+    "validation_loss": 2.051920392513275,
+    "delta_loss_vs_top2": 0.026505622863769673,
+    "threshold": 0.07172396704554562
+  },
+  {
+    "target_experts_per_token": 1.1,
+    "method": "mlp_hidden_router",
+    "seed": 33,
+    "actual_experts_per_token": 1.09822265625,
+    "validation_loss": 2.0518701028823854,
+    "delta_loss_vs_top2": 0.026455333232879852,
+    "threshold": 0.07026150077581406
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "entropy",
+    "seed": null,
+    "actual_experts_per_token": 1.19890625,
+    "validation_loss": 2.0527161622047423,
+    "delta_loss_vs_top2": 0.02730139255523678,
+    "threshold": 1.1622772491557969
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "margin",
+    "seed": null,
+    "actual_experts_per_token": 1.1965234375,
+    "validation_loss": 2.0479345989227293,
+    "delta_loss_vs_top2": 0.022519829273223824,
+    "threshold": 0.19403814471023062
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "max_probability",
+    "seed": null,
+    "actual_experts_per_token": 1.19740234375,
+    "validation_loss": 2.049811985492706,
+    "delta_loss_vs_top2": 0.024397215843200648,
+    "threshold": 0.4911232366409657
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "linear_hidden_router",
+    "seed": 11,
+    "actual_experts_per_token": 1.20634765625,
+    "validation_loss": 2.0486040019989016,
+    "delta_loss_vs_top2": 0.02318923234939607,
+    "threshold": 0.03767696768045426
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "linear_hidden_router",
+    "seed": 22,
+    "actual_experts_per_token": 1.197734375,
+    "validation_loss": 2.046719579696655,
+    "delta_loss_vs_top2": 0.02130481004714957,
+    "threshold": 0.03872155249118806
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "linear_hidden_router",
+    "seed": 33,
+    "actual_experts_per_token": 1.19462890625,
+    "validation_loss": 2.0479321217536928,
+    "delta_loss_vs_top2": 0.02251735210418726,
+    "threshold": 0.039176735281944305
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "linear_router_only",
+    "seed": 11,
+    "actual_experts_per_token": 1.19513671875,
+    "validation_loss": 2.052040994167328,
+    "delta_loss_vs_top2": 0.026626224517822372,
+    "threshold": 0.03875984400510794
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "linear_router_only",
+    "seed": 22,
+    "actual_experts_per_token": 1.19896484375,
+    "validation_loss": 2.047845251560211,
+    "delta_loss_vs_top2": 0.022430481910705513,
+    "threshold": 0.03231110423803331
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "linear_router_only",
+    "seed": 33,
+    "actual_experts_per_token": 1.1983203125,
+    "validation_loss": 2.0471160674095152,
+    "delta_loss_vs_top2": 0.02170129776000973,
+    "threshold": 0.031383652985095975
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "mlp_hidden_router",
+    "seed": 11,
+    "actual_experts_per_token": 1.21568359375,
+    "validation_loss": 2.0442589926719665,
+    "delta_loss_vs_top2": 0.018844223022461026,
+    "threshold": 0.04658943712711336
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "mlp_hidden_router",
+    "seed": 22,
+    "actual_experts_per_token": 1.20009765625,
+    "validation_loss": 2.0439948534965513,
+    "delta_loss_vs_top2": 0.018580083847045792,
+    "threshold": 0.04837117344141007
+  },
+  {
+    "target_experts_per_token": 1.2,
+    "method": "mlp_hidden_router",
+    "seed": 33,
+    "actual_experts_per_token": 1.20078125,
+    "validation_loss": 2.045158848762512,
+    "delta_loss_vs_top2": 0.019744079113006574,
+    "threshold": 0.04630442112684253
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "entropy",
+    "seed": null,
+    "actual_experts_per_token": 1.29888671875,
+    "validation_loss": 2.0440046691894533,
+    "delta_loss_vs_top2": 0.01858989953994783,
+    "threshold": 1.1147927895650427
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "margin",
+    "seed": null,
+    "actual_experts_per_token": 1.29859375,
+    "validation_loss": 2.0407135343551634,
+    "delta_loss_vs_top2": 0.015298764705657941,
+    "threshold": 0.28107346151297774
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "max_probability",
+    "seed": null,
+    "actual_experts_per_token": 1.295703125,
+    "validation_loss": 2.0420267820358275,
+    "delta_loss_vs_top2": 0.01661201238632204,
+    "threshold": 0.5383674602088875
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "linear_hidden_router",
+    "seed": 11,
+    "actual_experts_per_token": 1.311484375,
+    "validation_loss": 2.042583327293396,
+    "delta_loss_vs_top2": 0.01716855764389047,
+    "threshold": 0.027943120710551717
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "linear_hidden_router",
+    "seed": 22,
+    "actual_experts_per_token": 1.29931640625,
+    "validation_loss": 2.0402398777008055,
+    "delta_loss_vs_top2": 0.014825108051299996,
+    "threshold": 0.02930608112365006
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "linear_hidden_router",
+    "seed": 33,
+    "actual_experts_per_token": 1.2943359375,
+    "validation_loss": 2.041831488609314,
+    "delta_loss_vs_top2": 0.016416718959808563,
+    "threshold": 0.029231134429574007
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "linear_router_only",
+    "seed": 11,
+    "actual_experts_per_token": 1.2938671875,
+    "validation_loss": 2.045599980354309,
+    "delta_loss_vs_top2": 0.020185210704803502,
+    "threshold": 0.023202008381485898
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "linear_router_only",
+    "seed": 22,
+    "actual_experts_per_token": 1.296953125,
+    "validation_loss": 2.0412292003631594,
+    "delta_loss_vs_top2": 0.01581443071365385,
+    "threshold": 0.022697420977056022
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "linear_router_only",
+    "seed": 33,
+    "actual_experts_per_token": 1.2975390625,
+    "validation_loss": 2.041229076385498,
+    "delta_loss_vs_top2": 0.01581430673599238,
+    "threshold": 0.02305193655192852
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "mlp_hidden_router",
+    "seed": 11,
+    "actual_experts_per_token": 1.31734375,
+    "validation_loss": 2.03951550245285,
+    "delta_loss_vs_top2": 0.014100732803344673,
+    "threshold": 0.03249705396592616
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "mlp_hidden_router",
+    "seed": 22,
+    "actual_experts_per_token": 1.3016796875,
+    "validation_loss": 2.0387888169288635,
+    "delta_loss_vs_top2": 0.013374047279357981,
+    "threshold": 0.033842800557613364
+  },
+  {
+    "target_experts_per_token": 1.3,
+    "method": "mlp_hidden_router",
+    "seed": 33,
+    "actual_experts_per_token": 1.29927734375,
+    "validation_loss": 2.038264310359955,
+    "delta_loss_vs_top2": 0.012849540710449414,
+    "threshold": 0.03190251886844634
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "entropy",
+    "seed": null,
+    "actual_experts_per_token": 1.397421875,
+    "validation_loss": 2.0386030578613283,
+    "delta_loss_vs_top2": 0.01318828821182283,
+    "threshold": 1.0675874470815285
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "margin",
+    "seed": null,
+    "actual_experts_per_token": 1.3961328125,
+    "validation_loss": 2.035374743938446,
+    "delta_loss_vs_top2": 0.009959974288940465,
+    "threshold": 0.3591697256174281
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "max_probability",
+    "seed": null,
+    "actual_experts_per_token": 1.3965234375,
+    "validation_loss": 2.0359784603118896,
+    "delta_loss_vs_top2": 0.010563690662384051,
+    "threshold": 0.5834449178207443
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "linear_hidden_router",
+    "seed": 11,
+    "actual_experts_per_token": 1.4135546875,
+    "validation_loss": 2.0388349676132203,
+    "delta_loss_vs_top2": 0.013420197963714742,
+    "threshold": 0.020084641501307485
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "linear_hidden_router",
+    "seed": 22,
+    "actual_experts_per_token": 1.40173828125,
+    "validation_loss": 2.035701322555542,
+    "delta_loss_vs_top2": 0.010286552906036306,
+    "threshold": 0.02198249548673629
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "linear_hidden_router",
+    "seed": 33,
+    "actual_experts_per_token": 1.3923046875,
+    "validation_loss": 2.037325372695923,
+    "delta_loss_vs_top2": 0.011910603046417556,
+    "threshold": 0.021077554300427435
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "linear_router_only",
+    "seed": 11,
+    "actual_experts_per_token": 1.39375,
+    "validation_loss": 2.041164638996124,
+    "delta_loss_vs_top2": 0.015749869346618706,
+    "threshold": 0.012442897632718084
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "linear_router_only",
+    "seed": 22,
+    "actual_experts_per_token": 1.39455078125,
+    "validation_loss": 2.0360412859916686,
+    "delta_loss_vs_top2": 0.01062651634216305,
+    "threshold": 0.015025487542152393
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "linear_router_only",
+    "seed": 33,
+    "actual_experts_per_token": 1.395859375,
+    "validation_loss": 2.0358324003219606,
+    "delta_loss_vs_top2": 0.010417630672455047,
+    "threshold": 0.01627351492643356
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "mlp_hidden_router",
+    "seed": 11,
+    "actual_experts_per_token": 1.4169921875,
+    "validation_loss": 2.0360303854942323,
+    "delta_loss_vs_top2": 0.010615615844726811,
+    "threshold": 0.021609480679035165
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "mlp_hidden_router",
+    "seed": 22,
+    "actual_experts_per_token": 1.4015625,
+    "validation_loss": 2.03536363363266,
+    "delta_loss_vs_top2": 0.009948863983154421,
+    "threshold": 0.022935492172837253
+  },
+  {
+    "target_experts_per_token": 1.4,
+    "method": "mlp_hidden_router",
+    "seed": 33,
+    "actual_experts_per_token": 1.39908203125,
+    "validation_loss": 2.033629503250122,
+    "delta_loss_vs_top2": 0.00821473360061642,
+    "threshold": 0.020957057178020478
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "entropy",
+    "seed": null,
+    "actual_experts_per_token": 1.49380859375,
+    "validation_loss": 2.0337620973587036,
+    "delta_loss_vs_top2": 0.008347327709198105,
+    "threshold": 1.0155043690084198
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "margin",
+    "seed": null,
+    "actual_experts_per_token": 1.494453125,
+    "validation_loss": 2.031418116092682,
+    "delta_loss_vs_top2": 0.0060033464431765715,
+    "threshold": 0.43150080477629066
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "max_probability",
+    "seed": null,
+    "actual_experts_per_token": 1.4950390625,
+    "validation_loss": 2.0316827297210693,
+    "delta_loss_vs_top2": 0.006267960071563827,
+    "threshold": 0.625441097183655
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "linear_hidden_router",
+    "seed": 11,
+    "actual_experts_per_token": 1.51595703125,
+    "validation_loss": 2.034075844287872,
+    "delta_loss_vs_top2": 0.008661074638366628,
+    "threshold": 0.013157039880752563
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "linear_hidden_router",
+    "seed": 22,
+    "actual_experts_per_token": 1.49869140625,
+    "validation_loss": 2.032775936126709,
+    "delta_loss_vs_top2": 0.007361166477203529,
+    "threshold": 0.01579402294009924
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "linear_hidden_router",
+    "seed": 33,
+    "actual_experts_per_token": 1.493359375,
+    "validation_loss": 2.033398404121399,
+    "delta_loss_vs_top2": 0.007983634471893541,
+    "threshold": 0.013729162514209747
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "linear_router_only",
+    "seed": 11,
+    "actual_experts_per_token": 1.48873046875,
+    "validation_loss": 2.0381243681907653,
+    "delta_loss_vs_top2": 0.012709598541259748,
+    "threshold": 0.004689430817961693
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "linear_router_only",
+    "seed": 22,
+    "actual_experts_per_token": 1.496328125,
+    "validation_loss": 2.032235331535339,
+    "delta_loss_vs_top2": 0.006820561885833687,
+    "threshold": 0.008953253272920847
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "linear_router_only",
+    "seed": 33,
+    "actual_experts_per_token": 1.4971875,
+    "validation_loss": 2.031931176185608,
+    "delta_loss_vs_top2": 0.006516406536102526,
+    "threshold": 0.010629843454807997
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "mlp_hidden_router",
+    "seed": 11,
+    "actual_experts_per_token": 1.5216015625,
+    "validation_loss": 2.0329009556770323,
+    "delta_loss_vs_top2": 0.00748618602752682,
+    "threshold": 0.012345443479716778
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "mlp_hidden_router",
+    "seed": 22,
+    "actual_experts_per_token": 1.5037890625,
+    "validation_loss": 2.032428822517395,
+    "delta_loss_vs_top2": 0.007014052867889475,
+    "threshold": 0.013726925477385521
+  },
+  {
+    "target_experts_per_token": 1.5,
+    "method": "mlp_hidden_router",
+    "seed": 33,
+    "actual_experts_per_token": 1.4991015625,
+    "validation_loss": 2.030703277587891,
+    "delta_loss_vs_top2": 0.005288507938385312,
+    "threshold": 0.011866096407175064
+  }
+]

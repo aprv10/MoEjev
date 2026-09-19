@@ -1,0 +1,808 @@
+{
+  "layers": {
+    "1": {
+      "overall": {
+        "input_category": {
+          "alphabetic": 0.74234375,
+          "whitespace": 0.190546875,
+          "punctuation": 0.034453125,
+          "digit": 0.02515625,
+          "newline": 0.004296875,
+          "non_ascii_utf8": 0.003203125
+        },
+        "target_category": {
+          "alphabetic": 0.74234375,
+          "whitespace": 0.190546875,
+          "punctuation": 0.034453125,
+          "digit": 0.02515625,
+          "newline": 0.004296875,
+          "non_ascii_utf8": 0.003203125
+        },
+        "preceding_category": {
+          "alphabetic": 0.7366015625,
+          "whitespace": 0.1891015625,
+          "punctuation": 0.033984375,
+          "digit": 0.0250390625,
+          "sequence_boundary": 0.0078125,
+          "newline": 0.004296875,
+          "non_ascii_utf8": 0.0031640625
+        },
+        "following_category": {
+          "alphabetic": 0.74234375,
+          "whitespace": 0.190546875,
+          "punctuation": 0.034453125,
+          "digit": 0.02515625,
+          "newline": 0.004296875,
+          "non_ascii_utf8": 0.003203125
+        },
+        "position_bucket": {
+          "first_quarter": 0.25,
+          "second_quarter": 0.25,
+          "third_quarter": 0.25,
+          "fourth_quarter": 0.25
+        }
+      },
+      "experts": {
+        "0": {
+          "count": 6741,
+          "features": {
+            "input_category": {
+              "distribution": {
+                "alphabetic": 0.7703604806408545,
+                "whitespace": 0.14063195371606588,
+                "punctuation": 0.05755822578252485,
+                "digit": 0.011867675419077288,
+                "newline": 0.010087524106215695,
+                "non_ascii_utf8": 0.00949414033526183
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.0377409126713257,
+                "whitespace": 0.7380438735406492,
+                "punctuation": 1.6706242403998142,
+                "digit": 0.4717585259757431,
+                "newline": 2.3476419738101977,
+                "non_ascii_utf8": 2.9640242997890596
+              }
+            },
+            "target_category": {
+              "distribution": {
+                "alphabetic": 0.7774810858923008,
+                "whitespace": 0.16214211541314344,
+                "punctuation": 0.031746031746031744,
+                "digit": 0.020026702269692925,
+                "non_ascii_utf8": 0.006675567423230975,
+                "newline": 0.0019284972556000593
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.0473329719450064,
+                "whitespace": 0.8509303309914866,
+                "punctuation": 0.9214267717669078,
+                "digit": 0.7960925125840665,
+                "non_ascii_utf8": 2.0840795857891825,
+                "newline": 0.44881390675783195
+              }
+            },
+            "preceding_category": {
+              "distribution": {
+                "alphabetic": 0.7028630766948524,
+                "whitespace": 0.23275478415665332,
+                "punctuation": 0.032487761459724075,
+                "digit": 0.009790832220738763,
+                "newline": 0.008159026850615635,
+                "sequence_boundary": 0.006972259308707907,
+                "non_ascii_utf8": 0.006972259308707907
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9541971025819707,
+                "whitespace": 1.2308453778992616,
+                "punctuation": 0.9559617165160188,
+                "digit": 0.3910223164600817,
+                "newline": 1.8988280670523658,
+                "sequence_boundary": 0.8924491915146121,
+                "non_ascii_utf8": 2.203578250653363
+              }
+            },
+            "following_category": {
+              "distribution": {
+                "alphabetic": 0.7774810858923008,
+                "whitespace": 0.16214211541314344,
+                "punctuation": 0.031746031746031744,
+                "digit": 0.020026702269692925,
+                "non_ascii_utf8": 0.006675567423230975,
+                "newline": 0.0019284972556000593
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.0473329719450064,
+                "whitespace": 0.8509303309914866,
+                "punctuation": 0.9214267717669078,
+                "digit": 0.7960925125840665,
+                "non_ascii_utf8": 2.0840795857891825,
+                "newline": 0.44881390675783195
+              }
+            },
+            "position_bucket": {
+              "distribution": {
+                "first_quarter": 0.2621272808188696,
+                "third_quarter": 0.2523364485981308,
+                "second_quarter": 0.24714434060228452,
+                "fourth_quarter": 0.23839192998071504
+              },
+              "enrichment_vs_layer": {
+                "first_quarter": 1.0485091232754784,
+                "third_quarter": 1.0093457943925233,
+                "second_quarter": 0.9885773624091381,
+                "fourth_quarter": 0.9535677199228602
+              }
+            }
+          }
+        },
+        "1": {
+          "count": 6039,
+          "features": {
+            "input_category": {
+              "distribution": {
+                "alphabetic": 0.6729590991886074,
+                "whitespace": 0.18910415631727107,
+                "punctuation": 0.08180162278522934,
+                "digit": 0.046862063255505876,
+                "newline": 0.006954793840039742,
+                "non_ascii_utf8": 0.0023182646133465806
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9065329898562592,
+                "whitespace": 0.9924285366384049,
+                "punctuation": 2.3742874640610783,
+                "digit": 1.8628397815853266,
+                "newline": 1.6185702027728852,
+                "non_ascii_utf8": 0.7237509036789325
+              }
+            },
+            "target_category": {
+              "distribution": {
+                "alphabetic": 0.7014406358668653,
+                "whitespace": 0.19903957608875641,
+                "digit": 0.058618976651763535,
+                "punctuation": 0.023679417122040074,
+                "newline": 0.014903129657228018,
+                "non_ascii_utf8": 0.0023182646133465806
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9449000356867898,
+                "whitespace": 1.0445701410152037,
+                "digit": 2.3301953451632706,
+                "punctuation": 0.687293739596628,
+                "newline": 3.468364720227611,
+                "non_ascii_utf8": 0.7237509036789325
+              }
+            },
+            "preceding_category": {
+              "distribution": {
+                "alphabetic": 0.5903295247557543,
+                "whitespace": 0.330187117072363,
+                "punctuation": 0.03543633051829773,
+                "digit": 0.03311806590495115,
+                "sequence_boundary": 0.007451564828614009,
+                "non_ascii_utf8": 0.002649445272396092,
+                "newline": 0.0008279516476237788
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.8014231231769269,
+                "whitespace": 1.7460834945367678,
+                "punctuation": 1.042724208354508,
+                "digit": 1.322655986219578,
+                "sequence_boundary": 0.9538002980625931,
+                "non_ascii_utf8": 0.8373555428807401,
+                "newline": 0.19268692890153397
+              }
+            },
+            "following_category": {
+              "distribution": {
+                "alphabetic": 0.7014406358668653,
+                "whitespace": 0.19903957608875641,
+                "digit": 0.058618976651763535,
+                "punctuation": 0.023679417122040074,
+                "newline": 0.014903129657228018,
+                "non_ascii_utf8": 0.0023182646133465806
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9449000356867898,
+                "whitespace": 1.0445701410152037,
+                "digit": 2.3301953451632706,
+                "punctuation": 0.687293739596628,
+                "newline": 3.468364720227611,
+                "non_ascii_utf8": 0.7237509036789325
+              }
+            },
+            "position_bucket": {
+              "distribution": {
+                "fourth_quarter": 0.2604735883424408,
+                "third_quarter": 0.2560026494452724,
+                "second_quarter": 0.2488822652757079,
+                "first_quarter": 0.2346414969365789
+              },
+              "enrichment_vs_layer": {
+                "fourth_quarter": 1.041894353369763,
+                "third_quarter": 1.0240105977810896,
+                "second_quarter": 0.9955290611028316,
+                "first_quarter": 0.9385659877463156
+              }
+            }
+          }
+        },
+        "2": {
+          "count": 6306,
+          "features": {
+            "input_category": {
+              "distribution": {
+                "alphabetic": 0.6601649222962258,
+                "whitespace": 0.3298445924516334,
+                "digit": 0.009673326990168095,
+                "non_ascii_utf8": 0.0003171582619727244
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.8892981483257936,
+                "whitespace": 1.731041731603488,
+                "digit": 0.38452976855326587,
+                "non_ascii_utf8": 0.09901526227441153
+              }
+            },
+            "target_category": {
+              "distribution": {
+                "alphabetic": 0.6807802093244529,
+                "whitespace": 0.2231208372978116,
+                "punctuation": 0.07865524896923565,
+                "digit": 0.0130034887408817,
+                "non_ascii_utf8": 0.003330161750713606,
+                "newline": 0.0011100539169045353
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9170686886290252,
+                "whitespace": 1.1709498636375517,
+                "punctuation": 2.282964142417724,
+                "digit": 0.5169088692027508,
+                "non_ascii_utf8": 1.039660253881321,
+                "newline": 0.2583398206614191
+              }
+            },
+            "preceding_category": {
+              "distribution": {
+                "alphabetic": 0.7833809070726292,
+                "whitespace": 0.10973675864256265,
+                "punctuation": 0.054709800190294956,
+                "digit": 0.029812876625436094,
+                "sequence_boundary": 0.012052013954963527,
+                "newline": 0.00792895654931811,
+                "non_ascii_utf8": 0.002378686964795433
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.0635069852606092,
+                "whitespace": 0.5803059329166709,
+                "punctuation": 1.6098515918063805,
+                "digit": 1.1906546671001,
+                "sequence_boundary": 1.5426577862353315,
+                "newline": 1.8452844332958507,
+                "non_ascii_utf8": 0.7517825468983096
+              }
+            },
+            "following_category": {
+              "distribution": {
+                "alphabetic": 0.6807802093244529,
+                "whitespace": 0.2231208372978116,
+                "punctuation": 0.07865524896923565,
+                "digit": 0.0130034887408817,
+                "non_ascii_utf8": 0.003330161750713606,
+                "newline": 0.0011100539169045353
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9170686886290252,
+                "whitespace": 1.1709498636375517,
+                "punctuation": 2.282964142417724,
+                "digit": 0.5169088692027508,
+                "non_ascii_utf8": 1.039660253881321,
+                "newline": 0.2583398206614191
+              }
+            },
+            "position_bucket": {
+              "distribution": {
+                "first_quarter": 0.2605455122105931,
+                "second_quarter": 0.2496035521725341,
+                "third_quarter": 0.24849349825562955,
+                "fourth_quarter": 0.24135743736124327
+              },
+              "enrichment_vs_layer": {
+                "first_quarter": 1.0421820488423723,
+                "second_quarter": 0.9984142086901364,
+                "third_quarter": 0.9939739930225182,
+                "fourth_quarter": 0.9654297494449731
+              }
+            }
+          }
+        },
+        "3": {
+          "count": 6514,
+          "features": {
+            "input_category": {
+              "distribution": {
+                "alphabetic": 0.8572305802886091,
+                "whitespace": 0.10868897758673626,
+                "digit": 0.03377341111452257,
+                "non_ascii_utf8": 0.00030703101013202335
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.1547623055876866,
+                "whitespace": 0.5704054584297762,
+                "digit": 1.3425455349872324,
+                "non_ascii_utf8": 0.09585358365097314
+              }
+            },
+            "target_category": {
+              "distribution": {
+                "alphabetic": 0.8035001535155051,
+                "whitespace": 0.18053423395762971,
+                "digit": 0.011206631869818852,
+                "punctuation": 0.004451949646914338,
+                "non_ascii_utf8": 0.00030703101013202335
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.082382863081295,
+                "whitespace": 0.9474531343409841,
+                "digit": 0.4454810184275817,
+                "punctuation": 0.12921758612359077,
+                "non_ascii_utf8": 0.09585358365097314
+              }
+            },
+            "preceding_category": {
+              "distribution": {
+                "alphabetic": 0.8618360454405894,
+                "whitespace": 0.08996008596868284,
+                "digit": 0.02870739944734418,
+                "punctuation": 0.014123426466073074,
+                "sequence_boundary": 0.004912496162112374,
+                "non_ascii_utf8": 0.000460546515198035
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.1700165860571188,
+                "whitespace": 0.475723652302888,
+                "digit": 1.1465045645117176,
+                "punctuation": 0.4155858822200813,
+                "sequence_boundary": 0.6287995087503838,
+                "non_ascii_utf8": 0.14555544184036662
+              }
+            },
+            "following_category": {
+              "distribution": {
+                "alphabetic": 0.8035001535155051,
+                "whitespace": 0.18053423395762971,
+                "digit": 0.011206631869818852,
+                "punctuation": 0.004451949646914338,
+                "non_ascii_utf8": 0.00030703101013202335
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.082382863081295,
+                "whitespace": 0.9474531343409841,
+                "digit": 0.4454810184275817,
+                "punctuation": 0.12921758612359077,
+                "non_ascii_utf8": 0.09585358365097314
+              }
+            },
+            "position_bucket": {
+              "distribution": {
+                "fourth_quarter": 0.26066932760208783,
+                "second_quarter": 0.25437519189438135,
+                "third_quarter": 0.24347559103469452,
+                "first_quarter": 0.24147988946883636
+              },
+              "enrichment_vs_layer": {
+                "fourth_quarter": 1.0426773104083513,
+                "second_quarter": 1.0175007675775254,
+                "third_quarter": 0.9739023641387781,
+                "first_quarter": 0.9659195578753454
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "overall": {
+        "input_category": {
+          "alphabetic": 0.74234375,
+          "whitespace": 0.190546875,
+          "punctuation": 0.034453125,
+          "digit": 0.02515625,
+          "newline": 0.004296875,
+          "non_ascii_utf8": 0.003203125
+        },
+        "target_category": {
+          "alphabetic": 0.74234375,
+          "whitespace": 0.190546875,
+          "punctuation": 0.034453125,
+          "digit": 0.02515625,
+          "newline": 0.004296875,
+          "non_ascii_utf8": 0.003203125
+        },
+        "preceding_category": {
+          "alphabetic": 0.7366015625,
+          "whitespace": 0.1891015625,
+          "punctuation": 0.033984375,
+          "digit": 0.0250390625,
+          "sequence_boundary": 0.0078125,
+          "newline": 0.004296875,
+          "non_ascii_utf8": 0.0031640625
+        },
+        "following_category": {
+          "alphabetic": 0.74234375,
+          "whitespace": 0.190546875,
+          "punctuation": 0.034453125,
+          "digit": 0.02515625,
+          "newline": 0.004296875,
+          "non_ascii_utf8": 0.003203125
+        },
+        "position_bucket": {
+          "first_quarter": 0.25,
+          "second_quarter": 0.25,
+          "third_quarter": 0.25,
+          "fourth_quarter": 0.25
+        }
+      },
+      "experts": {
+        "0": {
+          "count": 5204,
+          "features": {
+            "input_category": {
+              "distribution": {
+                "alphabetic": 0.6906225980015372,
+                "whitespace": 0.29035357417371255,
+                "digit": 0.018255188316679476,
+                "punctuation": 0.0007686395080707148
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9303272210502712,
+                "whitespace": 1.5237907951715952,
+                "digit": 0.7256720821537183,
+                "punctuation": 0.02230971814808424
+              }
+            },
+            "target_category": {
+              "distribution": {
+                "alphabetic": 0.6988854727132975,
+                "whitespace": 0.20061491160645656,
+                "punctuation": 0.06706379707916987,
+                "digit": 0.025172943889315912,
+                "non_ascii_utf8": 0.004227517294388932,
+                "newline": 0.004035357417371253
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9414580141791421,
+                "whitespace": 1.0528375844865288,
+                "punctuation": 1.94652290842035,
+                "digit": 1.0006636080224958,
+                "non_ascii_utf8": 1.319810277272642,
+                "newline": 0.9391377262245824
+              }
+            },
+            "preceding_category": {
+              "distribution": {
+                "alphabetic": 0.8357033051498847,
+                "whitespace": 0.07936202920830131,
+                "punctuation": 0.045349730976172176,
+                "digit": 0.025941583397386624,
+                "sequence_boundary": 0.008070714834742506,
+                "newline": 0.0048039969254419675,
+                "non_ascii_utf8": 0.0007686395080707148
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.1345391425909237,
+                "whitespace": 0.41967939428475803,
+                "punctuation": 1.3344288655057561,
+                "digit": 1.0360445163386858,
+                "sequence_boundary": 1.0330514988470407,
+                "newline": 1.1180211026483124,
+                "non_ascii_utf8": 0.24292804205691726
+              }
+            },
+            "following_category": {
+              "distribution": {
+                "alphabetic": 0.6988854727132975,
+                "whitespace": 0.20061491160645656,
+                "punctuation": 0.06706379707916987,
+                "digit": 0.025172943889315912,
+                "non_ascii_utf8": 0.004227517294388932,
+                "newline": 0.004035357417371253
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9414580141791421,
+                "whitespace": 1.0528375844865288,
+                "punctuation": 1.94652290842035,
+                "digit": 1.0006636080224958,
+                "non_ascii_utf8": 1.319810277272642,
+                "newline": 0.9391377262245824
+              }
+            },
+            "position_bucket": {
+              "distribution": {
+                "third_quarter": 0.255380476556495,
+                "second_quarter": 0.2534588777863182,
+                "fourth_quarter": 0.25326671790930055,
+                "first_quarter": 0.23789392774788623
+              },
+              "enrichment_vs_layer": {
+                "third_quarter": 1.02152190622598,
+                "second_quarter": 1.0138355111452728,
+                "fourth_quarter": 1.0130668716372022,
+                "first_quarter": 0.9515757109915449
+              }
+            }
+          }
+        },
+        "1": {
+          "count": 5967,
+          "features": {
+            "input_category": {
+              "distribution": {
+                "alphabetic": 0.8355957767722474,
+                "whitespace": 0.14814814814814814,
+                "digit": 0.01592089827383945,
+                "non_ascii_utf8": 0.0003351768057650411
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.1256183900952186,
+                "whitespace": 0.7774892563740452,
+                "digit": 0.6328804282768477,
+                "non_ascii_utf8": 0.10464056375103722
+              }
+            },
+            "target_category": {
+              "distribution": {
+                "alphabetic": 0.8945868945868946,
+                "whitespace": 0.04960616725322608,
+                "punctuation": 0.038880509468744766,
+                "digit": 0.01608848667672197,
+                "non_ascii_utf8": 0.0008379420144126027
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.2050844296687278,
+                "whitespace": 0.26033576910262146,
+                "punctuation": 1.1285045832198026,
+                "digit": 0.639542327521867,
+                "non_ascii_utf8": 0.261601409377593
+              }
+            },
+            "preceding_category": {
+              "distribution": {
+                "alphabetic": 0.7804591922238981,
+                "whitespace": 0.1756326462208815,
+                "digit": 0.017596782302664656,
+                "punctuation": 0.017094017094017096,
+                "sequence_boundary": 0.008044243338360985,
+                "newline": 0.0006703536115300822,
+                "non_ascii_utf8": 0.0005027652086475615
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.0595405059623373,
+                "whitespace": 0.9287741671668183,
+                "digit": 0.7027732089675743,
+                "punctuation": 0.5029963650653306,
+                "sequence_boundary": 1.029663147310206,
+                "newline": 0.15600956777427366,
+                "non_ascii_utf8": 0.15889863384416758
+              }
+            },
+            "following_category": {
+              "distribution": {
+                "alphabetic": 0.8945868945868946,
+                "whitespace": 0.04960616725322608,
+                "punctuation": 0.038880509468744766,
+                "digit": 0.01608848667672197,
+                "non_ascii_utf8": 0.0008379420144126027
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.2050844296687278,
+                "whitespace": 0.26033576910262146,
+                "punctuation": 1.1285045832198026,
+                "digit": 0.639542327521867,
+                "non_ascii_utf8": 0.261601409377593
+              }
+            },
+            "position_bucket": {
+              "distribution": {
+                "first_quarter": 0.26026478967655436,
+                "second_quarter": 0.2525557231439584,
+                "third_quarter": 0.2458521870286576,
+                "fourth_quarter": 0.24132730015082957
+              },
+              "enrichment_vs_layer": {
+                "first_quarter": 1.0410591587062175,
+                "second_quarter": 1.0102228925758336,
+                "third_quarter": 0.9834087481146304,
+                "fourth_quarter": 0.9653092006033183
+              }
+            }
+          }
+        },
+        "2": {
+          "count": 7702,
+          "features": {
+            "input_category": {
+              "distribution": {
+                "alphabetic": 0.774214489742924,
+                "whitespace": 0.146455466112698,
+                "digit": 0.04557257855102571,
+                "newline": 0.014152168267982343,
+                "punctuation": 0.012853804206699558,
+                "non_ascii_utf8": 0.006751493118670475
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 1.0429325898452355,
+                "whitespace": 0.7686059722191613,
+                "digit": 1.811580762276798,
+                "newline": 3.2935955241849815,
+                "punctuation": 0.3730809384257468,
+                "non_ascii_utf8": 2.1077832175361486
+              }
+            },
+            "target_category": {
+              "distribution": {
+                "alphabetic": 0.6732017657751234,
+                "whitespace": 0.2759023630225915,
+                "digit": 0.01986497013762659,
+                "punctuation": 0.012594131394443002,
+                "newline": 0.011555440145416774,
+                "non_ascii_utf8": 0.006881329524798753
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9068598823323069,
+                "whitespace": 1.4479500806433667,
+                "digit": 0.7896634091975787,
+                "punctuation": 0.3655439497706812,
+                "newline": 2.6892660702060853,
+                "non_ascii_utf8": 2.1483175101810743
+              }
+            },
+            "preceding_category": {
+              "distribution": {
+                "alphabetic": 0.6780057128018696,
+                "whitespace": 0.22825240197351337,
+                "punctuation": 0.035445338873019996,
+                "digit": 0.03349779278109582,
+                "newline": 0.01038691249026227,
+                "sequence_boundary": 0.009478057647364322,
+                "non_ascii_utf8": 0.004933783432874578
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9204510923120254,
+                "whitespace": 1.2070360443135597,
+                "punctuation": 1.0429892817808184,
+                "digit": 1.337821365360457,
+                "newline": 2.417317815915583,
+                "sequence_boundary": 1.2131913788626332,
+                "non_ascii_utf8": 1.5593192084146814
+              }
+            },
+            "following_category": {
+              "distribution": {
+                "alphabetic": 0.6732017657751234,
+                "whitespace": 0.2759023630225915,
+                "digit": 0.01986497013762659,
+                "punctuation": 0.012594131394443002,
+                "newline": 0.011555440145416774,
+                "non_ascii_utf8": 0.006881329524798753
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9068598823323069,
+                "whitespace": 1.4479500806433667,
+                "digit": 0.7896634091975787,
+                "punctuation": 0.3655439497706812,
+                "newline": 2.6892660702060853,
+                "non_ascii_utf8": 2.1483175101810743
+              }
+            },
+            "position_bucket": {
+              "distribution": {
+                "first_quarter": 0.25408984679304075,
+                "fourth_quarter": 0.2524019735133731,
+                "second_quarter": 0.24746819008049858,
+                "third_quarter": 0.2460399896130875
+              },
+              "enrichment_vs_layer": {
+                "first_quarter": 1.016359387172163,
+                "fourth_quarter": 1.0096078940534925,
+                "second_quarter": 0.9898727603219943,
+                "third_quarter": 0.98415995845235
+              }
+            }
+          }
+        },
+        "3": {
+          "count": 6727,
+          "features": {
+            "input_category": {
+              "distribution": {
+                "alphabetic": 0.6631485060205143,
+                "whitespace": 0.20142708488181954,
+                "punctuation": 0.11580199197264754,
+                "digit": 0.015311431544522075,
+                "non_ascii_utf8": 0.004162330905306972,
+                "newline": 0.0001486546751895347
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.8933172886826546,
+                "whitespace": 1.0570999124589135,
+                "punctuation": 3.3611462522673206,
+                "digit": 0.6086531794095732,
+                "non_ascii_utf8": 1.2994594045836403,
+                "newline": 0.03459599713501898
+              }
+            },
+            "target_category": {
+              "distribution": {
+                "alphabetic": 0.7200832466181062,
+                "whitespace": 0.21004905604281254,
+                "digit": 0.039244834250037164,
+                "punctuation": 0.030325553738665082,
+                "non_ascii_utf8": 0.0002973093503790694
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9700132137141402,
+                "whitespace": 1.1023484695973762,
+                "digit": 1.5600431006225952,
+                "punctuation": 0.8801974781290545,
+                "non_ascii_utf8": 0.09281852889883142
+              }
+            },
+            "preceding_category": {
+              "distribution": {
+                "alphabetic": 0.6881224914523562,
+                "whitespace": 0.2411178831574253,
+                "punctuation": 0.03850156087408949,
+                "digit": 0.021257618552103463,
+                "sequence_boundary": 0.005500222982012784,
+                "non_ascii_utf8": 0.005351568306823249,
+                "newline": 0.0001486546751895347
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9341854898011517,
+                "whitespace": 1.2750708136397622,
+                "punctuation": 1.1329194923870012,
+                "digit": 0.8489782136253489,
+                "sequence_boundary": 0.7040285416976364,
+                "non_ascii_utf8": 1.6913598599342614,
+                "newline": 0.03459599713501898
+              }
+            },
+            "following_category": {
+              "distribution": {
+                "alphabetic": 0.7200832466181062,
+                "whitespace": 0.21004905604281254,
+                "digit": 0.039244834250037164,
+                "punctuation": 0.030325553738665082,
+                "non_ascii_utf8": 0.0002973093503790694
+              },
+              "enrichment_vs_layer": {
+                "alphabetic": 0.9700132137141402,
+                "whitespace": 1.1023484695973762,
+                "digit": 1.5600431006225952,
+                "punctuation": 0.8801974781290545,
+                "non_ascii_utf8": 0.09281852889883142
+              }
+            },
+            "position_bucket": {
+              "distribution": {
+                "third_quarter": 0.2540508398989148,
+                "fourth_quarter": 0.25241563847182996,
+                "second_quarter": 0.2479559982161439,
+                "first_quarter": 0.24557752341311134
+              },
+              "enrichment_vs_layer": {
+                "third_quarter": 1.0162033595956592,
+                "fourth_quarter": 1.0096625538873198,
+                "second_quarter": 0.9918239928645756,
+                "first_quarter": 0.9823100936524454
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

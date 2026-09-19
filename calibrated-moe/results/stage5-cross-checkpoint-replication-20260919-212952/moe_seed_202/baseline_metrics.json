@@ -1,0 +1,26 @@
+{
+  "run_directory": "C:\\Users\\APOORV\\OneDrive\\Desktop\\jev\\calibrated-moe\\results\\stage5-cross-checkpoint-replication-20260919-212952\\moe_seed_202",
+  "parameter_count": 6413312,
+  "train_loss": 2.079194724559784,
+  "validation_loss": 2.0261478519439695,
+  "validation_perplexity": 7.584812191228412,
+  "tokens_per_second": 20991.295242976437,
+  "peak_gpu_memory_mb": 158.318359375,
+  "peak_gpu_memory_reserved_mb": 166.0,
+  "expert_utilization": [
+    [
+      0.25289061665534973,
+      0.22617188096046448,
+      0.2305273413658142,
+      0.2904101610183716
+    ],
+    [
+      0.24640625715255737,
+      0.2516210973262787,
+      0.27531251311302185,
+      0.22666016221046448
+    ]
+  ],
+  "routing_entropy": 0.9243735766410828,
+  "steps": 1000
+}

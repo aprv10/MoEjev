@@ -1,0 +1,1302 @@
+{
+  "1": {
+    "0": [
+      {
+        "sequence_id": 67,
+        "position": 119,
+        "context": " but the species is also widely ⟦k⟧nown as ",
+        "input_byte": 107,
+        "target_byte": 110,
+        "loss_gap": 4.00732421875,
+        "router_probabilities": [
+          0.6276113986968994,
+          0.20113608241081238,
+          0.11387871950864792,
+          0.0573737695813179
+        ],
+        "expert_losses": [
+          0.86767578125,
+          5.44921875,
+          5.71484375,
+          4.875
+        ]
+      },
+      {
+        "sequence_id": 45,
+        "position": 32,
+        "context": "rvegicus are hosts to the three ⟦k⟧nown species of the animal phylu",
+        "input_byte": 107,
+        "target_byte": 110,
+        "loss_gap": 3.55712890625,
+        "router_probabilities": [
+          0.7065291404724121,
+          0.1770753562450409,
+          0.0717548280954361,
+          0.044640686362981796
+        ],
+        "expert_losses": [
+          0.64208984375,
+          4.8828125,
+          4.19921875,
+          4.7734375
+        ]
+      },
+      {
+        "sequence_id": 40,
+        "position": 33,
+        "context": "n lobster larvae were released f⟦r⟧om hatcheries in Dunedin , but t",
+        "input_byte": 114,
+        "target_byte": 111,
+        "loss_gap": 3.3326416015625,
+        "router_probabilities": [
+          0.7278448343276978,
+          0.09990782290697098,
+          0.11069592833518982,
+          0.061551425606012344
+        ],
+        "expert_losses": [
+          0.1868896484375,
+          3.916015625,
+          3.51953125,
+          3.859375
+        ]
+      },
+      {
+        "sequence_id": 169,
+        "position": 65,
+        "context": "th manpower shortages stemming f⟦r⟧om this expansion and from Austr",
+        "input_byte": 114,
+        "target_byte": 111,
+        "loss_gap": 3.0565185546875,
+        "router_probabilities": [
+          0.7591782212257385,
+          0.08527626842260361,
+          0.08594509214162827,
+          0.06960047036409378
+        ],
+        "expert_losses": [
+          0.1739501953125,
+          3.79296875,
+          3.23046875,
+          3.498046875
+        ]
+      },
+      {
+        "sequence_id": 37,
+        "position": 9,
+        "context": "istinct f⟦r⟧om those in the Atlantic Ocean .",
+        "input_byte": 114,
+        "target_byte": 111,
+        "loss_gap": 2.9295654296875,
+        "router_probabilities": [
+          0.7310294508934021,
+          0.09845217317342758,
+          0.09293995797634125,
+          0.07757844775915146
+        ],
+        "expert_losses": [
+          0.2032470703125,
+          3.755859375,
+          3.1328125,
+          3.576171875
+        ]
+      },
+      {
+        "sequence_id": 178,
+        "position": 78,
+        "context": "ttlement leave before retiring f⟦r⟧om the Air Force on 3 August . H",
+        "input_byte": 114,
+        "target_byte": 111,
+        "loss_gap": 2.9166259765625,
+        "router_probabilities": [
+          0.7509039044380188,
+          0.09472379088401794,
+          0.0860787034034729,
+          0.06829364597797394
+        ],
+        "expert_losses": [
+          0.2025146484375,
+          3.90234375,
+          3.2109375,
+          3.119140625
+        ]
+      },
+      {
+        "sequence_id": 141,
+        "position": 79,
+        "context": "al change , as it transitioned f⟦r⟧om a geographically based comman",
+        "input_byte": 114,
+        "target_byte": 111,
+        "loss_gap": 2.90087890625,
+        "router_probabilities": [
+          0.6835262179374695,
+          0.11131049692630768,
+          0.1359815001487732,
+          0.06918178498744965
+        ],
+        "expert_losses": [
+          0.18505859375,
+          4.08984375,
+          3.0859375,
+          3.521484375
+        ]
+      },
+      {
+        "sequence_id": 116,
+        "position": 91,
+        "context": "during reconnaissance missions f⟦r⟧om Australia . On 18 February , ",
+        "input_byte": 114,
+        "target_byte": 111,
+        "loss_gap": 2.9002685546875,
+        "router_probabilities": [
+          0.6791782975196838,
+          0.10237486660480499,
+          0.11922172456979752,
+          0.09922511875629425
+        ],
+        "expert_losses": [
+          0.1700439453125,
+          4.32421875,
+          3.0703125,
+          3.5859375
+        ]
+      }
+    ],
+    "1": [
+      {
+        "sequence_id": 136,
+        "position": 52,
+        "context": "y injured on 20 December , when ⟦a⟧ No. 38 Squadron Dakota he was c",
+        "input_byte": 97,
+        "target_byte": 32,
+        "loss_gap": 3.537109375,
+        "router_probabilities": [
+          0.0813206136226654,
+          0.45136064291000366,
+          0.04865368828177452,
+          0.4186651110649109
+        ],
+        "expert_losses": [
+          8.171875,
+          1.291015625,
+          5.39453125,
+          4.828125
+        ]
+      },
+      {
+        "sequence_id": 156,
+        "position": 57,
+        "context": "he RAAF 's Directorate of Intell⟦i⟧gence . Headlam was appointed a ",
+        "input_byte": 105,
+        "target_byte": 103,
+        "loss_gap": 2.4873046875,
+        "router_probabilities": [
+          0.08111988008022308,
+          0.10154858976602554,
+          0.29183879494667053,
+          0.5254926681518555
+        ],
+        "expert_losses": [
+          6.07421875,
+          1.5595703125,
+          4.80078125,
+          4.046875
+        ]
+      },
+      {
+        "sequence_id": 170,
+        "position": 75,
+        "context": "irst RAAF helicopters were commi⟦t⟧ted to the Vietnam War towards t",
+        "input_byte": 116,
+        "target_byte": 116,
+        "loss_gap": 2.3798828125,
+        "router_probabilities": [
+          0.6058476567268372,
+          0.05237274616956711,
+          0.17631171643733978,
+          0.16546785831451416
+        ],
+        "expert_losses": [
+          4.66796875,
+          1.3310546875,
+          4.67578125,
+          3.7109375
+        ]
+      },
+      {
+        "sequence_id": 117,
+        "position": 89,
+        "context": "all party to demolish the airfie⟦l⟧d with assistance from Sparrow F",
+        "input_byte": 108,
+        "target_byte": 100,
+        "loss_gap": 2.296875,
+        "router_probabilities": [
+          0.5722097754478455,
+          0.13260138034820557,
+          0.13508473336696625,
+          0.16010408103466034
+        ],
+        "expert_losses": [
+          4.40234375,
+          2.10546875,
+          5.734375,
+          6.16015625
+        ]
+      },
+      {
+        "sequence_id": 152,
+        "position": 119,
+        "context": "resentatives to serve on a commi⟦t⟧tee , ch",
+        "input_byte": 116,
+        "target_byte": 116,
+        "loss_gap": 2.240234375,
+        "router_probabilities": [
+          0.5744122862815857,
+          0.06356778740882874,
+          0.1489587426185608,
+          0.21306121349334717
+        ],
+        "expert_losses": [
+          4.8203125,
+          2.076171875,
+          5.23046875,
+          4.31640625
+        ]
+      },
+      {
+        "sequence_id": 161,
+        "position": 97,
+        "context": " No. 224 Group RAF in Singapore ⟦o⟧ne week later . He was succeed",
+        "input_byte": 111,
+        "target_byte": 110,
+        "loss_gap": 2.2080078125,
+        "router_probabilities": [
+          0.07874799519777298,
+          0.3591826260089874,
+          0.03898308426141739,
+          0.5230863094329834
+        ],
+        "expert_losses": [
+          4.1484375,
+          0.9306640625,
+          3.3984375,
+          3.138671875
+        ]
+      },
+      {
+        "sequence_id": 59,
+        "position": 34,
+        "context": "ancer gammarus , since Linnaeus ⟦'⟧ concept of the genus Cancer at ",
+        "input_byte": 39,
+        "target_byte": 32,
+        "loss_gap": 2.201171875,
+        "router_probabilities": [
+          0.18327367305755615,
+          0.7164164781570435,
+          0.05057122930884361,
+          0.04973859712481499
+        ],
+        "expert_losses": [
+          5.19921875,
+          1.841796875,
+          6.66015625,
+          4.04296875
+        ]
+      },
+      {
+        "sequence_id": 23,
+        "position": 37,
+        "context": "ale , whose shell is therefore s⟦o⟧ft , and a hard @-@ shelled male",
+        "input_byte": 111,
+        "target_byte": 102,
+        "loss_gap": 2.1787109375,
+        "router_probabilities": [
+          0.10226476192474365,
+          0.08687576651573181,
+          0.05300246551632881,
+          0.7578570246696472
+        ],
+        "expert_losses": [
+          3.12890625,
+          0.9501953125,
+          3.1953125,
+          3.18359375
+        ]
+      }
+    ],
+    "2": [
+      {
+        "sequence_id": 86,
+        "position": 34,
+        "context": " No larger than a flight accordi⟦n⟧g to the official history of the",
+        "input_byte": 110,
+        "target_byte": 103,
+        "loss_gap": 4.6976318359375,
+        "router_probabilities": [
+          0.05108167603611946,
+          0.05833710357546806,
+          0.8045328259468079,
+          0.086048424243927
+        ],
+        "expert_losses": [
+          5.32421875,
+          4.89453125,
+          0.1968994140625,
+          6.01953125
+        ]
+      },
+      {
+        "sequence_id": 124,
+        "position": 105,
+        "context": "appointed the inaugural commandi⟦n⟧g officer of No. 3 AOS",
+        "input_byte": 110,
+        "target_byte": 103,
+        "loss_gap": 4.589599609375,
+        "router_probabilities": [
+          0.05597006157040596,
+          0.053720854222774506,
+          0.7768039703369141,
+          0.11350514739751816
+        ],
+        "expert_losses": [
+          4.9453125,
+          4.7578125,
+          0.168212890625,
+          6.125
+        ]
+      },
+      {
+        "sequence_id": 6,
+        "position": 84,
+        "context": "centimetres ( 24 in ) and weighi⟦n⟧g up to 5 – 6 kilograms ( 11 �",
+        "input_byte": 110,
+        "target_byte": 103,
+        "loss_gap": 4.526611328125,
+        "router_probabilities": [
+          0.07842601835727692,
+          0.09798476099967957,
+          0.6559320092201233,
+          0.16765719652175903
+        ],
+        "expert_losses": [
+          4.78515625,
+          5.2421875,
+          0.258544921875,
+          5.421875
+        ]
+      },
+      {
+        "sequence_id": 115,
+        "position": 37,
+        "context": "ed regularly thereafter , damagi⟦n⟧g some aircraft . The intact Hud",
+        "input_byte": 110,
+        "target_byte": 103,
+        "loss_gap": 4.505615234375,
+        "router_probabilities": [
+          0.06715170294046402,
+          0.0674145296216011,
+          0.734213650226593,
+          0.13122011721134186
+        ],
+        "expert_losses": [
+          4.7578125,
+          4.8203125,
+          0.252197265625,
+          5.8125
+        ]
+      },
+      {
+        "sequence_id": 73,
+        "position": 43,
+        "context": "ld staff appointments and traini⟦n⟧g commands , finishing the war a",
+        "input_byte": 110,
+        "target_byte": 103,
+        "loss_gap": 4.472900390625,
+        "router_probabilities": [
+          0.057886406779289246,
+          0.1361764371395111,
+          0.6924902200698853,
+          0.11344682425260544
+        ],
+        "expert_losses": [
+          5.3359375,
+          4.6328125,
+          0.159912109375,
+          5.59765625
+        ]
+      },
+      {
+        "sequence_id": 71,
+        "position": 22,
+        "context": "1 , he became commandi⟦n⟧g officer of No. 2 Squadron , wh",
+        "input_byte": 110,
+        "target_byte": 103,
+        "loss_gap": 4.458251953125,
+        "router_probabilities": [
+          0.05896514281630516,
+          0.05560942366719246,
+          0.7843356728553772,
+          0.10108976811170578
+        ],
+        "expert_losses": [
+          5.046875,
+          4.72265625,
+          0.264404296875,
+          6.0078125
+        ]
+      },
+      {
+        "sequence_id": 76,
+        "position": 63,
+        "context": "n 1957 and 1959 – 60 , receivi⟦n⟧g appointment as a Commander of ",
+        "input_byte": 110,
+        "target_byte": 103,
+        "loss_gap": 4.407958984375,
+        "router_probabilities": [
+          0.04674036055803299,
+          0.05862554907798767,
+          0.8329545855522156,
+          0.06167951226234436
+        ],
+        "expert_losses": [
+          5.21484375,
+          4.5,
+          0.092041015625,
+          6.171875
+        ]
+      },
+      {
+        "sequence_id": 108,
+        "position": 28,
+        "context": " 2 Squadron 's eight remaini⟦n⟧g Hudsons were stationed at Darw",
+        "input_byte": 110,
+        "target_byte": 103,
+        "loss_gap": 4.36328125,
+        "router_probabilities": [
+          0.0567067489027977,
+          0.08554358780384064,
+          0.747694730758667,
+          0.11005488783121109
+        ],
+        "expert_losses": [
+          5.88671875,
+          4.6796875,
+          0.31640625,
+          6.74609375
+        ]
+      }
+    ],
+    "3": [
+      {
+        "sequence_id": 54,
+        "position": 56,
+        "context": "pting them out , to allow them t⟦o⟧ be caught in a net or by hand .",
+        "input_byte": 111,
+        "target_byte": 32,
+        "loss_gap": 6.20953369140625,
+        "router_probabilities": [
+          0.13817954063415527,
+          0.0971265435218811,
+          0.04403563216328621,
+          0.7206583619117737
+        ],
+        "expert_losses": [
+          6.30859375,
+          6.38671875,
+          6.33203125,
+          0.09906005859375
+        ]
+      },
+      {
+        "sequence_id": 2,
+        "position": 27,
+        "context": " americanus . It may grow t⟦o⟧ a length of 60 cm ( 24 in ) and",
+        "input_byte": 111,
+        "target_byte": 32,
+        "loss_gap": 6.11785888671875,
+        "router_probabilities": [
+          0.15409907698631287,
+          0.12083569169044495,
+          0.06582566350698471,
+          0.6592395305633545
+        ],
+        "expert_losses": [
+          6.203125,
+          6.3125,
+          6.58203125,
+          0.08526611328125
+        ]
+      },
+      {
+        "sequence_id": 146,
+        "position": 56,
+        "context": "ntment as aide @-@ de @-@ camp t⟦o⟧ Queen Elizabeth II was announce",
+        "input_byte": 111,
+        "target_byte": 32,
+        "loss_gap": 5.3626708984375,
+        "router_probabilities": [
+          0.09984508901834488,
+          0.10043184459209442,
+          0.060677509754896164,
+          0.7390454411506653
+        ],
+        "expert_losses": [
+          6.68359375,
+          5.45703125,
+          7.390625,
+          0.0943603515625
+        ]
+      },
+      {
+        "sequence_id": 142,
+        "position": 14,
+        "context": "ntrol system t⟦o⟧ one based on function , resulti",
+        "input_byte": 111,
+        "target_byte": 32,
+        "loss_gap": 5.00311279296875,
+        "router_probabilities": [
+          0.14866499602794647,
+          0.09835755825042725,
+          0.049942634999752045,
+          0.7030347585678101
+        ],
+        "expert_losses": [
+          5.45703125,
+          5.046875,
+          5.19921875,
+          0.04376220703125
+        ]
+      },
+      {
+        "sequence_id": 192,
+        "position": 51,
+        "context": "82 follows Fremont Street east t⟦o⟧ a junction with M @-@ 37 . The ",
+        "input_byte": 111,
+        "target_byte": 32,
+        "loss_gap": 4.8442840576171875,
+        "router_probabilities": [
+          0.10579612106084824,
+          0.14832478761672974,
+          0.027117673307657242,
+          0.7187613844871521
+        ],
+        "expert_losses": [
+          5.8046875,
+          4.875,
+          5.19921875,
+          0.0307159423828125
+        ]
+      },
+      {
+        "sequence_id": 61,
+        "position": 23,
+        "context": " Nomenclature . Prior t⟦o⟧ that direction , confusion aros",
+        "input_byte": 111,
+        "target_byte": 32,
+        "loss_gap": 4.80938720703125,
+        "router_probabilities": [
+          0.12439347058534622,
+          0.10733864456415176,
+          0.051602333784103394,
+          0.7166655659675598
+        ],
+        "expert_losses": [
+          6.48046875,
+          4.875,
+          5.3046875,
+          0.06561279296875
+        ]
+      },
+      {
+        "sequence_id": 183,
+        "position": 19,
+        "context": "current version of ⟦M⟧ @-@ 82 is actually the second i",
+        "input_byte": 77,
+        "target_byte": 32,
+        "loss_gap": 4.7734375,
+        "router_probabilities": [
+          0.4187430739402771,
+          0.49315905570983887,
+          0.06746263056993484,
+          0.02063530869781971
+        ],
+        "expert_losses": [
+          5.28125,
+          5.3984375,
+          5.8828125,
+          0.5078125
+        ]
+      },
+      {
+        "sequence_id": 190,
+        "position": 17,
+        "context": "owntown area and ⟦M⟧ @-@ 82 turns south along Stewar",
+        "input_byte": 77,
+        "target_byte": 32,
+        "loss_gap": 4.73046875,
+        "router_probabilities": [
+          0.38731834292411804,
+          0.5342052578926086,
+          0.04995642602443695,
+          0.02851996384561062
+        ],
+        "expert_losses": [
+          5.04296875,
+          5.4609375,
+          5.73046875,
+          0.3125
+        ]
+      }
+    ]
+  },
+  "3": {
+    "0": [
+      {
+        "sequence_id": 66,
+        "position": 82,
+        "context": "both it and the paralectotypes h⟦a⟧ve since been lost . \n\n The comm",
+        "input_byte": 97,
+        "target_byte": 118,
+        "loss_gap": 2.9150390625,
+        "router_probabilities": [
+          0.5839696526527405,
+          0.10480228811502457,
+          0.12384958565235138,
+          0.1873784214258194
+        ],
+        "expert_losses": [
+          1.4248046875,
+          4.33984375,
+          4.93359375,
+          4.68359375
+        ]
+      },
+      {
+        "sequence_id": 43,
+        "position": 105,
+        "context": "hic invertebrates . These includ⟦e⟧ crabs , molluscs , se",
+        "input_byte": 101,
+        "target_byte": 32,
+        "loss_gap": 2.744140625,
+        "router_probabilities": [
+          0.6234548091888428,
+          0.11394219845533371,
+          0.06659182906150818,
+          0.19601118564605713
+        ],
+        "expert_losses": [
+          0.8125,
+          4.6484375,
+          6.3125,
+          3.556640625
+        ]
+      },
+      {
+        "sequence_id": 33,
+        "position": 47,
+        "context": "found in the Norwegian fjords Ty⟦s⟧fjorden and Nordfolda , inside t",
+        "input_byte": 115,
+        "target_byte": 102,
+        "loss_gap": 2.73828125,
+        "router_probabilities": [
+          0.06360834836959839,
+          0.07947169989347458,
+          0.7919301986694336,
+          0.06498971581459045
+        ],
+        "expert_losses": [
+          3.6796875,
+          6.71484375,
+          6.41796875,
+          6.45703125
+        ]
+      },
+      {
+        "sequence_id": 49,
+        "position": 58,
+        "context": "s mentioned in \" The Crabfish \" ⟦a⟧ seventeenth century English fol",
+        "input_byte": 97,
+        "target_byte": 32,
+        "loss_gap": 2.6787109375,
+        "router_probabilities": [
+          0.5755576491355896,
+          0.036956217139959335,
+          0.143898606300354,
+          0.24358749389648438
+        ],
+        "expert_losses": [
+          1.3017578125,
+          6.18359375,
+          3.98046875,
+          4.73046875
+        ]
+      },
+      {
+        "sequence_id": 184,
+        "position": 94,
+        "context": "ous extensions and truncations h⟦a⟧ve shifted the terminus as far w",
+        "input_byte": 97,
+        "target_byte": 118,
+        "loss_gap": 2.64453125,
+        "router_probabilities": [
+          0.7310743927955627,
+          0.08645530045032501,
+          0.07980206608772278,
+          0.10266821086406708
+        ],
+        "expert_losses": [
+          1.5546875,
+          4.19921875,
+          4.4921875,
+          4.203125
+        ]
+      },
+      {
+        "sequence_id": 31,
+        "position": 44,
+        "context": " Norway to the Azores and Morocc⟦o⟧ , not including the Baltic Sea ",
+        "input_byte": 111,
+        "target_byte": 32,
+        "loss_gap": 2.62890625,
+        "router_probabilities": [
+          0.618580162525177,
+          0.085761159658432,
+          0.10144683718681335,
+          0.19421175122261047
+        ],
+        "expert_losses": [
+          1.052734375,
+          3.693359375,
+          3.763671875,
+          3.681640625
+        ]
+      },
+      {
+        "sequence_id": 106,
+        "position": 103,
+        "context": " Northern Territory , in respons⟦e⟧ to fears of Japanese ag",
+        "input_byte": 101,
+        "target_byte": 32,
+        "loss_gap": 2.62744140625,
+        "router_probabilities": [
+          0.4779919683933258,
+          0.10958423465490341,
+          0.055210139602422714,
+          0.35721370577812195
+        ],
+        "expert_losses": [
+          0.81201171875,
+          4.53125,
+          5.359375,
+          3.439453125
+        ]
+      },
+      {
+        "sequence_id": 164,
+        "position": 4,
+        "context": "nesi⟦a⟧ and Malaysia that officially be",
+        "input_byte": 97,
+        "target_byte": 32,
+        "loss_gap": 2.6103515625,
+        "router_probabilities": [
+          0.7018203139305115,
+          0.07190581411123276,
+          0.04743410646915436,
+          0.17883971333503723
+        ],
+        "expert_losses": [
+          1.2783203125,
+          3.953125,
+          5.08203125,
+          3.888671875
+        ]
+      }
+    ],
+    "1": [
+      {
+        "sequence_id": 36,
+        "position": 58,
+        "context": " been referred to as the \" midni⟦g⟧ht @-@ sun lobster \" . The popul",
+        "input_byte": 103,
+        "target_byte": 104,
+        "loss_gap": 2.5537109375,
+        "router_probabilities": [
+          0.04626860097050667,
+          0.06256595999002457,
+          0.048300035297870636,
+          0.8428654074668884
+        ],
+        "expert_losses": [
+          4.08984375,
+          1.2763671875,
+          3.830078125,
+          5.48828125
+        ]
+      },
+      {
+        "sequence_id": 69,
+        "position": 95,
+        "context": "F ) . Born and educated in Tasma⟦n⟧ia , he joined the RAAF as an ai",
+        "input_byte": 110,
+        "target_byte": 105,
+        "loss_gap": 2.4423828125,
+        "router_probabilities": [
+          0.12260621786117554,
+          0.7955986857414246,
+          0.06237698718905449,
+          0.019418073818087578
+        ],
+        "expert_losses": [
+          4.7734375,
+          1.8115234375,
+          4.9921875,
+          4.25390625
+        ]
+      },
+      {
+        "sequence_id": 82,
+        "position": 46,
+        "context": " July 1914 in Launceston , Tasma⟦n⟧ia . He was schooled at Clemes C",
+        "input_byte": 110,
+        "target_byte": 105,
+        "loss_gap": 2.33984375,
+        "router_probabilities": [
+          0.11506805568933487,
+          0.7670073509216309,
+          0.08805358409881592,
+          0.029871083796024323
+        ],
+        "expert_losses": [
+          5.2265625,
+          2.3125,
+          6.13671875,
+          4.65234375
+        ]
+      },
+      {
+        "sequence_id": 144,
+        "position": 22,
+        "context": "s control , was reorga⟦n⟧ised as Home Command in October ",
+        "input_byte": 110,
+        "target_byte": 105,
+        "loss_gap": 2.30859375,
+        "router_probabilities": [
+          0.05674465000629425,
+          0.8807280659675598,
+          0.04291685298085213,
+          0.01961042732000351
+        ],
+        "expert_losses": [
+          5.62890625,
+          2.76171875,
+          6.19140625,
+          5.0703125
+        ]
+      },
+      {
+        "sequence_id": 196,
+        "position": 27,
+        "context": "ies , tracks the volume of ⟦t⟧raffic using its roadways . Thes",
+        "input_byte": 116,
+        "target_byte": 114,
+        "loss_gap": 2.3046875,
+        "router_probabilities": [
+          0.08434604853391647,
+          0.047221530228853226,
+          0.595569372177124,
+          0.2728630006313324
+        ],
+        "expert_losses": [
+          4.94140625,
+          2.29296875,
+          4.59765625,
+          5.0546875
+        ]
+      },
+      {
+        "sequence_id": 92,
+        "position": 68,
+        "context": " was promoted to flight lieutena⟦n⟧t on 1 March 1937 . Commencing i",
+        "input_byte": 110,
+        "target_byte": 116,
+        "loss_gap": 2.1630859375,
+        "router_probabilities": [
+          0.15588927268981934,
+          0.6306360363960266,
+          0.14389269053936005,
+          0.06958195567131042
+        ],
+        "expert_losses": [
+          3.720703125,
+          1.4384765625,
+          3.6015625,
+          3.896484375
+        ]
+      },
+      {
+        "sequence_id": 190,
+        "position": 104,
+        "context": " The highway rounds a curve and ⟦t⟧ransitions to 72nd Stre",
+        "input_byte": 116,
+        "target_byte": 114,
+        "loss_gap": 2.1455078125,
+        "router_probabilities": [
+          0.06760171055793762,
+          0.06450599431991577,
+          0.4452531337738037,
+          0.42263922095298767
+        ],
+        "expert_losses": [
+          4.12890625,
+          1.6611328125,
+          3.806640625,
+          4.44921875
+        ]
+      },
+      {
+        "sequence_id": 191,
+        "position": 6,
+        "context": "et run⟦n⟧ing eastward through more farm l",
+        "input_byte": 110,
+        "target_byte": 105,
+        "loss_gap": 2.09375,
+        "router_probabilities": [
+          0.03104826621711254,
+          0.7708216309547424,
+          0.16597090661525726,
+          0.032159220427274704
+        ],
+        "expert_losses": [
+          3.8125,
+          1.71875,
+          3.916015625,
+          4.03515625
+        ]
+      }
+    ],
+    "2": [
+      {
+        "sequence_id": 147,
+        "position": 39,
+        "context": "to substantive air commodore on ⟦1⟧ January 1955 . In November he w",
+        "input_byte": 49,
+        "target_byte": 32,
+        "loss_gap": 2.37890625,
+        "router_probabilities": [
+          0.05950498208403587,
+          0.06434023380279541,
+          0.8071277737617493,
+          0.06902699172496796
+        ],
+        "expert_losses": [
+          5.53515625,
+          6.94921875,
+          3.15625,
+          6.6015625
+        ]
+      },
+      {
+        "sequence_id": 101,
+        "position": 37,
+        "context": "ued to serve with the squadron a⟦s⟧ a flight commander until 15 Jan",
+        "input_byte": 115,
+        "target_byte": 32,
+        "loss_gap": 2.2467041015625,
+        "router_probabilities": [
+          0.06297775357961655,
+          0.1856449842453003,
+          0.7034662961959839,
+          0.047910939902067184
+        ],
+        "expert_losses": [
+          2.50390625,
+          2.46875,
+          0.2122802734375,
+          2.458984375
+        ]
+      },
+      {
+        "sequence_id": 116,
+        "position": 32,
+        "context": "mained at Penfui to enable the b⟦a⟧se to be used by aircraft during",
+        "input_byte": 97,
+        "target_byte": 115,
+        "loss_gap": 2.208251953125,
+        "router_probabilities": [
+          0.7553709149360657,
+          0.07967384159564972,
+          0.1281917542219162,
+          0.03676344081759453
+        ],
+        "expert_losses": [
+          2.740234375,
+          3.3359375,
+          0.446044921875,
+          2.654296875
+        ]
+      },
+      {
+        "sequence_id": 44,
+        "position": 27,
+        "context": "a urchins , starfish and po⟦l⟧ychaete worms . \n\n The three cla",
+        "input_byte": 108,
+        "target_byte": 121,
+        "loss_gap": 2.1748046875,
+        "router_probabilities": [
+          0.20721465349197388,
+          0.7100409269332886,
+          0.06077586114406586,
+          0.02196860872209072
+        ],
+        "expert_losses": [
+          4.56640625,
+          4.1484375,
+          1.9736328125,
+          5.39453125
+        ]
+      },
+      {
+        "sequence_id": 142,
+        "position": 21,
+        "context": "ntrol system to one b⟦a⟧sed on function , resulting in t",
+        "input_byte": 97,
+        "target_byte": 115,
+        "loss_gap": 2.15380859375,
+        "router_probabilities": [
+          0.7770738005638123,
+          0.06464838236570358,
+          0.12137025594711304,
+          0.03690754994750023
+        ],
+        "expert_losses": [
+          2.541015625,
+          3.1171875,
+          0.38720703125,
+          2.62109375
+        ]
+      },
+      {
+        "sequence_id": 168,
+        "position": 22,
+        "context": "neo Territories \" on 2⟦2⟧ June . His tenure as DCAS coinc",
+        "input_byte": 50,
+        "target_byte": 32,
+        "loss_gap": 2.0771484375,
+        "router_probabilities": [
+          0.11513309180736542,
+          0.055214494466781616,
+          0.6187673807144165,
+          0.21088507771492004
+        ],
+        "expert_losses": [
+          3.162109375,
+          5.078125,
+          1.0849609375,
+          3.236328125
+        ]
+      },
+      {
+        "sequence_id": 103,
+        "position": 20,
+        "context": " squadron leader on ⟦1⟧ June 1940 . Two weeks later he ",
+        "input_byte": 49,
+        "target_byte": 32,
+        "loss_gap": 2.064453125,
+        "router_probabilities": [
+          0.05229956656694412,
+          0.04766582325100899,
+          0.8515235781669617,
+          0.04851110652089119
+        ],
+        "expert_losses": [
+          5.27734375,
+          5.8671875,
+          3.212890625,
+          6.51171875
+        ]
+      },
+      {
+        "sequence_id": 189,
+        "position": 109,
+        "context": "oad , now called Main Street , p⟦a⟧sses through the d",
+        "input_byte": 97,
+        "target_byte": 115,
+        "loss_gap": 2.060791015625,
+        "router_probabilities": [
+          0.8364282250404358,
+          0.08859039843082428,
+          0.053732797503471375,
+          0.021248560398817062
+        ],
+        "expert_losses": [
+          2.486328125,
+          2.82421875,
+          0.331787109375,
+          2.392578125
+        ]
+      }
+    ],
+    "3": [
+      {
+        "sequence_id": 102,
+        "position": 75,
+        "context": "arch he was posted to the staff ⟦o⟧f RAAF Headquarters , Melbourne ",
+        "input_byte": 111,
+        "target_byte": 102,
+        "loss_gap": 2.9287109375,
+        "router_probabilities": [
+          0.11693373322486877,
+          0.018756292760372162,
+          0.17072010040283203,
+          0.6935898661613464
+        ],
+        "expert_losses": [
+          4.19921875,
+          4.76171875,
+          5.76171875,
+          1.2705078125
+        ]
+      },
+      {
+        "sequence_id": 126,
+        "position": 125,
+        "context": "ted senior administrative staff ⟦o⟧ff",
+        "input_byte": 111,
+        "target_byte": 102,
+        "loss_gap": 2.3134765625,
+        "router_probabilities": [
+          0.22849859297275543,
+          0.02383788302540779,
+          0.15959562361240387,
+          0.5880679488182068
+        ],
+        "expert_losses": [
+          4.2265625,
+          4.34375,
+          4.46875,
+          1.9130859375
+        ]
+      },
+      {
+        "sequence_id": 92,
+        "position": 19,
+        "context": "d joined the staff ⟦o⟧f No. 1 FTS . He was promoted to",
+        "input_byte": 111,
+        "target_byte": 102,
+        "loss_gap": 2.21337890625,
+        "router_probabilities": [
+          0.13498730957508087,
+          0.020211566239595413,
+          0.129879429936409,
+          0.7149217128753662
+        ],
+        "expert_losses": [
+          2.75390625,
+          3.171875,
+          4.25390625,
+          0.54052734375
+        ]
+      },
+      {
+        "sequence_id": 13,
+        "position": 2,
+        "context": "e ⟦e⟧xoskeleton is generally blue abo",
+        "input_byte": 101,
+        "target_byte": 120,
+        "loss_gap": 2.1572265625,
+        "router_probabilities": [
+          0.15451282262802124,
+          0.10010252892971039,
+          0.04234470799565315,
+          0.7030399441719055
+        ],
+        "expert_losses": [
+          3.923828125,
+          3.90625,
+          5.5390625,
+          1.7490234375
+        ]
+      },
+      {
+        "sequence_id": 107,
+        "position": 52,
+        "context": "fic . On 7 December , this detac⟦h⟧ment established itself at Penfu",
+        "input_byte": 104,
+        "target_byte": 109,
+        "loss_gap": 2.15234375,
+        "router_probabilities": [
+          0.06411449611186981,
+          0.7910537123680115,
+          0.08518712222576141,
+          0.0596446730196476
+        ],
+        "expert_losses": [
+          7.83203125,
+          6.81640625,
+          6.80078125,
+          4.6484375
+        ]
+      },
+      {
+        "sequence_id": 118,
+        "position": 2,
+        "context": " H⟦e⟧ returned to Darwin the followin",
+        "input_byte": 101,
+        "target_byte": 32,
+        "loss_gap": 2.0673828125,
+        "router_probabilities": [
+          0.12118715792894363,
+          0.07286052405834198,
+          0.051163751631975174,
+          0.7547885179519653
+        ],
+        "expert_losses": [
+          3.234375,
+          3.07421875,
+          4.15625,
+          1.0068359375
+        ]
+      },
+      {
+        "sequence_id": 9,
+        "position": 119,
+        "context": "obsters , but decreases to once ⟦e⟧very 1 �",
+        "input_byte": 101,
+        "target_byte": 118,
+        "loss_gap": 2.01953125,
+        "router_probabilities": [
+          0.13155503571033478,
+          0.08104870468378067,
+          0.04968944191932678,
+          0.73770672082901
+        ],
+        "expert_losses": [
+          4.0859375,
+          4.25390625,
+          5.01953125,
+          2.06640625
+        ]
+      },
+      {
+        "sequence_id": 157,
+        "position": 118,
+        "context": "0 he became acting Deputy Chief ⟦o⟧f the Air",
+        "input_byte": 111,
+        "target_byte": 102,
+        "loss_gap": 1.867431640625,
+        "router_probabilities": [
+          0.12452703714370728,
+          0.014177714474499226,
+          0.14083229005336761,
+          0.7204629182815552
+        ],
+        "expert_losses": [
+          2.759765625,
+          2.263671875,
+          3.67578125,
+          0.396240234375
+        ]
+      }
+    ]
+  }
+}

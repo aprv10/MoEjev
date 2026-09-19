@@ -1,0 +1,5 @@
+{
+  "confident_mistake_confidence_threshold_p90_among_mistakes": 0.8106018781661988,
+  "confident_mistake_regret_threshold_p90_among_mistakes": 1.3604980468750005,
+  "uncertain_correct_confidence_threshold_global_p10": 0.4439031362533569
+}

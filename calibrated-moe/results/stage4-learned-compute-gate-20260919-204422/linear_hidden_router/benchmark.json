@@ -1,0 +1,29 @@
+[
+  {
+    "seed": 11,
+    "loss": 2.0486040019989016,
+    "experts_per_token": 1.20634765625,
+    "tokens_per_second": 45277.884526707065,
+    "milliseconds_per_token": 0.022085837499986383,
+    "peak_gpu_memory_mb": 49.61083984375,
+    "peak_gpu_memory_reserved_mb": 382.0
+  },
+  {
+    "seed": 22,
+    "loss": 2.046719579696655,
+    "experts_per_token": 1.197734375,
+    "tokens_per_second": 48118.998282709814,
+    "milliseconds_per_token": 0.02078181250001876,
+    "peak_gpu_memory_mb": 49.61083984375,
+    "peak_gpu_memory_reserved_mb": 382.0
+  },
+  {
+    "seed": 33,
+    "loss": 2.0479321217536928,
+    "experts_per_token": 1.19462890625,
+    "tokens_per_second": 47098.236268546534,
+    "milliseconds_per_token": 0.021232217578130985,
+    "peak_gpu_memory_mb": 49.61083984375,
+    "peak_gpu_memory_reserved_mb": 382.0
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "experiment": {
+    "name": "stage4-learned-compute-gate",
+    "seed": 1337,
+    "gate_seeds": [
+      11,
+      22,
+      33
+    ],
+    "output_dir": "results"
+  },
+  "checkpoint": "results/baseline-top2-small-20260919-151643/last.pt",
+  "stage2_validation_results": "results/oracle-analysis-20260919-153736/token_results.parquet",
+  "stage3_results": "results/stage3-calibrated-routing-20260919-200548",
+  "data": {
+    "gate_train_block_start": 0,
+    "gate_train_blocks": 800,
+    "gate_calibration_block_start": 801,
+    "gate_calibration_blocks": 400,
+    "batch_size": 4,
+    "validation_batches": 50,
+    "oracle_temperature": 1.0,
+    "intervention_chunk_size": 128
+  },
+  "training": {
+    "epochs": 20,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "huber_delta": 0.25,
+    "mlp_hidden_dim": 64
+  },
+  "thresholds": {
+    "quantiles": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "max_calibration_loss_increase": 0.02
+  },
+  "benchmark": {
+    "mixed_precision": "fp16",
+    "warmup_batches": 50,
+    "timing_repeats": 10,
+    "matched_compute_targets": [
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5
+    ]
+  }
+}
