@@ -4,6 +4,10 @@ This repository explores whether a small learned gate can predict when a token a
 
 The project started from an interest in calibrated decision models such as Jev, but the experiments here are independently designed and do not reproduce Jev or RLCD.
 
+## Current Result
+Across 5 independently trained MoE checkpoints, the learned gate beats a simple router-margin heuristic on 4/5 models around 1.1–1.2 experts/token. The effect is small and the confidence intervals still include zero.
+![plot](results/stage5-cross-checkpoint-replication-20260919-212952/plots/matched_compute_delta.png)
+
 ## Current scope: Stages 1–5
 
 Stage 1 implements a controlled baseline:
