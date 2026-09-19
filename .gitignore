@@ -1,0 +1,41 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# local env files
+.env*
+!.env.example
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Python / calibrated-MoE local artifacts
+data/cache/
+results/*
+!results/.gitkeep
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.parquet
+feature_cache/
+
+# Preserved README for the unrelated local Next.js scaffold
+/.local-nextjs-README.md
+
+# Legacy local location containing only ignored caches/checkpoints after flattening
+/calibrated-moe/
