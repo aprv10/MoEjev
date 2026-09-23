@@ -1,0 +1,143 @@
+{
+  "fresh_checkpoint_count": 3,
+  "gate_runs": 9,
+  "matched_compute": {
+    "1.1": {
+      "checkpoint_mean_delta": -0.002237404452429913,
+      "checkpoint_median_delta": -0.0018595667680104306,
+      "checkpoint_std_delta": 0.0006856862511590206,
+      "minimum": -0.0030288966496786105,
+      "maximum": -0.0018237499396006978,
+      "ci95_t_interval": [
+        -0.003940881005106001,
+        -0.0005339278997538248
+      ],
+      "checkpoints_won": 3,
+      "checkpoints_tied": 0,
+      "checkpoints_lost": 0,
+      "gate_seed_comparisons_won": 8,
+      "gate_seed_comparisons_tied": 1,
+      "gate_seed_comparisons_lost": 0,
+      "stage5_delta": -0.002704965750376361,
+      "stage6_minus_stage5": 0.0004675612979464479,
+      "between_checkpoint_std_of_means": 0.0006856862511590206,
+      "mean_within_checkpoint_gate_seed_std": 0.0011981180522455464
+    },
+    "1.2": {
+      "checkpoint_mean_delta": -2.0828776889371236e-05,
+      "checkpoint_median_delta": -0.0006678211688995924,
+      "checkpoint_std_delta": 0.0020760313901046273,
+      "minimum": -0.0016963215668995464,
+      "maximum": 0.002301656405131025,
+      "ci95_t_interval": [
+        -0.005178392881004124,
+        0.005136735327225382
+      ],
+      "checkpoints_won": 2,
+      "checkpoints_tied": 0,
+      "checkpoints_lost": 1,
+      "gate_seed_comparisons_won": 5,
+      "gate_seed_comparisons_tied": 0,
+      "gate_seed_comparisons_lost": 4,
+      "stage5_delta": -0.00167229286829634,
+      "stage6_minus_stage5": 0.0016514640914069686,
+      "between_checkpoint_std_of_means": 0.0020760313901046273,
+      "mean_within_checkpoint_gate_seed_std": 0.0011914938653980293
+    },
+    "1.3": {
+      "checkpoint_mean_delta": 0.0005584690305921766,
+      "checkpoint_median_delta": -0.0005830494562785541,
+      "checkpoint_std_delta": 0.0026650485649877204,
+      "minimum": -0.0013456829388935148,
+      "maximum": 0.0036041394869485988,
+      "ci95_t_interval": [
+        -0.006062412946443092,
+        0.007179351007627444
+      ],
+      "checkpoints_won": 2,
+      "checkpoints_tied": 0,
+      "checkpoints_lost": 1,
+      "gate_seed_comparisons_won": 5,
+      "gate_seed_comparisons_tied": 0,
+      "gate_seed_comparisons_lost": 4,
+      "stage5_delta": -0.000626445293426503,
+      "stage6_minus_stage5": 0.0011849143240186795,
+      "between_checkpoint_std_of_means": 0.0026650485649877204,
+      "mean_within_checkpoint_gate_seed_std": 0.0010345406850784172
+    },
+    "1.4": {
+      "checkpoint_mean_delta": 0.0008022520277235489,
+      "checkpoint_median_delta": -0.00040721257527661275,
+      "checkpoint_std_delta": 0.00223760960274141,
+      "minimum": -0.0005703353881837033,
+      "maximum": 0.003384304046630963,
+      "ci95_t_interval": [
+        -0.004756727003677295,
+        0.006361231059124393
+      ],
+      "checkpoints_won": 2,
+      "checkpoints_tied": 0,
+      "checkpoints_lost": 1,
+      "gate_seed_comparisons_won": 4,
+      "gate_seed_comparisons_tied": 0,
+      "gate_seed_comparisons_lost": 5,
+      "stage5_delta": 0.0001323908170062301,
+      "stage6_minus_stage5": 0.0006698612107173187,
+      "between_checkpoint_std_of_means": 0.00223760960274141,
+      "mean_within_checkpoint_gate_seed_std": 0.0010634990748175158
+    },
+    "1.5": {
+      "checkpoint_mean_delta": 0.00045975393719143045,
+      "checkpoint_median_delta": -0.00029695947964995345,
+      "checkpoint_std_delta": 0.0016500585383284318,
+      "minimum": -0.0006762313842773408,
+      "maximum": 0.0023524526755015853,
+      "ci95_t_interval": [
+        -0.0036395495355474273,
+        0.0045590574099302885
+      ],
+      "checkpoints_won": 2,
+      "checkpoints_tied": 0,
+      "checkpoints_lost": 1,
+      "gate_seed_comparisons_won": 5,
+      "gate_seed_comparisons_tied": 0,
+      "gate_seed_comparisons_lost": 4,
+      "stage5_delta": 0.0006410628954568528,
+      "stage6_minus_stage5": -0.0001813089582654224,
+      "between_checkpoint_std_of_means": 0.0016500585383284318,
+      "mean_within_checkpoint_gate_seed_std": 0.0007214810529507417
+    }
+  },
+  "prediction": {
+    "mean_pearson": 0.10379001737330497,
+    "std_pearson": 0.0046141718706314,
+    "mean_mae": 0.08617837644285625,
+    "mean_rmse": 0.1536419557200538,
+    "mean_sign_accuracy": 0.5198625578703704,
+    "pearson_vs_mean_routing_delta_correlation": 0.3255610463416196,
+    "checkpoint_mean_pearson_vs_delta_at_1_2_correlation": 0.8412037690156077
+  },
+  "exploratory_router_behavior_correlations_with_delta_at_1_2": {
+    "top2_loss": -0.41622901617082386,
+    "router_entropy": -0.549004850393186,
+    "expert_utilization_std": 0.9023324030301815,
+    "top1_oracle_accuracy": 0.11716602479691163,
+    "top2_oracle_coverage": -0.06973487020030587,
+    "mean_forced_top1_regret": -0.9998264720499594
+  },
+  "oracle": {
+    "all_checkpoints_positive_headroom": true,
+    "mean_top2_minus_oracle_loss": 0.09066727598508195,
+    "minimum_top2_minus_oracle_loss": 0.08869398832321163,
+    "mean_oracle_experts_per_token": 1.5256727430555557
+  },
+  "replication_verdict": "partial",
+  "limitations": [
+    "Only three checkpoints of one larger architecture were evaluated.",
+    "Confidence intervals are wide and descriptive at N=3.",
+    "Gate seeds are nested within checkpoints and are not independent base-model replications.",
+    "Nearest measured points are approximate compute matches, not interpolation.",
+    "Oracle decisions use validation targets and are non-deployable.",
+    "Runtime reflects an unoptimized Python/PyTorch dynamic-dispatch implementation."
+  ]
+}

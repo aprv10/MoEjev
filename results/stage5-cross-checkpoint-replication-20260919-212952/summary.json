@@ -1,5 +1,5 @@
 {
-  "output_directory": "C:\\Users\\APOORV\\OneDrive\\Desktop\\jev\\calibrated-moe\\results\\stage5-cross-checkpoint-replication-20260919-212952",
+  "output_directory": "results/stage5-cross-checkpoint-replication-20260919-212952",
   "fresh_moe_checkpoints_completed": 5,
   "matched_compute": {
     "1.1": {

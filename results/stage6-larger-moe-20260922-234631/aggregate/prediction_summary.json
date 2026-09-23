@@ -1,0 +1,628 @@
+{
+  "per_checkpoint_means": [
+    {
+      "base_seed": 601,
+      "gate_seed": 22.0,
+      "pearson": 0.10280817555972899,
+      "spearman": 0.0611808925151123,
+      "mae": 0.0838174323240916,
+      "rmse": 0.14872625966866812,
+      "sign_accuracy": 0.5185069444444445
+    },
+    {
+      "base_seed": 602,
+      "gate_seed": 22.0,
+      "pearson": 0.10841983059790987,
+      "spearman": 0.06842792105992802,
+      "mae": 0.08588144183158875,
+      "rmse": 0.15532220403353372,
+      "sign_accuracy": 0.5174565972222221
+    },
+    {
+      "base_seed": 603,
+      "gate_seed": 22.0,
+      "pearson": 0.10014204596227605,
+      "spearman": 0.07291477061396594,
+      "mae": 0.08883625517288844,
+      "rmse": 0.1568774034579595,
+      "sign_accuracy": 0.5236241319444445
+    }
+  ],
+  "per_gate_run_validation_deciles": [
+    {
+      "base_seed": 601,
+      "gate_seed": 11,
+      "deciles": [
+        {
+          "decile": 1,
+          "count": 7680,
+          "mean_prediction": -0.037138860672712326,
+          "mean_true_delta": 0.0003929244994651526
+        },
+        {
+          "decile": 2,
+          "count": 7680,
+          "mean_prediction": -0.01684313639998436,
+          "mean_true_delta": 0.002075561322271824
+        },
+        {
+          "decile": 3,
+          "count": 7680,
+          "mean_prediction": -0.007954169064760208,
+          "mean_true_delta": 0.006230166181921959
+        },
+        {
+          "decile": 4,
+          "count": 7680,
+          "mean_prediction": -0.0012348885647952557,
+          "mean_true_delta": 0.00258427020162344
+        },
+        {
+          "decile": 5,
+          "count": 7680,
+          "mean_prediction": 0.004713818430900574,
+          "mean_true_delta": 0.003592586610466242
+        },
+        {
+          "decile": 6,
+          "count": 7680,
+          "mean_prediction": 0.010651584714651108,
+          "mean_true_delta": 0.0075596896931529045
+        },
+        {
+          "decile": 7,
+          "count": 7680,
+          "mean_prediction": 0.016994258388876915,
+          "mean_true_delta": 0.007989240810275078
+        },
+        {
+          "decile": 8,
+          "count": 7680,
+          "mean_prediction": 0.024427298456430435,
+          "mean_true_delta": 0.009624144993722439
+        },
+        {
+          "decile": 9,
+          "count": 7680,
+          "mean_prediction": 0.035063546150922775,
+          "mean_true_delta": 0.0178851205855608
+        },
+        {
+          "decile": 10,
+          "count": 7680,
+          "mean_prediction": 0.06568777561187744,
+          "mean_true_delta": 0.052322302013635635
+        }
+      ]
+    },
+    {
+      "base_seed": 601,
+      "gate_seed": 22,
+      "deciles": [
+        {
+          "decile": 1,
+          "count": 7680,
+          "mean_prediction": -0.033775344491004944,
+          "mean_true_delta": -1.2562300071294885e-05
+        },
+        {
+          "decile": 2,
+          "count": 7680,
+          "mean_prediction": -0.015652237460017204,
+          "mean_true_delta": 0.0032053098548203707
+        },
+        {
+          "decile": 3,
+          "count": 7680,
+          "mean_prediction": -0.0072509972378611565,
+          "mean_true_delta": 0.004442437086254358
+        },
+        {
+          "decile": 4,
+          "count": 7680,
+          "mean_prediction": -0.0006216567126102746,
+          "mean_true_delta": 0.0034514055587351322
+        },
+        {
+          "decile": 5,
+          "count": 7680,
+          "mean_prediction": 0.005350403022021055,
+          "mean_true_delta": 0.00544831482693553
+        },
+        {
+          "decile": 6,
+          "count": 7683,
+          "mean_prediction": 0.011199532076716423,
+          "mean_true_delta": 0.004773071501404047
+        },
+        {
+          "decile": 7,
+          "count": 7677,
+          "mean_prediction": 0.017591970041394234,
+          "mean_true_delta": 0.005992816295474768
+        },
+        {
+          "decile": 8,
+          "count": 7680,
+          "mean_prediction": 0.025299115106463432,
+          "mean_true_delta": 0.010430585592985153
+        },
+        {
+          "decile": 9,
+          "count": 7680,
+          "mean_prediction": 0.03655213117599487,
+          "mean_true_delta": 0.015573648735880852
+        },
+        {
+          "decile": 10,
+          "count": 7680,
+          "mean_prediction": 0.06732211261987686,
+          "mean_true_delta": 0.056951459497213364
+        }
+      ]
+    },
+    {
+      "base_seed": 601,
+      "gate_seed": 33,
+      "deciles": [
+        {
+          "decile": 1,
+          "count": 7680,
+          "mean_prediction": -0.03656674548983574,
+          "mean_true_delta": -0.001366462791338563
+        },
+        {
+          "decile": 2,
+          "count": 7680,
+          "mean_prediction": -0.01847071573138237,
+          "mean_true_delta": 0.0035222365986555815
+        },
+        {
+          "decile": 3,
+          "count": 7680,
+          "mean_prediction": -0.010495076887309551,
+          "mean_true_delta": 0.002269136253744364
+        },
+        {
+          "decile": 4,
+          "count": 7680,
+          "mean_prediction": -0.004396773409098387,
+          "mean_true_delta": 0.004973322618752718
+        },
+        {
+          "decile": 5,
+          "count": 7680,
+          "mean_prediction": 0.001147314440459013,
+          "mean_true_delta": 0.006439891643822193
+        },
+        {
+          "decile": 6,
+          "count": 7680,
+          "mean_prediction": 0.006660431623458862,
+          "mean_true_delta": 0.004244400188326836
+        },
+        {
+          "decile": 7,
+          "count": 7680,
+          "mean_prediction": 0.012700824066996574,
+          "mean_true_delta": 0.006956335622817278
+        },
+        {
+          "decile": 8,
+          "count": 7680,
+          "mean_prediction": 0.020022209733724594,
+          "mean_true_delta": 0.01406801212579012
+        },
+        {
+          "decile": 9,
+          "count": 7680,
+          "mean_prediction": 0.030242007225751877,
+          "mean_true_delta": 0.01763005182147026
+        },
+        {
+          "decile": 10,
+          "count": 7680,
+          "mean_prediction": 0.058359090238809586,
+          "mean_true_delta": 0.05151908099651337
+        }
+      ]
+    },
+    {
+      "base_seed": 602,
+      "gate_seed": 11,
+      "deciles": [
+        {
+          "decile": 1,
+          "count": 7680,
+          "mean_prediction": -0.03900125250220299,
+          "mean_true_delta": -0.002492695115506649
+        },
+        {
+          "decile": 2,
+          "count": 7680,
+          "mean_prediction": -0.017797717824578285,
+          "mean_true_delta": 0.0006626644753850996
+        },
+        {
+          "decile": 3,
+          "count": 7680,
+          "mean_prediction": -0.008881265297532082,
+          "mean_true_delta": 0.0014278630260378122
+        },
+        {
+          "decile": 4,
+          "count": 7680,
+          "mean_prediction": -0.0021105753257870674,
+          "mean_true_delta": 0.005167416762560606
+        },
+        {
+          "decile": 5,
+          "count": 7680,
+          "mean_prediction": 0.00391516275703907,
+          "mean_true_delta": 0.0053301015868783
+        },
+        {
+          "decile": 6,
+          "count": 7680,
+          "mean_prediction": 0.009865143336355686,
+          "mean_true_delta": 0.005330788902938366
+        },
+        {
+          "decile": 7,
+          "count": 7680,
+          "mean_prediction": 0.01628725603222847,
+          "mean_true_delta": 0.009236556477844715
+        },
+        {
+          "decile": 8,
+          "count": 7680,
+          "mean_prediction": 0.02410176210105419,
+          "mean_true_delta": 0.009268315508961678
+        },
+        {
+          "decile": 9,
+          "count": 7680,
+          "mean_prediction": 0.03514968603849411,
+          "mean_true_delta": 0.016137024387717247
+        },
+        {
+          "decile": 10,
+          "count": 7680,
+          "mean_prediction": 0.06677475571632385,
+          "mean_true_delta": 0.06087860092520714
+        }
+      ]
+    },
+    {
+      "base_seed": 602,
+      "gate_seed": 22,
+      "deciles": [
+        {
+          "decile": 1,
+          "count": 7680,
+          "mean_prediction": -0.03751172125339508,
+          "mean_true_delta": 0.00043784937588497996
+        },
+        {
+          "decile": 2,
+          "count": 7680,
+          "mean_prediction": -0.018166085705161095,
+          "mean_true_delta": 0.0016068948898464441
+        },
+        {
+          "decile": 3,
+          "count": 7680,
+          "mean_prediction": -0.00951874814927578,
+          "mean_true_delta": 0.0029332400299608707
+        },
+        {
+          "decile": 4,
+          "count": 7680,
+          "mean_prediction": -0.0030052184592932463,
+          "mean_true_delta": 0.0027969416696578264
+        },
+        {
+          "decile": 5,
+          "count": 7680,
+          "mean_prediction": 0.002907204208895564,
+          "mean_true_delta": 0.004787676502019167
+        },
+        {
+          "decile": 6,
+          "count": 7680,
+          "mean_prediction": 0.00881145615130663,
+          "mean_true_delta": 0.0028521865606307983
+        },
+        {
+          "decile": 7,
+          "count": 7680,
+          "mean_prediction": 0.0154179772362113,
+          "mean_true_delta": 0.008190852589905262
+        },
+        {
+          "decile": 8,
+          "count": 7680,
+          "mean_prediction": 0.023715341463685036,
+          "mean_true_delta": 0.008917925879359245
+        },
+        {
+          "decile": 9,
+          "count": 7680,
+          "mean_prediction": 0.03634624183177948,
+          "mean_true_delta": 0.016822783276438713
+        },
+        {
+          "decile": 10,
+          "count": 7680,
+          "mean_prediction": 0.07194032520055771,
+          "mean_true_delta": 0.06160028651356697
+        }
+      ]
+    },
+    {
+      "base_seed": 602,
+      "gate_seed": 33,
+      "deciles": [
+        {
+          "decile": 1,
+          "count": 7680,
+          "mean_prediction": -0.041511908173561096,
+          "mean_true_delta": -0.002494078828021884
+        },
+        {
+          "decile": 2,
+          "count": 7680,
+          "mean_prediction": -0.02122562751173973,
+          "mean_true_delta": 0.0016085822135210037
+        },
+        {
+          "decile": 3,
+          "count": 7680,
+          "mean_prediction": -0.01221877709031105,
+          "mean_true_delta": 0.00477877352386713
+        },
+        {
+          "decile": 4,
+          "count": 7680,
+          "mean_prediction": -0.005337317939847708,
+          "mean_true_delta": 0.004481074400246143
+        },
+        {
+          "decile": 5,
+          "count": 7680,
+          "mean_prediction": 0.000805127841886133,
+          "mean_true_delta": 0.005604738835245371
+        },
+        {
+          "decile": 6,
+          "count": 7680,
+          "mean_prediction": 0.006764383986592293,
+          "mean_true_delta": 0.0070100026205182076
+        },
+        {
+          "decile": 7,
+          "count": 7680,
+          "mean_prediction": 0.013073116540908813,
+          "mean_true_delta": 0.010719748213887215
+        },
+        {
+          "decile": 8,
+          "count": 7680,
+          "mean_prediction": 0.0208049938082695,
+          "mean_true_delta": 0.006581625435501337
+        },
+        {
+          "decile": 9,
+          "count": 7680,
+          "mean_prediction": 0.032158929854631424,
+          "mean_true_delta": 0.01710207387804985
+        },
+        {
+          "decile": 10,
+          "count": 7680,
+          "mean_prediction": 0.06545071303844452,
+          "mean_true_delta": 0.0555540956556797
+        }
+      ]
+    },
+    {
+      "base_seed": 603,
+      "gate_seed": 11,
+      "deciles": [
+        {
+          "decile": 1,
+          "count": 7680,
+          "mean_prediction": -0.03861357271671295,
+          "mean_true_delta": -0.0026332202833145857
+        },
+        {
+          "decile": 2,
+          "count": 7680,
+          "mean_prediction": -0.017597440630197525,
+          "mean_true_delta": 0.002715631388127804
+        },
+        {
+          "decile": 3,
+          "count": 7680,
+          "mean_prediction": -0.008314081467688084,
+          "mean_true_delta": 0.005161747336387634
+        },
+        {
+          "decile": 4,
+          "count": 7680,
+          "mean_prediction": -0.0009044960024766624,
+          "mean_true_delta": 0.004251352045685053
+        },
+        {
+          "decile": 5,
+          "count": 7680,
+          "mean_prediction": 0.005699089728295803,
+          "mean_true_delta": 0.0026926000136882067
+        },
+        {
+          "decile": 6,
+          "count": 7680,
+          "mean_prediction": 0.012223594821989536,
+          "mean_true_delta": 0.005993446800857782
+        },
+        {
+          "decile": 7,
+          "count": 7680,
+          "mean_prediction": 0.019345946609973907,
+          "mean_true_delta": 0.006962683983147144
+        },
+        {
+          "decile": 8,
+          "count": 7680,
+          "mean_prediction": 0.027935480698943138,
+          "mean_true_delta": 0.013562802225351334
+        },
+        {
+          "decile": 9,
+          "count": 7680,
+          "mean_prediction": 0.04040808230638504,
+          "mean_true_delta": 0.02145608700811863
+        },
+        {
+          "decile": 10,
+          "count": 7680,
+          "mean_prediction": 0.0723012387752533,
+          "mean_true_delta": 0.05740181729197502
+        }
+      ]
+    },
+    {
+      "base_seed": 603,
+      "gate_seed": 22,
+      "deciles": [
+        {
+          "decile": 1,
+          "count": 7680,
+          "mean_prediction": -0.03901233896613121,
+          "mean_true_delta": -0.0020659766159951687
+        },
+        {
+          "decile": 2,
+          "count": 7680,
+          "mean_prediction": -0.01830933801829815,
+          "mean_true_delta": 0.00045773424790240824
+        },
+        {
+          "decile": 3,
+          "count": 7680,
+          "mean_prediction": -0.009065719321370125,
+          "mean_true_delta": 0.002840982982888818
+        },
+        {
+          "decile": 4,
+          "count": 7680,
+          "mean_prediction": -0.0016351942904293537,
+          "mean_true_delta": 0.006564965937286615
+        },
+        {
+          "decile": 5,
+          "count": 7680,
+          "mean_prediction": 0.005068734288215637,
+          "mean_true_delta": 0.007412042934447527
+        },
+        {
+          "decile": 6,
+          "count": 7680,
+          "mean_prediction": 0.011776565574109554,
+          "mean_true_delta": 0.005498117301613092
+        },
+        {
+          "decile": 7,
+          "count": 7680,
+          "mean_prediction": 0.019052298739552498,
+          "mean_true_delta": 0.010804593563079834
+        },
+        {
+          "decile": 8,
+          "count": 7680,
+          "mean_prediction": 0.027854137122631073,
+          "mean_true_delta": 0.013648664578795433
+        },
+        {
+          "decile": 9,
+          "count": 7680,
+          "mean_prediction": 0.0404096283018589,
+          "mean_true_delta": 0.022816350683569908
+        },
+        {
+          "decile": 10,
+          "count": 7680,
+          "mean_prediction": 0.07181168347597122,
+          "mean_true_delta": 0.04958747327327728
+        }
+      ]
+    },
+    {
+      "base_seed": 603,
+      "gate_seed": 33,
+      "deciles": [
+        {
+          "decile": 1,
+          "count": 7680,
+          "mean_prediction": -0.04136909171938896,
+          "mean_true_delta": 0.00040276721119880676
+        },
+        {
+          "decile": 2,
+          "count": 7680,
+          "mean_prediction": -0.020370984449982643,
+          "mean_true_delta": 0.001800841884687543
+        },
+        {
+          "decile": 3,
+          "count": 7680,
+          "mean_prediction": -0.01116667129099369,
+          "mean_true_delta": 0.002771633444353938
+        },
+        {
+          "decile": 4,
+          "count": 7680,
+          "mean_prediction": -0.003960008732974529,
+          "mean_true_delta": 0.0027540300507098436
+        },
+        {
+          "decile": 5,
+          "count": 7680,
+          "mean_prediction": 0.0026273922994732857,
+          "mean_true_delta": 0.0032938907388597727
+        },
+        {
+          "decile": 6,
+          "count": 7680,
+          "mean_prediction": 0.009378787130117416,
+          "mean_true_delta": 0.008042192086577415
+        },
+        {
+          "decile": 7,
+          "count": 7680,
+          "mean_prediction": 0.01685630902647972,
+          "mean_true_delta": 0.006470146588981152
+        },
+        {
+          "decile": 8,
+          "count": 7680,
+          "mean_prediction": 0.026143155992031097,
+          "mean_true_delta": 0.014926482923328876
+        },
+        {
+          "decile": 9,
+          "count": 7680,
+          "mean_prediction": 0.0394110307097435,
+          "mean_true_delta": 0.020882191136479378
+        },
+        {
+          "decile": 10,
+          "count": 7680,
+          "mean_prediction": 0.07286085933446884,
+          "mean_true_delta": 0.05622076988220215
+        }
+      ]
+    }
+  ],
+  "checkpoint_mean_pearson_vs_delta_at_1_2_correlation": 0.8412037690156077
+}

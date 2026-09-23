@@ -1,0 +1,6 @@
+{
+  "all_checkpoints_positive_headroom": true,
+  "mean_top2_minus_oracle_loss": 0.09066727598508195,
+  "minimum_top2_minus_oracle_loss": 0.08869398832321163,
+  "mean_oracle_experts_per_token": 1.5256727430555557
+}

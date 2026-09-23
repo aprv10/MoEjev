@@ -1,5 +1,5 @@
 {
-  "checkpoint": "C:\\Users\\APOORV\\OneDrive\\Desktop\\jev\\calibrated-moe\\results\\baseline-top2-small-20260919-151643\\last.pt",
+  "checkpoint": "results/baseline-top2-small-20260919-151643/last.pt",
   "weights_unchanged": true,
   "hardware": {
     "device": "NVIDIA GeForce RTX 3060 Laptop GPU",

@@ -19,7 +19,7 @@ regret.
 
 ## Run scope
 
-- Checkpoint: `C:\Users\APOORV\OneDrive\Desktop\jev\calibrated-moe\results\baseline-top2-small-20260919-151643\last.pt`
+- Source checkpoint: Stage 1 run `baseline-top2-small-20260919-151643` (`last.pt` is excluded from Git).
 - Unique validation target bytes: 25,600
 - Token-layer decisions: 51,200
 - Oracle temperature: 1

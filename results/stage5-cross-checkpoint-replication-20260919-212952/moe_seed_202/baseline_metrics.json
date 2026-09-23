@@ -1,5 +1,5 @@
 {
-  "run_directory": "C:\\Users\\APOORV\\OneDrive\\Desktop\\jev\\calibrated-moe\\results\\stage5-cross-checkpoint-replication-20260919-212952\\moe_seed_202",
+  "run_directory": "results/stage5-cross-checkpoint-replication-20260919-212952/moe_seed_202",
   "parameter_count": 6413312,
   "train_loss": 2.079194724559784,
   "validation_loss": 2.0261478519439695,

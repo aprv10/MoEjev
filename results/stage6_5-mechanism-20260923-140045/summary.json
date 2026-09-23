@@ -1,0 +1,26 @@
+{
+  "source_stage6": "results/stage6-larger-moe-20260922-234631",
+  "output_dir": "results/stage6_5-mechanism-20260923-140045",
+  "base_seeds": [
+    601,
+    602,
+    603
+  ],
+  "gate_seeds": [
+    11,
+    22,
+    33
+  ],
+  "budgets": [
+    1.1,
+    1.2,
+    1.3
+  ],
+  "target_definition": "isolated top1 unit-weight loss minus normal top2 loss at the same token, with other layer decisions at the original Top2 baseline",
+  "analysis_context": "cached final-validation pre-MoE hidden and router values from the original fixed-Top2 pass",
+  "cache_online_max_fraction_gap": 0.010351562500000105,
+  "high_value_definition": "true delta_loss ranked over all token-layer decisions within a base model",
+  "precision_definition": "precision_topX is the fraction of K=2 choices in the true top X%; precision_positive_delta is the fraction with true delta > 0",
+  "per_layer_difference_definition": "negative isolated proxy MLP-minus-margin loss means MLP captures more true delta; it is not the joint online model loss",
+  "per_layer_online_definition": "measured validation loss with exactly one MoE layer using a cached K=2 mask and the other MoE layers fixed Top2"
+}

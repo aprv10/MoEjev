@@ -1,5 +1,5 @@
 {
-  "run_directory": "C:\\Users\\APOORV\\OneDrive\\Desktop\\jev\\calibrated-moe\\results\\baseline-top2-small-20260919-151643",
+  "run_directory": "results/baseline-top2-small-20260919-151643",
   "parameter_count": 6413312,
   "train_loss": 2.091696470975876,
   "validation_loss": 2.0254037022590636,

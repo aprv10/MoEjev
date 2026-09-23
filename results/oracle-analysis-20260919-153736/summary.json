@@ -1,5 +1,5 @@
 {
-  "checkpoint": "C:\\Users\\APOORV\\OneDrive\\Desktop\\jev\\calibrated-moe\\results\\baseline-top2-small-20260919-151643\\last.pt",
+  "checkpoint": "results/baseline-top2-small-20260919-151643/last.pt",
   "checkpoint_step": 1000,
   "model_parameters": 6413312,
   "evaluated_tokens": 25600,

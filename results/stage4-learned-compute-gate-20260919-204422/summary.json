@@ -1,5 +1,5 @@
 {
-  "output_directory": "C:\\Users\\APOORV\\OneDrive\\Desktop\\jev\\calibrated-moe\\results\\stage4-learned-compute-gate-20260919-204422",
+  "output_directory": "results/stage4-learned-compute-gate-20260919-204422",
   "learned_gates": {
     "linear_router_only": {
       "parameters": 7,
